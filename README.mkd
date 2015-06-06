@@ -1,0 +1,3 @@
+# Fundoshi
+
+Simple, lean, mean manga API.
