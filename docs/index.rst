@@ -3,8 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Fundoshi's documentation!
-====================================
+Fundoshi - The universal manga data extractor
+=============================================
+
+Fundoshi is nifty library that lets you search for and extract manga series'
+data from many online manga reader websites.
+
+.. doctest::
+
+    >>> import fundoshi
+    >>> 1 + 1
+    2
+    >>> fundoshi
+    None
+
+
 
 Contents:
 

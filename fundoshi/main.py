@@ -1,6 +1,5 @@
-from .sites.kissmanga import parse_series
+from .sites.kissmanga import *
 
 
 def get(url):
-    parse_series()
-    o
+    pass
