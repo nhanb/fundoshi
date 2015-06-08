@@ -1,3 +1,11 @@
 # Fundoshi
 
 Simple, lean, mean manga API.
+
+# Documentation
+
+http://fundoshi.nerdyweekly.com/
+
+# License
+
+Fundoshi is released under the MIT license. See `LICENSE.txt`.
