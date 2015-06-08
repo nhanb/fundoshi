@@ -11,24 +11,7 @@ data from many online manga reader websites.
 
 .. doctest::
 
-    >>> import fundoshi
-    >>> 1 + 1
-    2
-    >>> fundoshi
-    None
-
-
-
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
-
+    >>> from fundoshi import parse_chapter
+    >>> chapter = parse_chapter('http://kissmanga.com/Manga/One-Piece/One-Piece-789--Lucy--?id=231238')
+    >>> len(chapter['pages'])
+    25
