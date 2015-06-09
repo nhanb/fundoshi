@@ -60,8 +60,8 @@ class Kissmanga(BaseSite):
 
     def _chapters(self, soup):
         table = soup.find('table', class_='listing')
-        return [{'url': 'http://kissmanga.com' + a['href'],
-                 'name': a.string.strip()}
+        return [objdict({'url': 'http://kissmanga.com' + a['href'],
+                         'name': a.string.strip()})
                 for a in table.find_all('a')]
 
     def _thumbnail_url(self, soup):
