@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import bs4
 import requests
 from .basesite import BaseSite
+from fundoshi.classes import objdict
 
 
 class Kissmanga(BaseSite):
@@ -25,9 +26,9 @@ class Kissmanga(BaseSite):
         # Kissmanga returns manga series and links in xml format
         soup = BeautifulSoup(resp.content)
         atags = soup.find_all('a')
-        return [{'name': a.string.strip(),
-                 'url': a['href'],
-                 'site': 'kissmanga'} for a in atags]
+        return [objdict({'name': a.string.strip(),
+                         'url': a['href'],
+                         'site': 'kissmanga'}) for a in atags]
 
     # All kinds of data
     # - name "Naruto"
@@ -46,7 +47,7 @@ class Kissmanga(BaseSite):
         status = self._status(soup)
         description = self._description(soup)
         authors = self._authors(soup)
-        return {
+        return objdict({
             'site': self.netlocs[0],
             'chapters': chapters,
             'thumb_url': thumb_url,
@@ -55,7 +56,7 @@ class Kissmanga(BaseSite):
             'status': status,
             'description': description,
             'authors': authors,
-        }
+        })
 
     def _chapters(self, soup):
         table = soup.find('table', class_='listing')
@@ -101,13 +102,13 @@ class Kissmanga(BaseSite):
         name = self._chapter_name(soup)
         series_url = self._chapter_series_url(soup)
         prev, next = self._chapter_prev_next(soup)
-        return {
+        return objdict({
             'name': name,
             'pages': pages,
             'series_url': series_url,
             'next_chapter_url': next,
             'prev_chapter_url': prev,
-        }
+        })
 
     def _chapter_prev_next(self, soup):
         next = soup.find('img', class_='btnNext')
@@ -124,7 +125,7 @@ class Kissmanga(BaseSite):
 
     def _chapter_pages(self, html):
         pat = re.compile('lstImages\.push\("(.+?)"\);')
-        return pat.findall(html)
+        return (url for url in pat.findall(html))
 
     def _chapter_series_url(self, soup):
         a_tag = soup.find('div', id='navsubbar').find('p').find('a')
@@ -157,8 +158,8 @@ class Kissmanga(BaseSite):
         if table is None:  # no author of this name
             return []
 
-        return [{
+        return [objdict({
             'name': a.text.strip(),
             'url': 'http://kissmanga.com' + a['href'],
             'site': 'kissmanga',
-        } for a in table.find_all('a') if len(a['href'].split('/')) == 3]
+        }) for a in table.find_all('a') if len(a['href'].split('/')) == 3]

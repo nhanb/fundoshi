@@ -12,6 +12,13 @@ data from many online manga reader websites.
 .. doctest::
 
     >>> from fundoshi import parse_chapter
-    >>> chapter = parse_chapter('http://kissmanga.com/Manga/One-Piece/One-Piece-789--Lucy--?id=231238')
-    >>> len(chapter['pages'])
-    25
+    >>> chapter = parse_chapter('http://kissmanga.com/Manga/Naruto/Naruto-333?id=5461')
+    >>> chapter.pages
+    <generator object ...>
+
+    >>> for page in chapter.pages:
+    ...   print(page)
+    http://2.bp.blogspot.com/-c_0OX-lXRNk/TlTyVUkVXgI/AAAAAAAAD4g/5dBbTcOpROU/000.jpg?imgmax=10000
+    http://2.bp.blogspot.com/-RABTsjHeFzo/TlTyXXDPFmI/AAAAAAAAD5c/WX3cEI-PQ0k/001.jpg?imgmax=10000
+    ...
+    http://2.bp.blogspot.com/-OKSL6aBkwi0/TlTzP_RkLmI/AAAAAAAAEE4/tChEbaIr0Mc/016.jpg?imgmax=10000
