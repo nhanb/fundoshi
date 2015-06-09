@@ -17,41 +17,28 @@ Example code:
 .. testcode:: series
 
     from fundoshi import parse_series
+
     series = parse_series('http://kissmanga.com/Manga/Sayonara-Football')
-    for chapter in series.chapters:
-        print(chapter.name)
-        print(chapter.url + '\n')
-    print('Done')
+    print('Name:', series.name)
+    print('Tags:', series.tags)
+    print('Description:', series.description)
+
+    chapter = series.chapters[-1]
+    print('\nFirst chapter info')
+    print('> Name:', chapter.name)
+    print('> Url:', chapter.url)
 
 Output:
 
 .. testoutput:: series
 
-    Sayonara Football Vol.002 Ch.008: [End]
-    http://kissmanga.com/Manga/Sayonara-Football/Vol-002-Ch-008---End-?id=124898
+    Name: Sayonara Football
+    Tags: ['romance', 'school life', 'shounen', 'sports']
+    Description: ['Onda Nozomi is in her second year on the middle school soccer team but has yet to play a single game because she is a girl. Growing up playing soccer, she has the technical skills, endurance and the elegance. However, as a girl, she can’t overcome the physical difference and she can see all her male teammates that she grew up playing soccer with get further and further away from her. Even her younger brother, Junpei, who is also on the team, is starting to rise above her. Coach Samejima sees that Nozomi is an amazing player but because soccer is such a physical sport, he can’t let her play. Nozomi isn’t the kind of girl that just gives up so she practices harder than anyone and drives the team in the hopes of one day playing in a game.']
 
-    Sayonara Football Vol.002 Ch.007 Read Online
-    http://kissmanga.com/Manga/Sayonara-Football/Vol-002-Ch-007-Read-Online?id=124897
-
-    Sayonara Football Vol.002 Ch.006: Everything in Crisis
-    http://kissmanga.com/Manga/Sayonara-Football/Vol-002-Ch-006--Everything-in-Crisis?id=109410
-
-    Sayonara Football Vol.002 Ch.005: Clash and Decide
-    http://kissmanga.com/Manga/Sayonara-Football/Vol-002-Ch-005--Clash-and-Decide?id=95447
-
-    Sayonara Football Vol.001 Ch.004: And There's the Whistle
-    http://kissmanga.com/Manga/Sayonara-Football/Vol-001-Ch-004--And-There-s-the-Whistle?id=95446
-
-    Sayonara Football Vol.001 Ch.003: A Plan to Become a Regular!
-    http://kissmanga.com/Manga/Sayonara-Football/Vol-001-Ch-003--A-Plan-to-Become-a-Regular-?id=95445
-
-    Sayonara Football Vol.001 Ch.002: Her Determination at that Time
-    http://kissmanga.com/Manga/Sayonara-Football/Vol-001-Ch-002--Her-Determination-at-that-Time?id=95444
-
-    Sayonara Football Vol.001 Ch.001: The Entry of an Unmanageable Woman
-    http://kissmanga.com/Manga/Sayonara-Football/Vol-001-Ch-001--The-Entry-of-an-Unmanageable-Woman?id=95443
-
-    Done
+    First chapter info
+    > Name: Sayonara Football Vol.001 Ch.001: The Entry of an Unmanageable Woman
+    > Url: http://kissmanga.com/Manga/Sayonara-Football/Vol-001-Ch-001--The-Entry-of-an-Unmanageable-Woman?id=95443
 
 
 Parse chapter data
