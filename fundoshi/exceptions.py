@@ -1,0 +1,2 @@
+class UnsupportedSiteError(Exception):
+    pass
