@@ -6,8 +6,8 @@
 Fundoshi - The universal manga data extractor
 =============================================
 
-Fundoshi is nifty library that lets you search for and extract manga series'
-data from many online manga reader websites.
+Fundoshi is nifty python library that lets you search for and extract manga
+series' data from many online manga reader websites.
 
 Parse series data
 ------------------
@@ -78,3 +78,16 @@ Output:
     http://2.bp.blogspot.com/-55NkLOMmjxM/TlTzLWk5cVI/AAAAAAAAEDc/ees9kEQfo4s/014.jpg?imgmax=10000
     http://2.bp.blogspot.com/-aOmUpf-fi9g/TlTzOfM6R8I/AAAAAAAAEEY/lwkERwJ8GVc/015.jpg?imgmax=10000
     http://2.bp.blogspot.com/-OKSL6aBkwi0/TlTzP_RkLmI/AAAAAAAAEE4/tChEbaIr0Mc/016.jpg?imgmax=10000
+
+
+Search series
+-------------
+
+.. doctest::
+
+    >>> from fundoshi import search_series
+    >>> results = search_series('sayonara football')
+    >>> results
+    <generator object ...>
+    >>> [series for series in results]
+    [{'name': 'Sayonara Football', 'site': 'kissmanga', 'url': 'http://kissmanga.com/Manga/Sayonara-Football'}]

@@ -9,6 +9,7 @@ from fundoshi.classes import objdict
 class Kissmanga(BaseSite):
 
     netlocs = ['kissmanga.com']
+    name = 'kissmanga'
 
     # Return a list of dictionaries that store at least name and url:
     # [ { 'name': 'Naruto', 'url': 'http://...' }, {...}, ... ]
@@ -28,7 +29,7 @@ class Kissmanga(BaseSite):
         atags = soup.find_all('a')
         return [objdict({'name': a.string.strip(),
                          'url': a['href'],
-                         'site': 'kissmanga'}) for a in atags]
+                         'site': self.name}) for a in atags]
 
     # All kinds of data
     # - name "Naruto"
@@ -48,7 +49,7 @@ class Kissmanga(BaseSite):
         description = self._description(soup)
         authors = self._authors(soup)
         return objdict({
-            'site': self.netlocs[0],
+            'site': self.name,
             'chapters': chapters,
             'thumb_url': thumb_url,
             'tags': tags,
@@ -161,5 +162,5 @@ class Kissmanga(BaseSite):
         return [objdict({
             'name': a.text.strip(),
             'url': 'http://kissmanga.com' + a['href'],
-            'site': 'kissmanga',
+            'site': self.name,
         }) for a in table.find_all('a') if len(a['href'].split('/')) == 3]
