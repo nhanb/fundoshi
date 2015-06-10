@@ -21,9 +21,6 @@ class Kissmanga(BaseSite):
         }
         resp = requests.post(url, params=params)
 
-        if resp.status_code != 200:
-            return []  # TODO maybe show some meaningful error alert to user?
-
         # Kissmanga returns manga series and links in xml format
         soup = BeautifulSoup(resp.content)
         atags = soup.find_all('a')
@@ -149,9 +146,6 @@ class Kissmanga(BaseSite):
     def search_by_author(self, author):
         url = 'http://kissmanga.com/AuthorArtist/' + author.replace(' ', '-')
         resp = requests.get(url)
-
-        if resp.status_code != 200:
-            return []
 
         soup = BeautifulSoup(resp.content)
         table = soup.find('table', class_='listing')
