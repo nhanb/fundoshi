@@ -18,3 +18,25 @@ def _test_series(case, site, url, expected):
     case.assertEqual(series.chapters[-1], chapters['first'])
     if 'last' in chapters:
         case.assertEqual(series.chapters[0], chapters['last'])
+
+
+def _test_chapter(case, site, url, expected):
+    resp = site.get_chapter_seed_page(url)
+    if resp.status_code != 200:
+        raise Exception('Failed to download chapter html')
+    html = resp.text
+    chapter = site.chapter_info(html)
+
+    # chapter.pages is a generator. Make it a list for easy testing:
+    pages_list = [p for p in chapter.pages]
+    chapter.pages = pages_list
+
+    for key, val in expected.items():
+        case.assertEqual(getattr(chapter, key), val)
+
+
+def _test_search_by_author(case, site, author_name, expected):
+    results = site.search_by_author(author_name)
+
+    for series in expected:
+        case.assertIn(series, results)
