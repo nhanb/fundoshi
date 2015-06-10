@@ -11,8 +11,8 @@ class Kissmanga(BaseSite):
     netlocs = ['kissmanga.com']
     name = 'kissmanga'
 
-    # Return a list of dictionaries that store at least name and url:
-    # [ { 'name': 'Naruto', 'url': 'http://...' }, {...}, ... ]
+    # Return a list of objdicts that store name, url, and site:
+    # [{'name': 'Naruto', 'url': 'http://...', 'site': kissmanga}, ...]
     def search_series(self, keyword):
         url = 'http://kissmanga.com/Search/SearchSuggest'
         params = {
