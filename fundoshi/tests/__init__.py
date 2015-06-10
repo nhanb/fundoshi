@@ -40,3 +40,10 @@ def _test_search_by_author(case, site, author_name, expected):
 
     for series in expected:
         case.assertIn(series, results)
+
+
+def _test_search_series(case, site, name, expected):
+    results = site.search_series(name)
+
+    for series in expected:
+        case.assertIn(series, results)

@@ -1,7 +1,30 @@
 import unittest
 from fundoshi.sites.kissmanga import Kissmanga
-from . import _test_series, _test_chapter, _test_search_by_author
+from . import _test_series, _test_chapter, _test_search_by_author, \
+    _test_search_series
 site = Kissmanga()
+
+
+class TestKissmangaSearchSeries(unittest.TestCase):
+
+    def test_beelzebub_search(self):
+        expected = [
+            {
+                'name': 'Beelzebub',
+                'url': 'http://kissmanga.com/Manga/Beelzebub',
+                'site': 'kissmanga',
+            },
+            {
+                'name': 'Beelzebub Bangai Hen',
+                'url': 'http://kissmanga.com/Manga/Beelzebub-Bangai-Hen',
+                'site': 'kissmanga',
+            },
+        ]
+        _test_search_series(self, site, 'beelzebub', expected)
+
+    def test_no_result_search(self):
+        results = site.search_series('mot con vit xoe ra hai cai canh')
+        self.assertListEqual(results, [])
 
 
 class TestKissmangaSeries(unittest.TestCase):
