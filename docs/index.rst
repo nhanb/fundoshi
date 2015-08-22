@@ -12,6 +12,9 @@ Fundoshi - The universal manga data extractor
 Fundoshi is nifty python library that lets you search for and extract manga
 series' data from many online manga reader websites.
 
+**WARNING**: This library is currently in its extremely early stage and under heavy
+development. Please check back later if you intend to use it :)
+
 
 .. toctree::
    :maxdepth: 2
