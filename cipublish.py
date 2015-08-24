@@ -11,19 +11,17 @@ from os.path import expanduser
 from subprocess import call
 
 
-# Gatekeeping: Abort if not a tagged commit by owner
-if not (
-    env.get('TRAVIS_PULL_REQUEST') == 'false' and
-    env.get('TRAVIS_TAG')
-):
-    print('Not a tagged commit by owner => Not publishing.')
+# Gatekeeping: Abort if not a tagged commit by owner. Also only proceed if the
+# current python version being use is the latest (3.4)
+if not (env.get('TRAVIS_PULL_REQUEST') == 'false' and
+        env.get('TRAVIS_TAG') and
+        env.get('TRAVIS_PYTHON_VERSION') != '3.4'):
     print('TRAVIS_TAG=' + env.get('TRAVIS_TAG'))
     print('TRAVIS_PULL_REQUEST=' + env.get('TRAVIS_PULL_REQUEST'))
+    print('TRAVIS_PYTHON_VERSION=' + env.get('TRAVIS_PYTHON_VERSION'))
     sys.exit()
 
-
 # Write ~/.pypirc file so we can publish our package on PyPI:
-
 pypirc = """
 [distutils]
 index-servers=
@@ -34,10 +32,8 @@ repository = https://pypi.python.org/pypi
 username = nhanb
 password = %s
 """
-
 with open(expanduser('~/.pypirc'), 'w') as f:
     f.write(pypirc % env.get('PYPI_PASSWORD'))
-
 
 # Install build tools, build, publish, profit.
 call('pip install setuptools wheel', shell=True)
