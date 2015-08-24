@@ -1,2 +1,7 @@
-beautifulsoup4
-requests
+-e .
+
+Sphinx
+nose
+flake8
+sphinx-autobuild
+requests-cache

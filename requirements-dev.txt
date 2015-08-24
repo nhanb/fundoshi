@@ -1,5 +1,0 @@
-Sphinx
-nose
-flake8
-sphinx-autobuild
-requests-cache
