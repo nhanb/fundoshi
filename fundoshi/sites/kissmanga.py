@@ -22,7 +22,7 @@ class Kissmanga(BaseSite):
         resp = requests.post(url, params=params)
 
         # Kissmanga returns manga series and links in xml format
-        soup = BeautifulSoup(resp.content)
+        soup = BeautifulSoup(resp.content, 'html.parser')
         atags = soup.find_all('a')
         return [objdict({'name': a.string.strip(),
                          'url': a['href'],
@@ -37,7 +37,7 @@ class Kissmanga(BaseSite):
     # - description ["paragraph1", "paragraph2", ...]
     # - authors ["Kishimoto Masashi", ...]
     def series_info(self, html):
-        soup = BeautifulSoup(html)
+        soup = BeautifulSoup(html, 'html.parser')
         chapters = self._chapters(soup)
         thumb_url = self._thumbnail_url(soup)
         tags = self._tags(soup)
@@ -96,7 +96,7 @@ class Kissmanga(BaseSite):
     # - series_url
     def chapter_info(self, html):
         pages = self._chapter_pages(html)
-        soup = BeautifulSoup(html)
+        soup = BeautifulSoup(html, 'html.parser')
         name = self._chapter_name(soup)
         series_url = self._chapter_series_url(soup)
         prev, next = self._chapter_prev_next(soup)
@@ -147,7 +147,7 @@ class Kissmanga(BaseSite):
         url = 'http://kissmanga.com/AuthorArtist/' + author.replace(' ', '-')
         resp = requests.get(url)
 
-        soup = BeautifulSoup(resp.content)
+        soup = BeautifulSoup(resp.content, 'html.parser')
         table = soup.find('table', class_='listing')
 
         if table is None:  # no author of this name
