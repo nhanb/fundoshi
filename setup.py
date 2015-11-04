@@ -17,7 +17,7 @@ setup(
     author='Bùi Thành Nhân',
     author_email='nhan@nerdyweekly.com',
     packages=find_packages(exclude=['tests*']),
-    install_requires=['beautifulsoup4', 'requests'],
+    install_requires=['beautifulsoup4', 'requests', 'cfscrape'],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
