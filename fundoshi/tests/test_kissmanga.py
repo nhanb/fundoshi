@@ -61,31 +61,31 @@ class TestKissmangaSeries(unittest.TestCase):
 class TestKissmangaChapter(unittest.TestCase):
 
     def test_middle_chapter(self):
-        url = 'http://kissmanga.com/Manga/Naruto/Chapter-635?id=247772'
+        url = 'http://kissmanga.com/Manga/Naruto/Chapter-635?id=250370'
         expected = {
             'name': 'Chapter 635',
-            'prev_chapter_url': 'http://kissmanga.com/Manga/Naruto/Chapter-634?id=247771',
-            'next_chapter_url': 'http://kissmanga.com/Manga/Naruto/Chapter-635-005?id=247773',
+            'prev_chapter_url': 'http://kissmanga.com/Manga/Naruto/Chapter-634?id=250369',
+            'next_chapter_url': 'http://kissmanga.com/Manga/Naruto/Chapter-635-005?id=250371',
             'series_url': 'http://kissmanga.com/Manga/Naruto',
             'pages': [
-                'http://2.bp.blogspot.com/-e1lnFFuMvfw/VjgaM-g0PjI/AAAAAAABB6M/Maf3LoZCnEw/s16000-Ic42/000.png',
-                'http://2.bp.blogspot.com/-dqxJbvshngQ/VjgaMpWWwcI/AAAAAAABB6M/_AM06sDxPIk/s16000-Ic42/001.jpg',
-                'http://2.bp.blogspot.com/-t02bGWCGUSA/VjgaMor3PlI/AAAAAAABB6M/Ubw0LXd0m1o/s16000-Ic42/002.png',
-                'http://2.bp.blogspot.com/-8PhW9BeUugA/VjgaNTDtqjI/AAAAAAABB6M/50ugYnWMXD0/s16000-Ic42/003.png',
-                'http://2.bp.blogspot.com/-DEqyG36fStU/VjgaNnQa5FI/AAAAAAABB6M/tiY0d5K0b78/s16000-Ic42/004.png',
-                'http://2.bp.blogspot.com/-0MAEhfdsBDg/VjgaVOfXnPI/AAAAAAABB6M/cLRgVt4m6v4/s16000-Ic42/005.png',
-                'http://2.bp.blogspot.com/-alyVWkCofGE/VjgaOAdJ3NI/AAAAAAABB6M/532Mx9QTK8w/s16000-Ic42/006.png',
-                'http://2.bp.blogspot.com/-NNaJodTFNxo/VjgaOTI2UsI/AAAAAAABB6M/ifj6WPz-KIw/s16000-Ic42/007.png',
-                'http://2.bp.blogspot.com/-XnUkCmDshG0/VjgaPIvkvHI/AAAAAAABB6M/kBoYlj_pdj8/s16000-Ic42/008.png',
-                'http://2.bp.blogspot.com/-iSjUWOfKbLs/VjgaPTGpEtI/AAAAAAABB6M/x7zo2muoNvA/s16000-Ic42/009.png',
-                'http://2.bp.blogspot.com/-Z9PHrQGfghE/VjgaQMQ4UXI/AAAAAAABB6M/YtpI3piO5ns/s16000-Ic42/010.png',
-                'http://2.bp.blogspot.com/-QvujNMRdXoo/VjgaRAhoC3I/AAAAAAABB6M/VFr9Ip3Gcuw/s16000-Ic42/011.png',
-                'http://2.bp.blogspot.com/-Lu-oRhQzEZQ/VjgaRs4VNQI/AAAAAAABB6M/nyeO9T634xk/s16000-Ic42/012.png',
-                'http://2.bp.blogspot.com/-1CMO_HbzEPw/VjgaR2g6SZI/AAAAAAABB6M/vkhzXIFZ8ms/s16000-Ic42/013.png',
-                'http://2.bp.blogspot.com/-Wa1QvuBw6Do/VjgaSUDJTQI/AAAAAAABB6M/BiuRmE_Ey9Q/s16000-Ic42/014.png',
-                'http://2.bp.blogspot.com/-y_WkcCW5jDA/VjgaSySCFLI/AAAAAAABB6M/8E4_6p6oDKo/s16000-Ic42/015.png',
-                'http://2.bp.blogspot.com/-dUIrB7vqdP0/VjgaTf0VXoI/AAAAAAABB6M/dQ6bArmi6G4/s16000-Ic42/016.png',
-                'http://2.bp.blogspot.com/-OXHKE4hm9ng/VjgaUAImhzI/AAAAAAABB6M/MtcFpJYYIw4/s16000-Ic42/017.png',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-8SEHoIIaQVI%2fVjHk1Ox10rI%2fAAAAAAAE5zM%2fk6w-Oop32qE%2fs16000%2f0635-001.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-w9LCo3A9llk%2fVjHmARIaIEI%2fAAAAAAAE6SY%2fD772lWMIikE%2fs16000%2f0635-002.jpg&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-exdvDFecM9k%2fVjHTkNV9MOI%2fAAAAAAAEytU%2faE57np7YY7o%2fs16000%2f0635-003.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-ESj9w0JgCzk%2fVjHkPYt_LTI%2fAAAAAAAE5jY%2fJklAgVidgBQ%2fs16000%2f0635-004.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-yuqYlWcdPp0%2fVjHUwKwyPUI%2fAAAAAAAEzMk%2fS88s-s85M8c%2fs16000%2f0635-005.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-rp470RLLK_4%2fVjHk82fRDUI%2fAAAAAAAE52c%2fc9_pTI9iPS0%2fs16000%2f0635-006.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-upHUwBKhG2M%2fVjHmXSzURgI%2fAAAAAAAE6co%2fnQa6Pt5KH08%2fs16000%2f0635-007.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-7srlWao1gKE%2fVjHS8GaFobI%2fAAAAAAAEycw%2fATWCT0c2QU8%2fs16000%2f0635-008.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-EiVTO31IrOo%2fVjHdNfVaKeI%2fAAAAAAAE2po%2fUBjITkVX3a0%2fs16000%2f0635-009.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-pqKA5srtqd8%2fVjHf4YYgXII%2fAAAAAAAE3yY%2fqIC3P6ycYbs%2fs16000%2f0635-010.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-Qj_gkhD8pV8%2fVjHmmk2Ge-I%2fAAAAAAAE6ik%2fP971Qu6q4xo%2fs16000%2f0635-011.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-fQOGUrVBCzA%2fVjHUONMZsZI%2fAAAAAAAEy-I%2f_nOnrFRgihI%2fs16000%2f0635-012.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-uwmNNVct2uo%2fVjHVVCptwyI%2fAAAAAAAEza8%2fpaKUlC0iJIE%2fs16000%2f0635-013.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-2WEA9jnfSFs%2fVjHUsK8TzpI%2fAAAAAAAEzK0%2fXW8kxCZhZUo%2fs16000%2f0635-014.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-_yhOjn3Feyo%2fVjHi59Vhz0I%2fAAAAAAAE5BQ%2f5DQspKUZK-k%2fs16000%2f0635-015.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-k-ZQTBBbVME%2fVjHjtJ_m8KI%2fAAAAAAAE5U4%2f5uISFPL_eTU%2fs16000%2f0635-016.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-HQw7gyObhe4%2fVjHgk53RvyI%2fAAAAAAAE4Dk%2fVJdOAg0xcHM%2fs16000%2f0635-017.png&imgmax=30000',
+                'https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-_s77E2rc-M0%2fVjHUJ5gUl5I%2fAAAAAAAEy8c%2fvRmMndDlYhU%2fs16000%2f0635-018.png&imgmax=30000',
             ],
         }
         _test_chapter(self, site, url, expected)
