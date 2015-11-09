@@ -23,6 +23,8 @@ def _test_series(case, site, url, expected):
 def _test_chapter(case, site, url, expected):
     resp = site.get_chapter_seed_page(url)
     if resp.status_code != 200:
+        print('>> Error message from server:')
+        print(resp.content)
         raise Exception('Failed to download chapter html')
     html = resp.text
     chapter = site.chapter_info(html)
