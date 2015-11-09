@@ -16,6 +16,17 @@ series' data from many online manga reader websites.
 development. Please check back later if you intend to use it :)
 
 
+Dependencies
+------------
+
+Cloudflare-protected sites (e.g. Kissmanga) require the use of **cfscrape**,
+which depends on nodejs. Easiest way to satisfy this is to install nodejs using
+your distro's package manager. Debian/Ubuntu users can get by with a simple
+``sudo apt-get install nodejs``.
+
+Table of Content
+----------------
+
 .. toctree::
    :maxdepth: 2
 
