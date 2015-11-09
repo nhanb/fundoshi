@@ -29,23 +29,23 @@ Parse chapter data
 .. doctest::
 
     >>> from fundoshi import parse_chapter
-    >>> chapter = parse_chapter('http://kissmanga.com/Manga/Naruto/Naruto-333?id=5461')
+    >>> chapter = parse_chapter('http://kissmanga.com/Manga/Naruto/Chapter-333?id=250065')
     >>> chapter.name
-    '333'
+    'Chapter 333'
     >>> chapter.prev_chapter_url
-    'http://kissmanga.com/Manga/Naruto/Naruto-332?id=5449'
+    'http://kissmanga.com/Manga/Naruto/Chapter-332?id=250064'
     >>> chapter.next_chapter_url
-    'http://kissmanga.com/Manga/Naruto/Naruto-334?id=5466'
+    'http://kissmanga.com/Manga/Naruto/Chapter-334?id=250066'
     >>> chapter.series_url
     'http://kissmanga.com/Manga/Naruto'
     >>> chapter.pages
     <generator object ...>
     >>> for page in chapter.pages:
     ...     print(page)
-    http://2.bp.blogspot.com/-c_0OX-lXRNk/TlTyVUkVXgI/AAAAAAAAD4g/5dBbTcOpROU/s16000/000.jpg
-    http://2.bp.blogspot.com/-RABTsjHeFzo/TlTyXXDPFmI/AAAAAAAAD5c/WX3cEI-PQ0k/s16000/001.jpg
+    https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-DSAcvDl8W6I%2fVjIH5IZNaII%2fAAAAAAAFHEo%2fQSGZVRVNpqI%2fs16000%2f0333-001.png&imgmax=30000
+    https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-NMP8GeH7HlE%2fVjIHZzox6FI%2fAAAAAAAFG3Q%2fDZlc46p7c_U%2fs16000%2f0333-002.png&imgmax=30000
     ...
-    http://2.bp.blogspot.com/-OKSL6aBkwi0/TlTzP_RkLmI/AAAAAAAAEE4/tChEbaIr0Mc/s16000/016.jpg
+    https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-_wSdCpx-0Os%2fVjIEBLePU2I%2fAAAAAAAFFgU%2fsETIDkfGEpQ%2fs16000%2f0333-016.png&imgmax=30000
 
 
 Search series
