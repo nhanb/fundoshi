@@ -29,23 +29,23 @@ Parse chapter data
 .. doctest::
 
     >>> from fundoshi import parse_chapter
-    >>> chapter = parse_chapter('http://kissmanga.com/Manga/Naruto/Chapter-333?id=250065')
+    >>> chapter = parse_chapter('http://kissmanga.com/Manga/Naruto/Naruto-333?id=290537')
     >>> chapter.name
-    'Chapter 333'
+    'Naruto 333'
     >>> chapter.prev_chapter_url
-    'http://kissmanga.com/Manga/Naruto/Chapter-332?id=250064'
+    'http://kissmanga.com/Manga/Naruto/Naruto-332?id=290536'
     >>> chapter.next_chapter_url
-    'http://kissmanga.com/Manga/Naruto/Chapter-334?id=250066'
+    'http://kissmanga.com/Manga/Naruto/Naruto-334?id=290538'
     >>> chapter.series_url
     'http://kissmanga.com/Manga/Naruto'
     >>> chapter.pages
     <generator object ...>
     >>> for page in chapter.pages:
     ...     print(page)
-    https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-DSAcvDl8W6I%2fVjIH5IZNaII%2fAAAAAAAFHEo%2fQSGZVRVNpqI%2fs16000%2f0333-001.png&imgmax=30000
-    https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-NMP8GeH7HlE%2fVjIHZzox6FI%2fAAAAAAAFG3Q%2fDZlc46p7c_U%2fs16000%2f0333-002.png&imgmax=30000
+    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2fcdn.eatmanga.com%2fmangas%2fManga-Scan%2fNaruto%2fNaruto-333%2f001.jpg&imgmax=30000
+    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2fcdn.eatmanga.com%2fmangas%2fManga-Scan%2fNaruto%2fNaruto-333%2f002.jpg&imgmax=30000
     ...
-    https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2f2.bp.blogspot.com%2f-_wSdCpx-0Os%2fVjIEBLePU2I%2fAAAAAAAFFgU%2fsETIDkfGEpQ%2fs16000%2f0333-016.png&imgmax=30000
+    https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image%2F*&url=http%3a%2f%2fcdn.eatmanga.com%2fmangas%2fManga-Scan%2fNaruto%2fNaruto-333%2f017.jpg&imgmax=30000
 
 
 Search series

@@ -4,14 +4,13 @@ Frequently Asked Questions
 Which python version?
 ----------------------
 
-Although Fundoshi is written with python 3+ compatibility in mind, it is only
-tested in 3.3 and 3.4. Use other python3 versions at your own risk.
+Fundoshi is tested on Python 3.4 and 3.5.
 
-Why not python2 you ask? See the official recommendation:
+Why not support python2 you ask? Two reasons:
 
-    Python 2.x is legacy, Python 3.x is the present and future of the language.
-
-    -- https://wiki.python.org/moin/Python2orPython3
+- Principality: I hate legacy code, and python2 is, `by definition
+  <https://wiki.python.org/moin/Python2orPython3>`_, legacy.
+- Practicality: See `python3 readiness <http://py3readiness.org/>`_.
 
 **Do not** let naysayers spread FUD around python3. **Stop** producing new
 legacy code. Embrace progress.
@@ -20,5 +19,4 @@ legacy code. Embrace progress.
 Why name it "Fundoshi"?
 -----------------------
 
-Because I can. How many projects can you find named after a piece of Japanese
-traditional male undergarment/swimwear?
+Because I can.
