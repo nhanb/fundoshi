@@ -1,6 +1,11 @@
 How to use
 ==========
 
+.. testsetup:: *
+
+    import requests_cache
+    requests_cache.install_cache('../test_cache', allowable_methods=('GET', 'POST'))
+
 
 Parse series data
 ------------------

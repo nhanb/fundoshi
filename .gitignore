@@ -1,6 +1,5 @@
 __pycache__
 *.pyc
-/test_cache.sqlite
 /build
 /dist
 *.egg-info
