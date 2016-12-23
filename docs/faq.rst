@@ -8,7 +8,7 @@ Fundoshi is tested on Python 3.4 and 3.5.
 
 Why not support python2 you ask? Two reasons:
 
-- Principality: I hate legacy code, and python2 is, `by definition
+- Principal: I hate legacy code, and python2 is, `by definition
   <https://wiki.python.org/moin/Python2orPython3>`_, legacy.
 - Practicality: See `python3 readiness <http://py3readiness.org/>`_.
 
