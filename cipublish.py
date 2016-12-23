@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 ###########################################################
-# Distribute on PyPI if this is a tagged commit by owner #
+# Distribute on PyPI if this is a tagged commit by owner  #
 # NOTE: This script is to be executed on travis CI only.  #
 ###########################################################
 
@@ -12,7 +12,7 @@ from subprocess import call
 
 
 # Gatekeeping: Abort if not a tagged commit by owner. Also only proceed if the
-# current python version being use is the latest (3.4)
+# current python version being used is the latest (3.4)
 if not (env.get('TRAVIS_PULL_REQUEST') == 'false' and
         env.get('TRAVIS_TAG') and
         env.get('TRAVIS_PYTHON_VERSION') != '3.4'):
