@@ -37,7 +37,7 @@ class TestKissmangaSeries(unittest.TestCase):
                      'shounen', 'supernatural'],
             'thumb_url': 'http://kissmanga.com/Uploads/Etc/8-17-2011/75210229ef3c651a3.jpg',
             'status': 'completed',
-            'description': [
+            'descriptions': [
                 'The story follows the "strongest juvenile delinquent" as he watches over '
                 "the devil king's son (and future devil king) with the fate of the world "
                 'hanging in the balance.'

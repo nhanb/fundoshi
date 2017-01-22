@@ -18,7 +18,7 @@ Parse series data
     'Sayonara Football'
     >>> series.tags
     ['romance', 'school life', 'shounen', 'sports']
-    >>> series.description
+    >>> series.descriptions
     ['Onda Nozomi is in ... one day playing in a game.']
 
     >>> chapter = series.chapters[-1]

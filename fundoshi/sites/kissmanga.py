@@ -40,7 +40,7 @@ class Kissmanga(BaseSite):
     # - thumb_url "url"
     # - tags [tag1, tag2, ...]
     # - status "ongoing"/"completed"
-    # - description ["paragraph1", "paragraph2", ...]
+    # - descriptions ["paragraph1", "paragraph2", ...]
     # - authors ["Kishimoto Masashi", ...]
     def series_info(self, html):
         soup = BeautifulSoup(html, 'html.parser')
@@ -49,7 +49,7 @@ class Kissmanga(BaseSite):
         tags = self._tags(soup)
         name = self._name(soup)
         status = self._status(soup)
-        description = self._description(soup)
+        descriptions = self._descriptions(soup)
         authors = self._authors(soup)
         return objdict({
             'site': self.name,
@@ -58,7 +58,7 @@ class Kissmanga(BaseSite):
             'tags': tags,
             'name': name,
             'status': status,
-            'description': description,
+            'descriptions': descriptions,
             'authors': authors,
         })
 
@@ -84,7 +84,7 @@ class Kissmanga(BaseSite):
         status_span = soup.find('span', {'class': 'info'}, text='Status:')
         return status_span.next_sibling.strip().lower()
 
-    def _description(self, soup):
+    def _descriptions(self, soup):
         desc_span = soup.find('span', {'class': 'info'}, text='Summary:')
         p_tags = desc_span.next_siblings
         desc = [s.text for s in p_tags if type(s) == bs4.element.Tag]
