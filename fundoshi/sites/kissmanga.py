@@ -30,7 +30,7 @@ class Kissmanga(BaseSite):
         # Kissmanga returns manga series and links in xml format
         soup = BeautifulSoup(resp.content, 'html.parser')
         atags = soup.find_all('a')
-        return [objdict({'name': a.string.strip(),
+        return [objdict({'name': a.text.strip(),
                          'url': a['href'],
                          'site': self.name}) for a in atags]
 
