@@ -10,7 +10,7 @@ def read(*paths):
 
 setup(
     name='fundoshi',
-    version='0.0.6',
+    version='0.0.7',
     description='Get manga series & chapter data from various reader sites.',
     long_description=read('README.rst'),
     url='http://github.com/nhanb/fundoshi',
