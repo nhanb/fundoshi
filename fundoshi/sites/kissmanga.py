@@ -1,21 +1,17 @@
 import re
 from bs4 import BeautifulSoup
 import bs4
-from .basesite import BaseSite
+from .utils import cfscraper
 from fundoshi.classes import objdict
 
-import cfscrape
-scraper = cfscrape.create_scraper()  # returns a requests.Session object
+_get = cfscraper.get
+_post = cfscraper.post
 
 
-class Kissmanga(BaseSite):
+class Kissmanga(object):
 
     netlocs = ['kissmanga.com']
     name = 'kissmanga'
-
-    # bypass cloudflare's JS challenge
-    _get = scraper.get
-    _post = scraper.post
 
     # Return a list of objdicts that store name, url, and site:
     # [{'name': 'Naruto', 'url': 'http://...', 'site': kissmanga}, ...]
@@ -25,7 +21,7 @@ class Kissmanga(BaseSite):
             'type': 'Manga',
             'keyword': keyword,
         }
-        resp = self._post(url, params=params)
+        resp = _post(url, params=params)
 
         # Kissmanga returns manga series and links in xml format
         soup = BeautifulSoup(resp.content, 'html.parser')
@@ -136,7 +132,7 @@ class Kissmanga(BaseSite):
         return a_tag['href']
 
     def get_manga_seed_page(self, url):
-        return self._get(url)
+        return _get(url)
 
     def get_chapter_seed_page(self, url):
         # http://kissmanga.com/Manga/Manga-Name/Chapter-Name?id=XXXXXXX
@@ -146,11 +142,11 @@ class Kissmanga(BaseSite):
         # safe.
         base = url[:url.rfind('/') + 1]  # http://.../Manga-Name/
         id = url[url.rfind('?id='):]  # ?id=XXXXXX
-        return self._get(base + '_' + id)
+        return _get(base + '_' + id, cookies={'vns_readType1': '1'})
 
     def search_by_author(self, author):
         url = 'http://kissmanga.com/AuthorArtist/' + author.replace(' ', '-')
-        resp = self._get(url)
+        resp = _get(url)
 
         soup = BeautifulSoup(resp.content, 'html.parser')
         table = soup.find('table', class_='listing')
