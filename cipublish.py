@@ -12,10 +12,10 @@ from subprocess import call
 
 
 # Gatekeeping: Abort if not a tagged commit by owner. Also only proceed if the
-# current python version being used is the latest (3.4)
+# current python version being used is the latest (3.6)
 if not (env.get('TRAVIS_PULL_REQUEST') == 'false' and
         env.get('TRAVIS_TAG') and
-        env.get('TRAVIS_PYTHON_VERSION') != '3.4'):
+        env.get('TRAVIS_PYTHON_VERSION') == '3.6'):
     print('TRAVIS_TAG=' + env.get('TRAVIS_TAG'))
     print('TRAVIS_PULL_REQUEST=' + env.get('TRAVIS_PULL_REQUEST'))
     print('TRAVIS_PYTHON_VERSION=' + env.get('TRAVIS_PYTHON_VERSION'))
