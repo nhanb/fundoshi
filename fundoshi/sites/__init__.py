@@ -1,8 +1,10 @@
 from urllib.parse import urlparse
 from .kissmanga import Kissmanga
+from .mangapanda import Mangapanda
 
 _sites = [
     Kissmanga(),
+    Mangapanda(),
 ]
 
 available_sites = {site.name: site for site in _sites}
