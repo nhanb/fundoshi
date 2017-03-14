@@ -1,6 +1,4 @@
-import re
 from bs4 import BeautifulSoup
-import bs4
 from .utils import cfscraper
 from fundoshi.classes import objdict
 
@@ -10,7 +8,7 @@ _post = cfscraper.post
 
 class Mangapanda(object):
 
-    netlocs = ['mangapanda.com']
+    netlocs = ['www.mangapanda.com']
     name = 'mangapanda'
 
     def __init__(self):
@@ -26,7 +24,6 @@ class Mangapanda(object):
         }
         resp = _post(url, params=params)
 
-        # Kissmanga returns manga series and links in xml format
         soup = BeautifulSoup(resp.content, 'html.parser')
         manga_names = soup.find_all('div', {'class': 'manga_name'})
         atags = [name.find('h3').a for name in manga_names]
@@ -73,7 +70,11 @@ class Mangapanda(object):
         return img_div.find('img')['src']
 
     def _tags(self, soup):
-        tag_list = soup.find('td', {'class': 'propertytitle'}, text='Genre:').findNext('td')
+        tag_list = soup.find(
+            'td',
+            {'class': 'propertytitle'},
+            text='Genre:'
+        ).findNext('td')
         tags = tag_list.find_all('a')
         return [text.string.strip().lower() for text in tags]
 
@@ -84,7 +85,11 @@ class Mangapanda(object):
         return title.text.strip()
 
     def _status(self, soup):
-        status_td = soup.find('td', {'class': 'propertytitle'}, text='Status:').findNext('td')
+        status_td = soup.find(
+            'td',
+            {'class': 'propertytitle'},
+            text='Status:'
+        ).findNext('td')
         return status_td.text.strip().lower()
 
     def _descriptions(self, soup):
@@ -96,8 +101,11 @@ class Mangapanda(object):
     def _authors(self, soup):
         # mangapanda lists artists in some cases
         # lets strip these as well as the tags used
-        author_types = ['(Story)', '(Art)', '(Story & Art)']
-        authors = soup.find('td', {'class': 'propertytitle'}, text='Author:').findNext('td')
+        authors = soup.find(
+            'td',
+            {'class': 'propertytitle'},
+            text='Author:'
+        ).findNext('td')
         return [authors.text.strip()]
 
     # Chapter data
@@ -155,22 +163,27 @@ class Mangapanda(object):
         # generate page urls
         page_urls = []
         for page_num in range(1, last_page + 1):
-            page_urls.append('{0}{1}/{2}'.format(self.base_url, chapter_base, page_num))
+            page_urls.append('{0}{1}/{2}'.format(self.base_url,
+                                                 chapter_base,
+                                                 page_num))
 
-        img_urls = []
-        for url in page_urls:
-            response = _get(url)
-            soup = BeautifulSoup(response.text, 'html.parser')
-            # get img url
-            img_holder = soup.find('div', {'id': 'imgholder'})
-            img_urls.append(img_holder.img['src'])
+        return (self._parse_page(url) for url in page_urls)
 
-        return (url for url in img_urls)
+    def _parse_page(self, page_url):
+        response = _get(page_url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        # get img url
+        img_holder = soup.find('div', {'id': 'imgholder'})
+        return img_holder.img['src']
 
     def _chapter_series_url(self, soup):
         manga_info = soup.find('div', {'id': 'mangainfo_son'})
         a_tag = manga_info.find_all('a')[-1]
         return self.base_url + a_tag['href']
+
+    def search_by_author(self, author):
+        # This site simply doesn't support searching by author
+        return []
 
     def get_manga_seed_page(self, url):
         return _get(url)
