@@ -1,8 +1,9 @@
 import re
 from bs4 import BeautifulSoup
 import bs4
-from .utils import cfscraper
 from fundoshi.classes import objdict
+from ..utils import cfscraper
+from .decoder import decode_url, get_key
 
 _get = cfscraper.get
 _post = cfscraper.post
@@ -124,8 +125,12 @@ class Kissmanga(object):
         return select.find('option', selected=True).text.strip()
 
     def _chapter_pages(self, html):
-        pat = re.compile('lstImages\.push\("(.+?)"\);')
-        return (url for url in pat.findall(html))
+        soup = BeautifulSoup(html, 'html.parser')
+        key = get_key(soup)
+
+        pat = re.compile('lstImages\.push\(wrapKA\("(.+?)"\)\);')
+        encrypted_urls = pat.findall(html)
+        return (decode_url(url, key) for url in encrypted_urls)
 
     def _chapter_series_url(self, soup):
         a_tag = soup.find('div', id='navsubbar').find('p').find('a')

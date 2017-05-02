@@ -10,7 +10,7 @@ def read(*paths):
 
 setup(
     name='fundoshi',
-    version='0.0.7',
+    version='0.0.8',
     description='Get manga series & chapter data from various reader sites.',
     long_description=read('README.rst'),
     url='http://github.com/nhanb/fundoshi',
@@ -18,7 +18,7 @@ setup(
     author='Bùi Thành Nhân',
     author_email='nhan@nerdyweekly.com',
     packages=find_packages(exclude=['tests*']),
-    install_requires=['beautifulsoup4', 'requests', 'cfscrape'],
+    install_requires=['beautifulsoup4', 'requests', 'cfscrape', 'pycrypto'],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
