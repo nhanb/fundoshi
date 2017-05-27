@@ -1,11 +1,11 @@
-import unittest
+from vcr_unittest import VCRTestCase
 from fundoshi.sites.kissmanga import Kissmanga
 from . import _test_series, _test_chapter, _test_search_by_author, \
     _test_search_series
 site = Kissmanga()
 
 
-class TestKissmangaSearchSeries(unittest.TestCase):
+class TestKissmangaSearchSeries(VCRTestCase):
 
     def test_beelzebub_search(self):
         expected = [
@@ -27,7 +27,7 @@ class TestKissmangaSearchSeries(unittest.TestCase):
         self.assertListEqual(results, [])
 
 
-class TestKissmangaSeries(unittest.TestCase):
+class TestKissmangaSeries(VCRTestCase):
 
     def test_completed_series(self):
         url = 'http://kissmanga.com/Manga/Beelzebub'
@@ -57,7 +57,7 @@ class TestKissmangaSeries(unittest.TestCase):
         _test_series(self, site, url, expected)
 
 
-class TestKissmangaChapter(unittest.TestCase):
+class TestKissmangaChapter(VCRTestCase):
 
     def test_middle_chapter(self):
         url = 'http://kissmanga.com/Manga/Naruto/Naruto-635?id=290868'
@@ -115,7 +115,7 @@ class TestKissmangaChapter(unittest.TestCase):
         _test_chapter(self, site, url, expected)
 
 
-class TestKissmangaSearchByAuthor(unittest.TestCase):
+class TestKissmangaSearchByAuthor(VCRTestCase):
 
     def test_normal_author(self):
         _test_search_by_author(self, site, 'ARAKAWA Naoshi', [

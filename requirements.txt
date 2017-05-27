@@ -4,5 +4,6 @@ Sphinx
 nose
 flake8
 sphinx-autobuild
-requests-cache
 sphinx_rtd_theme
+vcrpy-unittest
+requests-cache

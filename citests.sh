@@ -9,7 +9,7 @@ echo '============================='
 echo '=     RUNNING NOSETESTS     ='
 echo '============================='
 echo ''
-python nosetests.py
+nosetests
 
 echo ''
 echo '============================'

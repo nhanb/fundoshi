@@ -1,4 +1,4 @@
-import unittest
+from vcr_unittest import VCRTestCase
 from fundoshi.sites.mangapanda import Mangapanda
 from . import (
     _test_series,
@@ -8,7 +8,7 @@ from . import (
 site = Mangapanda()
 
 
-class TestMangapandaSearchSeries(unittest.TestCase):
+class TestMangapandaSearchSeries(VCRTestCase):
 
     def test_beelzebub_search(self):
         expected = [
@@ -30,7 +30,7 @@ class TestMangapandaSearchSeries(unittest.TestCase):
         self.assertListEqual(results, [])
 
 
-class TestMangapandaSeries(unittest.TestCase):
+class TestMangapandaSeries(VCRTestCase):
 
     def test_completed_series(self):
         url = 'http://www.mangapanda.com/beelzebub'
@@ -58,7 +58,7 @@ class TestMangapandaSeries(unittest.TestCase):
         _test_series(self, site, url, expected)
 
 
-class TestMangapandaChapter(unittest.TestCase):
+class TestMangapandaChapter(VCRTestCase):
 
     def test_middle_chapter(self):
         url = 'http://www.mangapanda.com/naruto/699'
