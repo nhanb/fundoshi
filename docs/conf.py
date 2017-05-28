@@ -71,3 +71,14 @@ html_static_path = ['_static']
 htmlhelp_basename = 'Fundoshidoc'
 
 html_theme = 'sphinx_rtd_theme'
+
+
+doctest_global_setup = '''
+import vcr
+context = vcr.use_cassette('./doctest_cassette.yml')
+context.__enter__()
+'''
+
+doctest_global_cleanup = '''
+context.__exit__()
+'''
