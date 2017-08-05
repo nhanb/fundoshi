@@ -56,7 +56,8 @@ Search series
     >>> results = search_series('sayonara football')
     >>> results
     <generator object ...>
-    >>> series = next(results)
+    >>> results_list = [r for r in results]
+    >>> series = results_list[0]
     >>> series.name
     'Sayonara Football'
     >>> series.url
