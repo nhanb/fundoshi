@@ -6,8 +6,8 @@ interactions:
       Accept-Encoding: ['gzip, deflate']
       Connection: [keep-alive]
       Content-Length: ['0']
-      User-Agent: ['Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101
-          Firefox/41.0']
+      User-Agent: ['Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/52.0.2743.116 Safari/537.36']
     method: POST
     uri: http://www.mangapanda.com/search/?w=beelzebub
   response:
@@ -110,7 +110,7 @@ interactions:
       Content-Encoding: [gzip]
       Content-Length: ['5102']
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Sat, 27 May 2017 06:56:30 GMT']
+      Date: ['Mon, 20 Nov 2017 17:34:42 GMT']
       Expires: ['Tue, 01 Nov 1980 15:00:00 GMT']
       Pragma: [no-cache]
       Server: [lighttpd/1.4.35]

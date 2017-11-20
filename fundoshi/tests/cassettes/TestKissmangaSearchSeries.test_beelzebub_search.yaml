@@ -6,25 +6,24 @@ interactions:
       Accept-Encoding: ['gzip, deflate']
       Connection: [keep-alive]
       Content-Length: ['0']
-      Cookie: [idtz=103.253.89.9-590943615; cf_clearance=bc9dddd11cdff0758a91f1f2d6be7d7766f3695d-1495868064-86400;
-          __cfduid=d8c285db95531db61652dbbbe1a5111ef1495868058]
+      Cookie: [__cfduid=dc8d3c5e14a2b4a0407c9c10dad7795a31511199215; cf_clearance=a4dcc23b296dadfa4e6cf17af2936e21758019d6-1511199220-86400;
+          idtz=113.22.201.146-57725095]
       User-Agent: ['Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/52.0.2743.116 Safari/537.36']
     method: POST
-    uri: http://kissmanga.com/Search/SearchSuggest?keyword=beelzebub&type=Manga
+    uri: http://kissmanga.com/Search/SearchSuggest?type=Manga&keyword=beelzebub
   response:
     body:
       string: !!binary |
         H4sIAAAAAAAAA7JJVMgoSk2zVcooKSmw0tfPziwuzk3MS0/US87P1fcFsfSdUlNzqlKTSpOU7GyK
-        CxLz7OACNvpgvo1+op0NKQbpOoH4mboeqXm4zFSAKFHwSM0DAAAA//8CGQ8AAAD//wMAb4sL7KgA
-        AAA=
+        CxLz7OACNvpgvo1+op0NKQbpOoH4mboeqXm4zFSAKFHwSM0DGQ8AAAD//wMAb4sL7KgAAAA=
     headers:
-      CF-RAY: [36571030714e7014-SIN]
+      CF-RAY: [3c0d28022444306c-SIN]
       Cache-Control: [private]
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Sat, 27 May 2017 06:54:30 GMT']
+      Date: ['Mon, 20 Nov 2017 17:33:47 GMT']
       Server: [cloudflare-nginx]
       X-AspNet-Version: [4.0.30319]
       X-AspNetMvc-Version: ['2.0']
