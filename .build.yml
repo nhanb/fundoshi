@@ -5,7 +5,7 @@ packages:
   - poetry
 
 sources:
-  - https://github.com/nhanb/fundoshi.git#reorg
+  - https://github.com/nhanb/fundoshi.git
 
 tasks:
 

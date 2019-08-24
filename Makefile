@@ -25,3 +25,7 @@ lint:
 
 publish:
 	poetry publish --build
+
+clean:
+	rm -rf dist
+	cd docs && make clean
