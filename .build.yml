@@ -19,15 +19,15 @@ tasks:
 
   ## Workaround for lack of built-in branch check:
   ## https://todo.sr.ht/~sircmpwn/builds.sr.ht/170
-  #- check-branch: |
-      #cd fundoshi
-      #if [ "$(git rev-parse reorg)" != "$(git rev-parse HEAD)" ]; then \
-        #complete-build; \
-      #fi
+  - check-branch: |
+      cd fundoshi
+      if [[ "$GITHUB_EVENT" != 'push' ]] || [[ ! "$GITHUB_REF" =~ '^refs/tags/' ]]; then \
+        complete-build; \
+      fi
 
   - deploy: |
       cd fundoshi
-      echo "$GITHUB_REF" \| grep '^refs/tags/' && echo "I'm DEPLOYING"
+      echo "I'm DEPLOYING"
 
 secrets:
   - b460cca6-77a9-4041-b928-b781b3b3f6ab
