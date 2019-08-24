@@ -8,9 +8,23 @@ sources:
   - https://github.com/nhanb/fundoshi.git#reorg
 
 tasks:
+
   - setup: |
       cd fundoshi
       poetry install
-  - build: |
+
+  - test: |
       cd fundoshi
       make test
+
+  # Workaround for lack of built-in branch check:
+  # https://todo.sr.ht/~sircmpwn/builds.sr.ht/170
+  - check-branch: |
+      cd fundoshi
+      if [ "$(git rev-parse reorg)" != "$(git rev-parse HEAD)" ]; then \
+        complete-build; \
+      fi
+
+  - deploy: |
+      cd fundoshi
+      poetry publish --build
