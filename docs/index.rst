@@ -28,7 +28,8 @@ Table of Content
 ----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
+   dev
    usage
    faq

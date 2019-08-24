@@ -2,780 +2,872 @@ interactions:
 - request:
     body: null
     headers:
-      Accept: ['*/*']
-      Accept-Encoding: ['gzip, deflate']
-      Connection: [keep-alive]
-      User-Agent: ['Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36']
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
     method: GET
-    uri: http://kissmanga.com/Manga/Sayonara-Football
-  response:
-    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
-        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<title>Please
-        wait 5 seconds...</title>\n<script type=\"text/javascript\">\n  //<![CDATA[\n
-        \ (function(){\n    var a = function() {try{return !!window.addEventListener}
-        catch(e) {return !1} },\n    b = function(b, c) {a() ? document.addEventListener(\"DOMContentLoaded\",
-        b, c) : document.attachEvent(\"onreadystatechange\", b)};\n    b(function(){\n
-        \     var a = document.getElementById('cf-content');a.style.display = 'block';\n
-        \     setTimeout(function(){\n        var s,t,o,p,b,r,e,a,k,i,n,g,f, ZiHMEAy={\"WZJkpjNfGf\":+((!+[]+!![]+!![]+[])+(!+[]+!![]))};\n
-        \       t = document.createElement('div');\n        t.innerHTML=\"<a href='/'>x</a>\";\n
-        \       t = t.firstChild.href;r = t.match(/https?:\\/\\//)[0];\n        t
-        = t.substr(r.length); t = t.substr(0,t.length-1);\n        a = document.getElementById('jschl-answer');\n
-        \       f = document.getElementById('challenge-form');\n        ;ZiHMEAy.WZJkpjNfGf+=+((!+[]+!![]+!![]+!![]+[])+(!+[]+!![]+!![]+!![]+!![]+!![]));ZiHMEAy.WZJkpjNfGf-=!+[]+!![]+!![];ZiHMEAy.WZJkpjNfGf*=+((!+[]+!![]+!![]+!![]+[])+(!+[]+!![]+!![]+!![]+!![]+!![]));ZiHMEAy.WZJkpjNfGf*=+((!+[]+!![]+!![]+[])+(!+[]+!![]+!![]));ZiHMEAy.WZJkpjNfGf-=!+[]+!![]+!![]+!![]+!![]+!![];ZiHMEAy.WZJkpjNfGf+=+((+!![]+[])+(!+[]+!![]+!![]+!![]+!![]+!![]+!![]+!![]));ZiHMEAy.WZJkpjNfGf+=+((!+[]+!![]+!![]+!![]+[])+(+[]));ZiHMEAy.WZJkpjNfGf+=+((!+[]+!![]+[])+(+[]));ZiHMEAy.WZJkpjNfGf+=+((+!![]+[])+(!+[]+!![]+!![]+!![]+!![]+!![]+!![]+!![]));ZiHMEAy.WZJkpjNfGf*=+((!+[]+!![]+!![]+!![]+[])+(!+[]+!![]+!![]+!![]+!![]+!![]+!![]));a.value
-        = parseInt(ZiHMEAy.WZJkpjNfGf, 10) + t.length; '; 121'\n        f.submit();\n
-        \     }, 4000);\n    }, false);\n  })();\n  //]]>\n</script>\n\n</head>\n<body>\n<div>\n<div
-        style=\"position: relative; height: 130px;\">\n<div style=\"max-width: 635px;
-        margin: 0 auto; z-index: 1000; text-align: center;\r\n                position:
-        relative; margin-top: 150px; width: 100%\">\n<img id=\"imgLogo\" alt=\"jadopado\"
-        style=\"display: inline-block;\" src=\"data:image/gif;charset=binary;base64,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\"><br
-        />\n</div>\n</div>\n<div>\n<div style=\"text-align: center\">\nPlease wait
-        5 seconds...<br />Make sure to enable cookies and javascript.<br />This site
-        does not work with \"Mini browsers\" (e.g. UC mini, Opera mini...)\n</div>\n<div
-        style=\"margin: 0 auto; visibility: hidden\">\n<div class=\"cf-browser-verification
-        cf-im-under-attack\">\n  <noscript><h1 data-translate=\"turn_on_js\" style=\"color:#bd2426;\">Please
-        turn JavaScript on and reload the page.</h1></noscript>\n  <div id=\"cf-content\"
-        style=\"display:none\">\n    \n    <div>\n      <div class=\"bubbles\"></div>\n
-        \     <div class=\"bubbles\"></div>\n      <div class=\"bubbles\"></div>\n
-        \   </div>\n    <h1><span data-translate=\"checking_browser\">Checking your
-        browser before accessing</span> kissmanga.com.</h1>\n    \n    <p data-translate=\"process_is_automatic\">This
-        process is automatic. Your browser will redirect to your requested content
-        shortly.</p>\n    <p data-translate=\"allow_5_secs\">Please allow up to 5
-        seconds&hellip;</p>\n  </div>\n   \n  <form id=\"challenge-form\" action=\"/cdn-cgi/l/chk_jschl\"
-        method=\"get\">\n    <input type=\"hidden\" name=\"jschl_vc\" value=\"ffa1e2ebecfcb5f64b7fba7772d705ca\"/>\n
-        \   <input type=\"hidden\" name=\"pass\" value=\"1501913542.937-3EuIwl7Qrq\"/>\n
-        \   <input type=\"hidden\" id=\"jschl-answer\" name=\"jschl_answer\"/>\n  </form>\n</div>\n\n</div>\n</div>\n<div
-        style=\"padding: 20px;\">\n</div>\n</div>\n</body>\n</html>\n"}
-    headers:
-      CF-RAY: [38979aa253fa3180-SIN]
-      Cache-Control: [no-cache]
-      Connection: [close]
-      Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sat, 05 Aug 2017 06:12:18 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['__cfduid=d7e9bcfc6a940b15a1e074042b2ccc7f91501913538; expires=Sun,
-          05-Aug-18 06:12:18 GMT; path=/; domain=.kissmanga.com; HttpOnly']
-      X-Frame-Options: [SAMEORIGIN]
-    status: {code: 503, message: Service Temporarily Unavailable}
-- request:
-    body: null
-    headers:
-      Accept: ['*/*']
-      Accept-Encoding: ['gzip, deflate']
-      Connection: [keep-alive]
-      Cookie: [__cfduid=d7e9bcfc6a940b15a1e074042b2ccc7f91501913538]
-      Referer: ['http://kissmanga.com/Manga/Sayonara-Football']
-      User-Agent: ['Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36']
-    method: GET
-    uri: http://kissmanga.com/cdn-cgi/l/chk_jschl?jschl_vc=ffa1e2ebecfcb5f64b7fba7772d705ca&pass=1501913542.937-3EuIwl7Qrq&jschl_answer=5355193
-  response:
-    body: {string: "<html>\r\n<head><title>302 Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>302
-        Found</h1></center>\r\n<hr><center>cloudflare-nginx</center>\r\n</body>\r\n</html>\r\n"}
-    headers:
-      CF-RAY: [38979ac2c3ac31c2-SIN]
-      Connection: [keep-alive]
-      Content-Length: ['165']
-      Content-Type: [text/html]
-      Date: ['Sat, 05 Aug 2017 06:12:24 GMT']
-      Location: ['http://kissmanga.com/Manga/Sayonara-Football']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['cf_clearance=fed9c6cc2ce1fabc94e298c2180c155a6c15a82b-1501913544-86400;
-          path=/; expires=Sun, 06-Aug-17 07:12:24 GMT; domain=.kissmanga.com; HttpOnly']
-      X-Frame-Options: [SAMEORIGIN]
-    status: {code: 302, message: Moved Temporarily}
-- request:
-    body: null
-    headers:
-      Accept: ['*/*']
-      Accept-Encoding: ['gzip, deflate']
-      Connection: [keep-alive]
-      Cookie: [__cfduid=d7e9bcfc6a940b15a1e074042b2ccc7f91501913538; cf_clearance=fed9c6cc2ce1fabc94e298c2180c155a6c15a82b-1501913544-86400]
-      User-Agent: ['Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36']
-    method: GET
-    uri: http://kissmanga.com/Manga/Sayonara-Football
+    uri: https://mangadex.org/title/2597
   response:
     body:
-      string: !!binary |
-        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
-        bjlzKW3r/wEAAP//4gIAAAD//wMAsAgLt9RXAAA=
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\"
+        />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" />\n\n<meta
+        name=\"robots\" content=\"index,follow\" />\n<meta name=\"author\" content=\"MangaDex\"
+        />\n<meta name=\"description\" content=\"Nozomi wants to enter the newcomer's
+        competition. But the coach is against it, because their club is a boy's football
+        club and she's... a she. Will she be able to enter the match she wants to
+        play in?\" />\n<meta name=\"keywords\" itemprop=\"keywords\" content=\"Sayonara
+        Football, Sayonara Football Manga, Read Sayonara Football online, Sayonara
+        Football online, Sayonara Football online For Free, Read Sayonara Football
+        chapters for free, Sayonara Football series, Sayonara Football chapters, Sayonara
+        Football scans, Sayonara Football mangadex\" />\n<meta name=\"theme-color\"
+        content=\"#eeeeee\">\n<meta property=\"og:site_name\" content=\"MangaDex\"
+        />\n<meta property=\"og:title\" content=\"Sayonara Football (Title) - MangaDex\"
+        />\n<meta property=\"og:image\" content=\"https://mangadex.org/images/manga/2597.thumb.jpg\"
+        />\n<meta property=\"og:url\" content=\"https://mangadex.org/title/2597\"
+        />\n<meta property=\"og:description\" content=\"Nozomi wants to enter the
+        newcomer's competition. But the coach is against it, because their club is
+        a boy's football club and she's... a she. Will she be able to enter the match
+        she wants to play in?\" />\n<meta property=\"og:type\" content=\"website\"
+        />\n<meta name=\"twitter:site\" content=\"@mangadex\" />\n<link rel=\"icon\"
+        type=\"image/png\" sizes=\"96x96\" href=\"/favicon-96x96.png?1\">\n<link rel=\"icon\"
+        type=\"image/png\" sizes=\"192x192\" href=\"/favicon-192x192.png?1\">\n<link
+        rel=\"manifest\" href=\"/manifest.json\" crossOrigin=\"use-credentials\">\n<link
+        rel='canonical' href='https://mangadex.org/title/2597/sayonara-football' />
+        <title>Sayonara Football (Title) - MangaDex</title>\n\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\n\tnew
+        Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\n\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n\t})(window,document,'script','dataLayer','GTM-TS59XX9');</script>\n\n\n<link
+        href=\"https://fonts.googleapis.com/css?family=Ubuntu:regular,regularitalic,bold\"
+        rel=\"stylesheet\">\n\n<link href=\"/bootstrap/css/bootstrap.css?1531971506\"
+        rel=\"stylesheet\" />\n\n<link href=\"/bootstrap/css/bootstrap-select.min.css\"
+        rel=\"stylesheet\" />\n\n<link href=\"/scripts/owl/assets/owl.carousel.min.css\"
+        rel=\"stylesheet\" />\n<link href=\"/scripts/owl/assets/owl.theme.default.min.css\"
+        rel=\"stylesheet\" />\n\n<link href=\"/fontawesome/css/all.css\" rel=\"stylesheet\"
+        />\n\n<link href=\"/scripts/lightbox2/css/lightbox.min.css\" rel=\"stylesheet\">\n\n<link
+        href=\"/scripts/css/theme.css?1562882456\" rel=\"stylesheet\" />\n<link href=\"/scripts/css/Light.css?1534107774\"
+        rel=\"stylesheet\" />\n<script type=\"module\" src=\"/dist/js/bundle.prod.js?1560041198\"></script>\n</head>\n<body>\n\n<noscript><iframe
+        src=\"https://www.googletagmanager.com/ns.html?id=GTM-TS59XX9\"\theight=\"0\"
+        width=\"0\" style=\"display:none; visibility:hidden\"></iframe></noscript>\n\n\n<nav
+        class=\"navbar fixed-top navbar-expand-lg text-nowrap navbar-light bg-light\">\n<div
+        class=\"container\">\n<button class=\"navbar-toggler mr-auto\" type=\"button\"
+        data-toggle=\"modal\" data-target=\"#left_modal\">\n<span class=\"navbar-toggler-icon\"></span>\n</button>\n<a
+        class=\"p-0 navbar-brand\" href=\"https://mangadex.org/\"><img class=\"mx-2\"
+        height=\"38px\" src=\"/images/misc/navbar.svg?3\" alt=\"MangaDex\" title=\"MangaDex\"
+        /> <small class=\"d-lg-none d-xl-inline\">MangaDex</small></a>\n<button class=\"navbar-toggler
+        ml-auto\" type=\"button\" data-toggle=\"modal\" data-target=\"#homepage_settings_modal\">\n<span
+        class=\"navbar-icon\"><span class='fas fa-cog fa-fw ' aria-hidden='true'></span></span>\n</button>\n<div
+        class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n<ul class=\"navbar-nav
+        mr-auto\">\n<li class=\"nav-item dropdown mx-1\">\n<a href=\"#\" class=\"nav-link
+        dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\"
+        aria-expanded=\"false\"><span class='fas fa-book fa-fw ' aria-hidden='true'></span>
+        Manga</a>\n<div class=\"dropdown-menu\">\n<a class=\"dropdown-item \" href=\"/titles\"><span
+        class='fas fa-book fa-fw ' aria-hidden='true'></span> Titles</a>\n<a class=\"dropdown-item
+        \" href=\"/updates\"><span class='fas fa-sync fa-fw ' aria-hidden='true'></span>
+        Updates</a>\n<a class=\"dropdown-item \" href=\"/search\"><span class='fas
+        fa-search fa-fw ' aria-hidden='true'></span> Search</a>\n<a class=\"dropdown-item
+        \" href=\"/featured\"><span class='fas fa-tv fa-fw ' aria-hidden='true'></span>
+        Featured</a>\n<a class=\"dropdown-item\" href=\"/manga\"><span class='fas
+        fa-question-circle fa-fw ' aria-hidden='true'></span> Random</a>\n<a class=\"dropdown-item
+        \" href=\"/manga_new\"><span class='fas fa-plus-circle fa-fw ' aria-hidden='true'></span>
+        Add</a>\n</div>\n</li>\n<li class=\"nav-item mx-1\" id=\"login\">\n<a class=\"nav-link\"
+        href=\"/login\" title=\"You need to log in.\"><span class='fas fa-bookmark
+        fa-fw ' aria-hidden='true'></span> Follows</a>\n</li>\n<li class=\"nav-item
+        mx-1 dropdown\">\n<a href=\"#\" class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\"
+        role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas
+        fa-users fa-fw ' aria-hidden='true'></span> Community</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item\" href=\"/forums\"><span class='fas fa-university fa-fw
+        ' aria-hidden='true' title='Forums'></span> Forums</a>\n<a class=\"dropdown-item\"
+        href=\"/groups\"><span class='fas fa-users fa-fw ' aria-hidden='true' title='Groups'></span>
+        Groups</a>\n<a class=\"dropdown-item\" href=\"/users\"><span class='fas fa-user
+        fa-fw ' aria-hidden='true' title='Users'></span> Users</a>\n<a class=\"dropdown-item\"
+        href=\"https://discord.gg/Y2YKXUP\" target=\"_blank\" rel=\"nofollow\"><span
+        class='fab fa-discord fa-fw ' aria-hidden='true' title='Rules'></span> Discord</a>\n<a
+        class=\"dropdown-item\" href=\"https://twitter.com/MangaDex\" target=\"_blank\"
+        rel=\"nofollow\"><span class='fab fa-twitter fa-fw ' aria-hidden='true' title='Twitter'></span>
+        Twitter</a>\n<a class=\"dropdown-item\" href=\"https://www.reddit.com/r/mangadex\"
+        target=\"_blank\" rel=\"nofollow\"><span class='fab fa-reddit fa-fw ' aria-hidden='true'
+        title='Reddit'></span> Reddit</a>\n<a class=\"dropdown-item\" href=\"https://mangadexofficial.tumblr.com/\"
+        target=\"_blank\" rel=\"nofollow\"><span class='fab fa-tumblr fa-fw ' aria-hidden='true'
+        title='Tumblr'></span> Tumblr</a>\n<a class=\"dropdown-item\" href=\"irc://irc.rizon.net/mangadex\"
+        rel=\"nofollow\"><span class='fas fa-hashtag fa-fw ' aria-hidden='true' title='IRC'></span>
+        IRC</a>\n</div>\n</li>\n<li class=\"nav-item mx-1 dropdown\">\n<a href=\"#\"
+        class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\"
+        aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas fa-info-circle
+        fa-fw ' aria-hidden='true'></span> Info</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item\" href=\"/stats\"><span class='fas fa-clipboard-list
+        fa-fw ' aria-hidden='true' title='Stats'></span> Stats</a>\n<a class=\"dropdown-item\"
+        href=\"/rules\"><span class='fas fa-list fa-fw ' aria-hidden='true' title='Rules'></span>
+        Rules</a>\n<a class=\"dropdown-item\" href=\"/about\"><span class='fas fa-info
+        fa-fw ' aria-hidden='true' title='About'></span> About</a>\n<a class=\"dropdown-item\"
+        href=\"/changelog\"><span class='fas fa-code fa-fw ' aria-hidden='true' title='Change
+        log'></span> Change log</a>\n<a class=\"dropdown-item\" href=\"/affiliates\"><span
+        class='far fa-handshake fa-fw ' aria-hidden='true' title='Affiliates'></span>
+        Affiliates</a>\n</div>\n</li>\n</ul>\n<form id=\"quick_search_form\" method=\"get\"
+        action=\"/quick_search\" role=\"search\" class=\"form-inline mx-1 quick-search\">\n<div
+        class=\"input-group\">\n<div class=\"input-group-prepend\">\n<select class=\"form-control\"
+        id=\"quick_search_type\" name=\"type\">\n<option value=\"all\">All</option>\n<option
+        selected value=\"titles\">Manga</option>\n<option value=\"groups\">Groups</option>\n<option
+        value=\"users\">Users</option>\n</select>\n</div>\n<input type=\"text\" class=\"form-control\"
+        placeholder=\"Quick search\" name=\"term\" id=\"quick_search_input\" required>\n<span
+        class=\"input-group-append\">\n<button class=\"btn btn-secondary\" type=\"submit\"
+        id=\"quick_search_button\" name=\"submit\"><span class='fas fa-search fa-fw
+        ' aria-hidden='true'></span></button>\n</span>\n</div>\n</form>\n<ul class=\"navbar-nav\">\n<li
+        class=\"d-none d-lg-block nav-item mx-1\" id=\"homepage_cog\">\n<a class=\"nav-link\"
+        href=\"#\" title=\"Settings\" data-toggle=\"modal\" data-target=\"#homepage_settings_modal\"><span
+        class='fas fa-cog fa-fw ' aria-hidden='true' title='Settings'></span></a>\n</li>\n<li
+        class=\"nav-item mx-1 dropdown\">\n<a href=\"#\" class=\"nav-link dropdown-toggle\"
+        data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n<span
+        class='fas fa-user-times fa-fw ' aria-hidden='true'></span> <span class=\"d-lg-none
+        d-xl-inline\" style=\"color: #000\">Guest</span>\n</a>\n<div class=\"dropdown-menu
+        dropdown-menu-right\">\n<a class=\"dropdown-item\" href=\"/login\"><span class='fas
+        fa-sign-in-alt fa-fw ' aria-hidden='true' title='Log in'></span> Log in</a>\n<a
+        class=\"dropdown-item\" href=\"/signup\"><span class='fas fa-pencil-alt fa-fw
+        ' aria-hidden='true' title='Sign up'></span> Sign up</a>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</nav>\n<div
+        class=\"container\" role=\"main\" id=\"content\">\n<div id=\"announcement\"
+        class=\"alert alert-success fade show text-center\" role=\"alert\">\n<strong>Announcement
+        (Aug-24):</strong> MangaDex Gaming Community <a title=\"Go to forum thread\"
+        href=\"/thread/166175\"><span class='fas fa-external-link-alt fa-fw ' aria-hidden='true'
+        title='Forum thread'></span></a></div>\n<div class=\"card mb-3\">\n<h6 class=\"card-header
+        d-flex align-items-center py-2\">\n<span class='fas fa-book fa-fw ' aria-hidden='true'></span>
+        <span class=\"mx-1\">Sayonara Football</span>\n<span class='rounded flag flag-jp'
+        title='Japanese'></span> <span class=\"ml-1\"></span>\n<a class='ml-auto'
+        href='/login'><span title='Due to the volume of bots spamming RSS links, this
+        now requires an account to use.' class='fas fa-rss fa-2x'></span></a> </h6>\n<div
+        class=\"card-body p-0\">\n<div class=\"row edit\">\n<div class=\"col-xl-3
+        col-lg-4 col-md-5\">\n<a href=\"/title/2597/sayonara-football/covers/\" title=\"See
+        covers\">\n<img class=\"rounded\" width=\"100%\" src=\"/images/manga/2597.jpg?1529345075\"
+        />\n</a>\n</div>\n<div class=\"col-xl-9 col-lg-8 col-md-7\">\n<div class=\"row
+        m-0 py-1 px-0\">\n<div class=\"col-lg-3 col-xl-2 strong\">Alt name(s):</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<ul class=\"list-inline m-0\">\n<li class='list-inline-item'><span
+        class='fas fa-book fa-fw ' aria-hidden='true'></span> Adi&oacute;s al f&uacute;tbol</li><li
+        class='list-inline-item'><span class='fas fa-book fa-fw ' aria-hidden='true'></span>
+        \u3055\u3088\u306A\u3089\u30D5\u30C3\u30C8\u30DC\u30FC\u30EB</li><li class='list-inline-item'><span
+        class='fas fa-book fa-fw ' aria-hidden='true'></span> \u518D\u89C1\u8DB3\u7403</li>
+        </ul>\n</div>\n</div>\n<div class=\"row m-0 py-1 px-0 border-top\">\n<div
+        class=\"col-lg-3 col-xl-2 strong\">Author:</div>\n<div class=\"col-lg-9 col-xl-10\">\n<a
+        href=\"/search?author=Arakawa Naoshi\" title=\"Other manga by this author\">Arakawa
+        Naoshi</a> </div>\n</div>\n<div class=\"row m-0 py-1 px-0 border-top\">\n<div
+        class=\"col-lg-3 col-xl-2 strong\">Artist:</div>\n<div class=\"col-lg-9 col-xl-10\">\n<a
+        href=\"/search?artist=Arakawa Naoshi\" title=\"Other manga by this artist\">Arakawa
+        Naoshi</a> </div>\n</div>\n<div class=\"row m-0 py-1 px-0 border-top\">\n<div
+        class=\"col-lg-3 col-xl-2 strong\">Demographic:</div>\n<div class=\"col-lg-9
+        col-xl-10\"><span class=\"badge badge-secondary\"><a class=\"genre\" href=\"/search?demo_id=1\"
+        title=\"Search for Shounen titles\">Shounen</a></span></div>\n</div>\n<div
+        class='row m-0 py-1 px-0 border-top'>\n<div class='col-lg-3 col-xl-2 strong'>Genre:</div>\n<div
+        class='col-lg-9 col-xl-10'><a class='badge badge-secondary' href='/genre/5'>Comedy</a>
+        <a class='badge badge-secondary' href='/genre/8'>Drama</a> <a class='badge
+        badge-secondary' href='/genre/23'>Romance</a> <a class='badge badge-secondary'
+        href='/genre/33'>Sports</a> </div></div><div class='row m-0 py-1 px-0 border-top'>\n<div
+        class='col-lg-3 col-xl-2 strong'>Theme:</div>\n<div class='col-lg-9 col-xl-10'><a
+        class='badge badge-secondary' href='/genre/24'>School Life</a> <a class='badge
+        badge-secondary' href='/genre/59'>Crossdressing</a> </div></div> <div class=\"row
+        m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Rating:</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<ul class=\"list-inline m-0\">\n<li class=\"list-inline-item\"><span
+        class=\"text-primary\"><span class='fas fa-star fa-fw ' aria-hidden='true'
+        title='Bayesian rating'></span> 7.90</span> </li>\n<li class=\"list-inline-item
+        small\"><span class='fas fa-star fa-fw ' aria-hidden='true' title='Mean rating'></span>
+        7.80</li>\n<li class=\"list-inline-item small\"><span class='fas fa-user fa-fw
+        ' aria-hidden='true' title='Users'></span> 10</li>\n<li class=\"list-inline-item\"><button
+        type=\"button\" class=\"btn btn-secondary btn-xs\" id=\"histogram_toggle\"><span
+        class='fas fa-chart-bar fa-fw ' aria-hidden='true'></span></button></li>\n</ul>\n<div
+        id=\"histogram_div\" class=\"display-none\"><canvas id=\"ratings_histogram\"
+        data-json=\"[9,7,7,8,8,7,7,10,7,8]\"></canvas></div>\n</div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Pub.
+        status:</div>\n<div class=\"col-lg-9 col-xl-10\">Completed</div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Stats:</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<ul class=\"list-inline m-0\">\n<li class=\"list-inline-item
+        text-info\"><span class='fas fa-eye fa-fw ' aria-hidden='true' title='Views'></span>
+        3,128</li>\n<li class=\"list-inline-item text-success\"><span class='fas fa-bookmark
+        fa-fw ' aria-hidden='true' title='Follows'></span> 180</li>\n<li class=\"list-inline-item\"><span
+        class='far fa-file fa-fw ' aria-hidden='true' title='Total chapters'></span>
+        8</li>\n</ul>\n</div>\n</div>\n<div class=\"row m-0 py-1 px-0 border-top\">\n<div
+        class=\"col-lg-3 col-xl-2 strong\">Description:</div>\n<div class=\"col-lg-9
+        col-xl-10\">Nozomi wants to enter the newcomer's competition. But the coach
+        is against it, because their club is a boy's football club and she's... a
+        she. Will she be able to enter the match she wants to play in?</div>\n</div>\n<div
+        class='row m-0 py-1 px-0 border-top'>\n<div class='col-lg-3 col-xl-2 strong'>Related:</div>\n<div
+        class='col-lg-9 col-xl-10'>\n<ul style='margin-bottom: 0;' class='list-unstyled'><li><span
+        class='fas fa-book fa-fw ' aria-hidden='true'></span> <a class='' title='Sayonara
+        Watashi no Cramer' href='/title/20442/sayonara-watashi-no-cramer'>Sayonara
+        Watashi no Cramer</a> <span class='small'>(Sequel)</span></li></ul>\n</div>\n</div>\n<div
+        class='row m-0 py-1 px-0 border-top'>\n<div class='col-lg-3 col-xl-2 strong'>Official:</div>\n<div
+        class='col-lg-9 col-xl-10'><ul class='list-inline mb-0'><li class='list-inline-item'><span
+        class='fas fa-external-link-alt fa-fw ' aria-hidden='true'></span> <a rel='noopener
+        noreferrer' target='_blank' href='https://kodanshacomics.com/series/sayonara-football/'>Official
+        English</a></li></ul></div>\n</div>\n<div class='row m-0 py-1 px-0 border-top'>\n<div
+        class='col-lg-3 col-xl-2 strong'>Retail:</div>\n<div class='col-lg-9 col-xl-10'><ul
+        class='list-inline mb-0'><li class='list-inline-item'><img src='/images/misc/amz.png'
+        /> <a rel='noopener noreferrer' target='_blank' href='https://www.amazon.co.jp/gp/product/B077LHXL85'>Amazon.co.jp</a></li><li
+        class='list-inline-item'><img src='/images/misc/bw.png' /> <a rel='noopener
+        noreferrer' target='_blank' href='https://bookwalker.jp/series/20831/'>Bookwalker</a></li><li
+        class='list-inline-item'><img src='/images/misc/ebj.png' /> <a rel='noopener
+        noreferrer' target='_blank' href='https://www.ebookjapan.jp/ebj/264286/'>eBookJapan</a></li></ul></div>\n</div>\n<div
+        class='row m-0 py-1 px-0 border-top'>\n<div class='col-lg-3 col-xl-2 strong'>Information:</div>\n<div
+        class='col-lg-9 col-xl-10'><ul class='list-inline mb-0'><li class='list-inline-item'><img
+        src='/images/misc/mu.png' /> <a rel='noopener noreferrer' target='_blank'
+        href='https://www.mangaupdates.com/series.html?id=43257'>MangaUpdates</a></li><li
+        class='list-inline-item'><img src='/images/misc/mal.png' /> <a rel='noopener
+        noreferrer' target='_blank' href='https://myanimelist.net/manga/26491'>MyAnimeList</a></li></ul></div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Reading
+        progress:</div>\n<div class=\"reading_progress col-lg-9 col-xl-10\">\n<ul
+        class=\"list-inline m-0\">\n<li class=\"list-inline-item\">\nVolume <span
+        id=\"current_volume\">0</span>/2 <button disabled title='You need to follow
+        this title to use this function.' type=\"button\" class=\"btn btn-success
+        btn-xs ml-1\" id=\"increment_volume\" data-title-id=\"2597\"><span class='fas
+        fa-plus-circle fa-fw ' aria-hidden='true'></span></button>\n</li>\n<li class=\"list-inline-item\">\nChapter
+        <span id=\"current_chapter\">0</span>/8 <button disabled title='You need to
+        follow this title to use this function.' type=\"button\" class=\"btn btn-success
+        btn-xs ml-1\" id=\"increment_chapter\" data-title-id=\"2597\"><span class='fas
+        fa-plus-circle fa-fw ' aria-hidden='true'></span></button>\n</li>\n<li class=\"list-inline-item\"><button
+        disabled title='You need to follow this title to use this function.' type=\"button\"
+        class=\"btn btn-info btn-xs ml-1\" id=\"edit_progress\"><span class='fas fa-pencil-alt
+        fa-fw ' aria-hidden='true'></span></button></li>\n</ul>\n</div>\n<div class=\"reading_progress
+        display-none col-lg-9 col-xl-10\">\n<form class=\"form-inline\" id=\"edit_progress_form\"
+        method=\"post\" data-title-id=\"2597\">\n<ul class=\"list-inline m-0\">\n<li
+        class=\"list-inline-item\"><input style=\"width: 60px;\" type=\"text\" class=\"form-control\"
+        id=\"volume\" name=\"volume\" value=\"\">/2</li>\n<li class=\"list-inline-item\"><input
+        style=\"width: 60px;\" type=\"text\" class=\"form-control\" id=\"chapter\"
+        name=\"chapter\" value=\"\">/8</li>\n<li class=\"list-inline-item\"><button
+        type=\"submit\" class=\"btn btn-success\" id=\"edit_progress_button\"><span
+        class='fas fa-save fa-fw ' aria-hidden='true'></span></button></li>\n<li class=\"list-inline-item\"><button
+        type=\"button\" class=\"btn btn-warning\" id=\"cancel_edit_progress\"><span
+        class='fas fa-undo fa-fw ' aria-hidden='true'></span></button></li>\n</ul>\n</form>\n</div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Actions:</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<button class='btn btn-secondary' id='upload_button'
+        disabled title='You need to log in to use this function.'><span class='fas
+        fa-upload fa-fw ' aria-hidden='true' title='Upload'></span> <span class='d-none
+        d-xl-inline'>Upload chapter</span></button> <button class='btn btn-secondary
+        ' disabled title='You need to log in to use this function.'><span class='fas
+        fa-bookmark fa-fw ' aria-hidden='true' title='Follow'></span> <span class='d-none
+        d-xl-inline'>Follow</span></button> <div class='btn-group '>\n<button disabled
+        title='You need to log in to use this function.' type='button' class='btn
+        btn-primary dropdown-toggle' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'><span
+        class='fas fa-star fa-fw ' aria-hidden='true'></span> <span class='caret'></span>\n</button>\n<div
+        class='dropdown-menu'><a class=' dropdown-item manga_rating_button' id='10'
+        data-manga-id='2597' href='#'>(10) Masterpiece</a><a class=' dropdown-item
+        manga_rating_button' id='9' data-manga-id='2597' href='#'>(9) Great</a><a
+        class=' dropdown-item manga_rating_button' id='8' data-manga-id='2597' href='#'>(8)
+        Very good</a><a class=' dropdown-item manga_rating_button' id='7' data-manga-id='2597'
+        href='#'>(7) Good</a><a class=' dropdown-item manga_rating_button' id='6'
+        data-manga-id='2597' href='#'>(6) Fine</a><a class=' dropdown-item manga_rating_button'
+        id='5' data-manga-id='2597' href='#'>(5) Average</a><a class=' dropdown-item
+        manga_rating_button' id='4' data-manga-id='2597' href='#'>(4) Bad</a><a class='
+        dropdown-item manga_rating_button' id='3' data-manga-id='2597' href='#'>(3)
+        Very bad</a><a class=' dropdown-item manga_rating_button' id='2' data-manga-id='2597'
+        href='#'>(2) Horrible</a><a class=' dropdown-item manga_rating_button' id='1'
+        data-manga-id='2597' href='#'>(1) Appalling</a></div>\n</div> <button type=\"button\"
+        title=\"You must be logged in to send a report\" class=\"btn btn-warning float-right
+        mr-1\" disabled><span class='fas fa-flag fa-fw ' aria-hidden='true'></span>
+        <span class=\"d-none d-xl-inline\">Report</span></button>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n<ul
+        class=\"edit nav nav-tabs\" role=\"tablist\">\n<li class=\"nav-item\">\n<a
+        class=\"nav-link active\" href=\"/title/2597/sayonara-football/chapters/\"><span
+        class='far fa-file fa-fw ' aria-hidden='true'></span> <span class=\"d-none
+        d-md-inline\">Chapters</span></a>\n</li>\n<li class=\"nav-item\">\n<a class=\"nav-link
+        \" href=\"/title/2597/sayonara-football/comments/\"><span class='fas fa-comments
+        fa-fw ' aria-hidden='true'></span> <span class=\"d-none d-md-inline\">Comments</span>
+        <span class='badge badge-secondary'>3</span></a>\n</li>\n<li class=\"nav-item\">\n<a
+        class=\"nav-link \" href=\"/title/2597/sayonara-football/covers/\"><span class='fas
+        fa-image fa-fw ' aria-hidden='true'></span> <span class=\"d-none d-md-inline\">Covers</span></a>\n</li>\n</ul>\n\n<div
+        class=\"edit tab-content\">\n<div class=\"chapter-container \">\n<div class=\"row
+        no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row d-flex row no-gutters
+        p-2 align-items-center border-bottom odd-row\">\n<div class=\"col-auto text-center
+        order-lg-1\" style=\"flex: 0 0 2.5em;\"><span class='fas fa-eye fa-fw ' aria-hidden='true'
+        title='Read'></span></div>\n<div class=\"col col-lg-5 row no-gutters pr-1
+        order-lg-2\"><span class='far fa-file fa-fw ' aria-hidden='true' title='Chapter'></span></div>\n<div
+        class=\"col text-right order-lg-3\" style=\"flex: 0 0 3em;\"><span class='fas
+        fa-comments fa-fw ' aria-hidden='true' title='Comments'></span></div>\n<div
+        class=\"col-2 col-lg-1 ml-1 text-right order-lg-8\"><span class='far fa-clock
+        fa-fw ' aria-hidden='true' title='Age'></span></div>\n<div class=\"w-100 d-lg-none\"></div>\n<div
+        class=\"col-auto text-center order-lg-4\" style=\"flex: 0 0 2.5em;\"><span
+        class='fas fa-globe fa-fw ' aria-hidden='true' title='Language'></span></div>\n<div
+        class=\"col order-lg-5\"><span class='fas fa-users fa-fw ' aria-hidden='true'
+        title='Group'></span></div>\n<div class=\"col-auto col-lg-1 text-right mx-1
+        order-lg-6\"><span class='fas fa-user fa-fw ' aria-hidden='true' title='Uploader'></span></div>\n<div
+        class=\"col-2 col-lg-1 text-right text-info order-lg-7\"><span class='fas
+        fa-eye fa-fw ' aria-hidden='true' title='Views'></span></div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84598\"
+        data-title=\"Epilogue\" data-chapter=\"8\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"1682\" data-uploader=\"norenolive\"
+        data-views=\"375\" data-timestamp=\"1518626424\" data-manga-id=\"2597\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/84598' class='text-truncate'>Vol. 2
+        Ch. 8 - Epilogue</a> <div> <span class=\"badge badge-primary mx-1\">END</span></div>\n</div>\n<div
+        class=\"col text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div
+        class=\"col-2 col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14
+        16:40:24 UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div
+        class=\"w-100 d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto
+        text-center order-lg-4\" style=\"flex: 0 0 2.5em;\">\n<span class='rounded
+        flag flag-gb' title='English'></span> </div>\n<div class=\"chapter-list-group
+        col text-truncate order-lg-5\">\n<a href='/group/1682/shoujo-crusade'>Shoujo
+        Crusade</a> </div>\n<div class=\"chapter-list-uploader col-auto col-lg-1 text-truncate
+        text-right mx-1 order-lg-6\">\n<a class='user_level_guest' style='color: #090;
+        ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n <span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">375</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"375\">375</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84596\"
+        data-title=\"Football Under the Blue Sky\" data-chapter=\"7\" data-volume=\"2\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"1682\"
+        data-uploader=\"norenolive\" data-views=\"288\" data-timestamp=\"1518626399\"
+        data-manga-id=\"2597\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/84596' class='text-truncate'>Vol.
+        2 Ch. 7 - Football Under the Blue Sky</a> <div></div>\n</div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:39:59
+        UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">288</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"288\">288</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84594\"
+        data-title=\"Everyone in a Crisis\" data-chapter=\"6\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"1682\" data-uploader=\"norenolive\"
+        data-views=\"264\" data-timestamp=\"1518626370\" data-manga-id=\"2597\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/84594' class='text-truncate'>Vol. 2
+        Ch. 6 - Everyone in a Crisis</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:39:30 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">264</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"264\">264</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84592\"
+        data-title=\"Clash and Decide\" data-chapter=\"5\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"1682\" data-uploader=\"norenolive\"
+        data-views=\"277\" data-timestamp=\"1518626305\" data-manga-id=\"2597\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/84592' class='text-truncate'>Vol. 2
+        Ch. 5 - Clash and Decide</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:38:25 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">277</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"277\">277</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84590\"
+        data-title=\"And There's the Whistle\" data-chapter=\"4\" data-volume=\"1\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"1682\"
+        data-uploader=\"norenolive\" data-views=\"327\" data-timestamp=\"1518626245\"
+        data-manga-id=\"2597\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/84590' class='text-truncate'>Vol.
+        1 Ch. 4 - And There's the Whistle</a> <div></div>\n</div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:37:25
+        UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">327</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"327\">327</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84589\"
+        data-title=\"A Plan to Become a Regular\" data-chapter=\"3\" data-volume=\"1\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"1682\"
+        data-uploader=\"norenolive\" data-views=\"337\" data-timestamp=\"1518626223\"
+        data-manga-id=\"2597\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/84589' class='text-truncate'>Vol.
+        1 Ch. 3 - A Plan to Become a Regular</a> <div></div>\n</div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:37:03
+        UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span>  </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">337</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"337\">337</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84587\"
+        data-title=\"Her Determination at That Time\" data-chapter=\"2\" data-volume=\"1\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"1682\"
+        data-uploader=\"norenolive\" data-views=\"338\" data-timestamp=\"1518626191\"
+        data-manga-id=\"2597\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/84587' class='text-truncate'>Vol.
+        1 Ch. 2 - Her Determination at That Time</a> <div></div>\n</div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:36:31
+        UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">338</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"338\">338</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84585\"
+        data-title=\"The Entry of an Unmanageable Woman\" data-chapter=\"1\" data-volume=\"1\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"1682\"
+        data-uploader=\"norenolive\" data-views=\"600\" data-timestamp=\"1518626157\"
+        data-manga-id=\"2597\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/84585' class='text-truncate'>Vol.
+        1 Ch. 1 - The Entry of an Unmanageable Woman</a> <div></div>\n</div>\n<div
+        class=\"col text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div
+        class=\"col-2 col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14
+        16:35:57 UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div
+        class=\"w-100 d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto
+        text-center order-lg-4\" style=\"flex: 0 0 2.5em;\">\n<span class='rounded
+        flag flag-gb' title='English'></span> </div>\n<div class=\"chapter-list-group
+        col text-truncate order-lg-5\">\n<a href='/group/1682/shoujo-crusade'>Shoujo
+        Crusade</a> </div>\n<div class=\"chapter-list-uploader col-auto col-lg-1 text-truncate
+        text-right mx-1 order-lg-6\">\n<a class='user_level_guest' style='color: #090;
+        ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">600</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"600\">600</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>
+        \n\n<div id=\"message_container\" class=\"display-none\"></div>\n\n\n<div
+        class=\"modal fade\" id=\"homepage_settings_modal\" tabindex=\"-1\" role=\"dialog\"
+        aria-labelledby=\"homepage_settings_label\" aria-hidden=\"true\">\n<div class=\"modal-dialog
+        modal-dialog-centered modal-lg\" role=\"document\">\n<div class=\"modal-content\">\n<div
+        class=\"modal-header\">\n<h5 class=\"modal-title\" id=\"homepage_settings_label\"><span
+        class='fas fa-cog fa-fw ' aria-hidden='true'></span> MangaDex settings</h5>\n<button
+        type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n<span
+        aria-hidden=\"true\">&times;</span>\n</button>\n</div>\n<div class=\"modal-body\">\n<form
+        method=\"post\" id=\"homepage_settings_form\">\n<div class=\"form-group row\">\n<label
+        for=\"language\" class=\"col-lg-3 col-form-label-modal\">Site theme:</label>\n<div
+        class=\"col-lg-9\">\n<select class=\"form-control selectpicker\" id=\"theme_id\"
+        name=\"theme_id\">\n<option selected value='1'>Light</option><option value='2'>Dark</option><option
+        value='3'>Light-Bronze</option><option value='4'>Dark-Bronze</option><option
+        value='5'>Light-Slate</option><option value='6'>Dark-Slate</option><option
+        value='7'>Abyss</option> </select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"default_lang_ids\" class=\"col-lg-3 col-form-label-modal\">Filter
+        chapter languages:</label>\n<div class=\"col-lg-9\">\n<select multiple class=\"form-control
+        selectpicker show-tick\" data-actions-box=\"true\" data-selected-text-format=\"count
+        > 5\" data-size=\"10\" id=\"default_lang_ids\" name=\"default_lang_ids[]\"
+        title=\"All langs\">\n<option value='19' data-content=\"<span class='rounded
+        flag flag-sa' title='Arabic'></span> Arabic\">Arabic</option><option value='22'
+        data-content=\"<span class='rounded flag flag-bd' title='Bengali'></span>
+        Bengali\">Bengali</option><option value='14' data-content=\"<span class='rounded
+        flag flag-bg' title='Bulgarian'></span> Bulgarian\">Bulgarian</option><option
+        value='37' data-content=\"<span class='rounded flag flag-mm' title='Burmese'></span>
+        Burmese\">Burmese</option><option value='33' data-content=\"<span class='rounded
+        flag flag-ct' title='Catalan'></span> Catalan\">Catalan</option><option value='21'
+        data-content=\"<span class='rounded flag flag-cn' title='Chinese (Simp)'></span>
+        Chinese (Simp)\">Chinese (Simp)</option><option value='35' data-content=\"<span
+        class='rounded flag flag-hk' title='Chinese (Trad)'></span> Chinese (Trad)\">Chinese
+        (Trad)</option><option value='24' data-content=\"<span class='rounded flag
+        flag-cz' title='Czech'></span> Czech\">Czech</option><option value='20' data-content=\"<span
+        class='rounded flag flag-dk' title='Danish'></span> Danish\">Danish</option><option
+        value='5' data-content=\"<span class='rounded flag flag-nl' title='Dutch'></span>
+        Dutch\">Dutch</option><option value='1' data-content=\"<span class='rounded
+        flag flag-gb' title='English'></span> English\">English</option><option value='34'
+        data-content=\"<span class='rounded flag flag-ph' title='Filipino'></span>
+        Filipino\">Filipino</option><option value='11' data-content=\"<span class='rounded
+        flag flag-fi' title='Finnish'></span> Finnish\">Finnish</option><option value='10'
+        data-content=\"<span class='rounded flag flag-fr' title='French'></span> French\">French</option><option
+        value='8' data-content=\"<span class='rounded flag flag-de' title='German'></span>
+        German\">German</option><option value='13' data-content=\"<span class='rounded
+        flag flag-gr' title='Greek'></span> Greek\">Greek</option><option value='39'
+        data-content=\"<span class='rounded flag flag-il' title='Hebrew'></span> Hebrew\">Hebrew</option><option
+        value='40' data-content=\"<span class='rounded flag flag-in' title='Hindi'></span>
+        Hindi\">Hindi</option><option value='9' data-content=\"<span class='rounded
+        flag flag-hu' title='Hungarian'></span> Hungarian\">Hungarian</option><option
+        value='27' data-content=\"<span class='rounded flag flag-id' title='Indonesian'></span>
+        Indonesian\">Indonesian</option><option value='6' data-content=\"<span class='rounded
+        flag flag-it' title='Italian'></span> Italian\">Italian</option><option value='2'
+        data-content=\"<span class='rounded flag flag-jp' title='Japanese'></span>
+        Japanese\">Japanese</option><option value='28' data-content=\"<span class='rounded
+        flag flag-kr' title='Korean'></span> Korean\">Korean</option><option value='38'
+        data-content=\"<span class='rounded flag flag-lt' title='Lithuanian'></span>
+        Lithuanian\">Lithuanian</option><option value='31' data-content=\"<span class='rounded
+        flag flag-my' title='Malay'></span> Malay\">Malay</option><option value='25'
+        data-content=\"<span class='rounded flag flag-mn' title='Mongolian'></span>
+        Mongolian\">Mongolian</option><option value='41' data-content=\"<span class='rounded
+        flag flag- ' title='Other'></span> Other\">Other</option><option value='30'
+        data-content=\"<span class='rounded flag flag-ir' title='Persian'></span>
+        Persian\">Persian</option><option value='3' data-content=\"<span class='rounded
+        flag flag-pl' title='Polish'></span> Polish\">Polish</option><option value='16'
+        data-content=\"<span class='rounded flag flag-br' title='Portuguese (Br)'></span>
+        Portuguese (Br)\">Portuguese (Br)</option><option value='17' data-content=\"<span
+        class='rounded flag flag-pt' title='Portuguese (Pt)'></span> Portuguese (Pt)\">Portuguese
+        (Pt)</option><option value='23' data-content=\"<span class='rounded flag flag-ro'
+        title='Romanian'></span> Romanian\">Romanian</option><option value='7' data-content=\"<span
+        class='rounded flag flag-ru' title='Russian'></span> Russian\">Russian</option><option
+        value='4' data-content=\"<span class='rounded flag flag-rs' title='Serbo-Croatian'></span>
+        Serbo-Croatian\">Serbo-Croatian</option><option value='15' data-content=\"<span
+        class='rounded flag flag-es' title='Spanish (Es)'></span> Spanish (Es)\">Spanish
+        (Es)</option><option value='29' data-content=\"<span class='rounded flag flag-mx'
+        title='Spanish (LATAM)'></span> Spanish (LATAM)\">Spanish (LATAM)</option><option
+        value='18' data-content=\"<span class='rounded flag flag-se' title='Swedish'></span>
+        Swedish\">Swedish</option><option value='32' data-content=\"<span class='rounded
+        flag flag-th' title='Thai'></span> Thai\">Thai</option><option value='26'
+        data-content=\"<span class='rounded flag flag-tr' title='Turkish'></span>
+        Turkish\">Turkish</option><option value='36' data-content=\"<span class='rounded
+        flag flag-ua' title='Ukrainian'></span> Ukrainian\">Ukrainian</option><option
+        value='12' data-content=\"<span class='rounded flag flag-vn' title='Vietnamese'></span>
+        Vietnamese\">Vietnamese</option> </select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"display_language\" class=\"col-lg-3 col-form-label-modal\">User
+        interface language:</label>\n<div class=\"col-lg-9\">\n<select class=\"form-control
+        selectpicker\" id=\"display_lang_id\" name=\"display_lang_id\" data-size=\"10\">\n<option
+        value='19' data-content=\"<span class='rounded flag flag-sa' title='Arabic'></span>
+        Arabic\">Arabic</option><option value='22' data-content=\"<span class='rounded
+        flag flag-bd' title='Bengali'></span> Bengali\">Bengali</option><option value='14'
+        data-content=\"<span class='rounded flag flag-bg' title='Bulgarian'></span>
+        Bulgarian\">Bulgarian</option><option value='37' data-content=\"<span class='rounded
+        flag flag-mm' title='Burmese'></span> Burmese\">Burmese</option><option value='33'
+        data-content=\"<span class='rounded flag flag-ct' title='Catalan'></span>
+        Catalan\">Catalan</option><option value='21' data-content=\"<span class='rounded
+        flag flag-cn' title='Chinese (Simp)'></span> Chinese (Simp)\">Chinese (Simp)</option><option
+        value='35' data-content=\"<span class='rounded flag flag-hk' title='Chinese
+        (Trad)'></span> Chinese (Trad)\">Chinese (Trad)</option><option value='24'
+        data-content=\"<span class='rounded flag flag-cz' title='Czech'></span> Czech\">Czech</option><option
+        value='20' data-content=\"<span class='rounded flag flag-dk' title='Danish'></span>
+        Danish\">Danish</option><option value='5' data-content=\"<span class='rounded
+        flag flag-nl' title='Dutch'></span> Dutch\">Dutch</option><option selected
+        value='1' data-content=\"<span class='rounded flag flag-gb' title='English'></span>
+        English\">English</option><option value='34' data-content=\"<span class='rounded
+        flag flag-ph' title='Filipino'></span> Filipino\">Filipino</option><option
+        value='11' data-content=\"<span class='rounded flag flag-fi' title='Finnish'></span>
+        Finnish\">Finnish</option><option value='10' data-content=\"<span class='rounded
+        flag flag-fr' title='French'></span> French\">French</option><option value='8'
+        data-content=\"<span class='rounded flag flag-de' title='German'></span> German\">German</option><option
+        value='13' data-content=\"<span class='rounded flag flag-gr' title='Greek'></span>
+        Greek\">Greek</option><option value='39' data-content=\"<span class='rounded
+        flag flag-il' title='Hebrew'></span> Hebrew\">Hebrew</option><option value='40'
+        data-content=\"<span class='rounded flag flag-in' title='Hindi'></span> Hindi\">Hindi</option><option
+        value='9' data-content=\"<span class='rounded flag flag-hu' title='Hungarian'></span>
+        Hungarian\">Hungarian</option><option value='27' data-content=\"<span class='rounded
+        flag flag-id' title='Indonesian'></span> Indonesian\">Indonesian</option><option
+        value='6' data-content=\"<span class='rounded flag flag-it' title='Italian'></span>
+        Italian\">Italian</option><option value='2' data-content=\"<span class='rounded
+        flag flag-jp' title='Japanese'></span> Japanese\">Japanese</option><option
+        value='28' data-content=\"<span class='rounded flag flag-kr' title='Korean'></span>
+        Korean\">Korean</option><option value='38' data-content=\"<span class='rounded
+        flag flag-lt' title='Lithuanian'></span> Lithuanian\">Lithuanian</option><option
+        value='31' data-content=\"<span class='rounded flag flag-my' title='Malay'></span>
+        Malay\">Malay</option><option value='25' data-content=\"<span class='rounded
+        flag flag-mn' title='Mongolian'></span> Mongolian\">Mongolian</option><option
+        value='41' data-content=\"<span class='rounded flag flag- ' title='Other'></span>
+        Other\">Other</option><option value='30' data-content=\"<span class='rounded
+        flag flag-ir' title='Persian'></span> Persian\">Persian</option><option value='3'
+        data-content=\"<span class='rounded flag flag-pl' title='Polish'></span> Polish\">Polish</option><option
+        value='16' data-content=\"<span class='rounded flag flag-br' title='Portuguese
+        (Br)'></span> Portuguese (Br)\">Portuguese (Br)</option><option value='17'
+        data-content=\"<span class='rounded flag flag-pt' title='Portuguese (Pt)'></span>
+        Portuguese (Pt)\">Portuguese (Pt)</option><option value='23' data-content=\"<span
+        class='rounded flag flag-ro' title='Romanian'></span> Romanian\">Romanian</option><option
+        value='7' data-content=\"<span class='rounded flag flag-ru' title='Russian'></span>
+        Russian\">Russian</option><option value='4' data-content=\"<span class='rounded
+        flag flag-rs' title='Serbo-Croatian'></span> Serbo-Croatian\">Serbo-Croatian</option><option
+        value='15' data-content=\"<span class='rounded flag flag-es' title='Spanish
+        (Es)'></span> Spanish (Es)\">Spanish (Es)</option><option value='29' data-content=\"<span
+        class='rounded flag flag-mx' title='Spanish (LATAM)'></span> Spanish (LATAM)\">Spanish
+        (LATAM)</option><option value='18' data-content=\"<span class='rounded flag
+        flag-se' title='Swedish'></span> Swedish\">Swedish</option><option value='32'
+        data-content=\"<span class='rounded flag flag-th' title='Thai'></span> Thai\">Thai</option><option
+        value='26' data-content=\"<span class='rounded flag flag-tr' title='Turkish'></span>
+        Turkish\">Turkish</option><option value='36' data-content=\"<span class='rounded
+        flag flag-ua' title='Ukrainian'></span> Ukrainian\">Ukrainian</option><option
+        value='12' data-content=\"<span class='rounded flag flag-vn' title='Vietnamese'></span>
+        Vietnamese\">Vietnamese</option> </select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<div class=\"col-lg-3 text-right\">\n<button type=\"submit\" class=\"btn
+        btn-secondary\" id=\"homepage_settings_button\"><span class='fas fa-save fa-fw
+        ' aria-hidden='true'></span> Save</button>\n</div>\n<div class=\"col-lg-9
+        text-left\">\n</div>\n</div>\n</form>\n</div>\n<div class=\"modal-footer\">\n<div
+        class='alert alert-info mx-auto text-center' role='alert'><strong>Info:</strong>
+        These settings are temporary. Please <span class='fas fa-pencil-alt fa-fw
+        ' aria-hidden='true'></span> <a href='/signup'>make an account</a> to remember
+        these permanently.</div> </div>\n</div>\n</div>\n</div>\n<div class=\"modal
+        fade\" id=\"report_modal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"report_modal_label\"
+        aria-hidden=\"true\">\n<div class=\"modal-dialog\" role=\"document\">\n<div
+        class=\"modal-content\">\n<form id=\"report_modal_form\" action=\"/ajax/actions.ajax.php?source=nojs&function=report_submit\"
+        method=\"post\">\n<div class=\"modal-header\">\n<h5 class=\"modal-title\"
+        id=\"report_modal_title\">Submit new Report</h5>\n<button type=\"button\"
+        class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n<span aria-hidden=\"true\">&times;</span>\n</button>\n</div>\n<div
+        class=\"modal-body container\">\n<div class=\"report-item report-item-manga
+        row\">\n<div class=\"col col-2\"><img src=\"\" alt=\"Thumb\"></div>\n<div
+        class=\"col col-10\">\n<span class=\"ellipsis\">\n<span class=\"fas fa-book
+        fa-fw \" aria-hidden=\"true\" title=\"Title\"></span>\n<span class=\"manga_title\">Manga
+        Title</span>\n</span>\n</div>\n</div>\n<div class=\"report-item report-item-comment
+        row\">\n<div class=\"col\">\n<div class=\"alert alert-warning\">\nPlease note,
+        that not every report is actionable. If you don't like a particular user's
+        posts, consider blocking (from their profile page) instead.\n</div>\n<label>Reported
+        Post:</label><br />\n<div class=\"alert alert-info\">\n<div class=\"ellipsis
+        report-item-comment-text\"></div>\n</div>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"info\" class=\"col\">Report Reason:</label>\n</div>\n<div
+        class=\"form-group row\">\n<div class=\"col\">\n<select class=\"form-control
+        selectpicker\" id=\"reason_id\" name=\"reason_id\" tabindex=\"-90\" required=\"required\">\n<option
+        value=\"\" selected>- Select A Reason -</option>\n<option data-type-id=\"2\"
+        value=\"1\">All images broken</option>\n<option data-type-id=\"2\" value=\"2\"
+        required=\"required\">Some images broken</option>\n<option data-type-id=\"2\"
+        value=\"3\" required=\"required\">Watermarked images</option>\n<option data-type-id=\"2\"
+        value=\"4\" required=\"required\">Naming rules broken</option>\n<option data-type-id=\"2\"
+        value=\"5\" required=\"required\">Incorrect group</option>\n<option data-type-id=\"2\"
+        value=\"6\" required=\"required\">Group policy evasion</option>\n<option data-type-id=\"2\"
+        value=\"7\" required=\"required\">Official release/Raw</option>\n<option data-type-id=\"2\"
+        value=\"8\" required=\"required\">Other</option>\n<option data-type-id=\"3\"
+        value=\"9\">Spoilers</option>\n<option data-type-id=\"3\" value=\"10\">Aggregator
+        links</option>\n<option data-type-id=\"3\" value=\"11\">Unwanted solicitation</option>\n<option
+        data-type-id=\"3\" value=\"12\">Racism</option>\n<option data-type-id=\"3\"
+        value=\"13\" required=\"required\">Sexism</option>\n<option data-type-id=\"3\"
+        value=\"14\">Religious Discrimination</option>\n<option data-type-id=\"3\"
+        value=\"15\">Direct Personal Attack</option>\n<option data-type-id=\"3\" value=\"16\"
+        required=\"required\">Other</option>\n</select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"info\" class=\"col\">Additional Info:</label>\n</div>\n<div
+        class=\"form-group row\">\n<div class=\"col\">\n<textarea class=\"form-control\"
+        rows=\"5\" name=\"info\" id=\"info\" placeholder=\"Please be as descriptive
+        as possible in your report. If possible, include any recommended fixes.\"></textarea>\n
+        </div>\n</div>\n</div>\n<div class=\"modal-footer\">\n<input type=\"hidden\"
+        name=\"return_url\" value=\"https://mangadex.org/title/2597\" />\n<input type=\"hidden\"
+        name=\"item_id\" value=\"-1\" />\n<input type=\"hidden\" name=\"type_id\"
+        value=\"-1\" />\n<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n<button
+        type=\"submit\" class=\"btn btn-primary\">Submit</button>\n</div>\n</form>\n</div>\n</div>\n</div>\n<footer
+        class=\"footer\">\n<p class=\"m-0 text-center text-muted\">&copy; 2018 - 2019
+        <a href=\"/\" title=\"Array\n(\n    [0] => 5\n    [1] => 1566626336\n)\n\">MangaDex</a>
+        | Powered by <a href=\"https://path.net/\" title=\"Provider of CDN and DDoS
+        mitigation services\" target=\"_blank\">Path Network</a></p>\n</footer>\n<div
+        id=\"right_swipe_area\" style=\"position: fixed; top: 0; right: 0px; z-index:
+        1000; height: 100vh; width: 15px;\">&nbsp;</div>\n<div id=\"left_swipe_area\"
+        style=\"position: fixed; top: 0; left: 0px; z-index: 1000; height: 100vh;
+        width: 15px;\">&nbsp;</div>\n\n<div class=\"modal left fade\" id=\"left_modal\"
+        tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\">\n<div class=\"modal-dialog\"
+        role=\"document\">\n<div class=\"modal-content border-0\">\n<nav class=\"navbar
+        fixed-top text-nowrap navbar-light bg-light\">\n<div class=\"container p-0\">\n<div
+        class=\"dropdown\">\n<a href=\"#\" class=\"dropdown-toggle no-underline\"
+        data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n<span
+        class='fas fa-user-times fa-fw ' aria-hidden='true'></span> <span class=\"d-lg-none
+        d-xl-inline\" style=\"color: #000\">Guest</span>\n</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item\" href=\"/login\"><span class='fas fa-sign-in-alt fa-fw
+        ' aria-hidden='true'></span> Log in</a>\n<a class=\"dropdown-item\" href=\"/signup\"><span
+        class='fas fa-pencil-alt fa-fw ' aria-hidden='true'></span> Sign up</a>\n</div>\n</div>\n<button
+        class=\"navbar-toggler ml-auto\" type=\"button\">\n<a class=\"\" href=\"/login\"><span
+        class=\"navbar-icon\"><span class='fas fa-sign-in-alt fa-fw ' aria-hidden='true'></span></span></a>\n</button>\n</div>\n</nav>\n<nav
+        style=\"margin-top: 70px;\" class=\"nav flex-column\">\n<div class=\"dropdown
+        nav-link\">\n<a href=\"#\" class=\"dropdown-toggle no-underline\" data-toggle=\"dropdown\"
+        role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas
+        fa-book fa-fw ' aria-hidden='true'></span> Manga</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item \" href=\"/titles\"><span class='fas fa-book fa-fw '
+        aria-hidden='true'></span> Titles</a>\n<a class=\"dropdown-item \" href=\"/updates\"><span
+        class='fas fa-sync fa-fw ' aria-hidden='true'></span> Updates</a>\n<a class=\"dropdown-item
+        \" href=\"/search\"><span class='fas fa-search fa-fw ' aria-hidden='true'></span>
+        Search</a>\n<a class=\"dropdown-item \" href=\"/featured\"><span class='fas
+        fa-tv fa-fw ' aria-hidden='true'></span> Featured</a>\n<a class=\"dropdown-item\"
+        href=\"/manga\"><span class='fas fa-question-circle fa-fw ' aria-hidden='true'></span>
+        Random</a>\n<a class=\"dropdown-item \" href=\"/manga_new\"><span class='fas
+        fa-plus-circle fa-fw ' aria-hidden='true'></span> Add</a>\n</div>\n</div>\n<a
+        class=\"nav-link no-underline\" href=\"/login\" title=\"You need to log in.\"><span
+        class='fas fa-bookmark fa-fw ' aria-hidden='true'></span> Follows</a>\n<div
+        class=\"dropdown nav-link\">\n<a href=\"#\" class=\"dropdown-toggle no-underline\"
+        data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><span
+        class='fas fa-users fa-fw ' aria-hidden='true'></span> Community</a>\n<div
+        class=\"dropdown-menu\">\n<a class=\"dropdown-item \" href=\"/forums\"><span
+        class='fas fa-university fa-fw ' aria-hidden='true'></span> Forums</a>\n<a
+        class=\"dropdown-item \" href=\"/groups\"><span class='fas fa-users fa-fw
+        ' aria-hidden='true'></span> Groups</a>\n<a class=\"dropdown-item \" href=\"/users\"><span
+        class='fas fa-user fa-fw ' aria-hidden='true'></span> Users</a>\n<a class=\"dropdown-item\"
+        href=\"https://discord.gg/Y2YKXUP\" target=\"_blank\" rel=\"nofollow\"><span
+        class='fab fa-discord fa-fw ' aria-hidden='true' title='Rules'></span> Discord</a>\n<a
+        class=\"dropdown-item\" href=\"https://twitter.com/MangaDex\" target=\"_blank\"
+        rel=\"nofollow\"><span class='fab fa-twitter fa-fw ' aria-hidden='true' title='Twitter'></span>
+        Twitter</a>\n<a class=\"dropdown-item\" href=\"https://www.reddit.com/r/mangadex\"
+        target=\"_blank\" rel=\"nofollow\"><span class='fab fa-reddit fa-fw ' aria-hidden='true'
+        title='Reddit'></span> Reddit</a>\n<a class=\"dropdown-item\" href=\"irc://irc.rizon.net/mangadex\"
+        rel=\"nofollow\"><span class='fas fa-hashtag fa-fw ' aria-hidden='true' title='IRC'></span>
+        IRC</a>\n</div>\n</div>\n<div class=\"dropdown nav-link\">\n<a href=\"#\"
+        class=\"dropdown-toggle no-underline\" data-toggle=\"dropdown\" role=\"button\"
+        aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas fa-info-circle
+        fa-fw ' aria-hidden='true'></span> Info</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item \" href=\"/stats\"><span class='fas fa-clipboard-list
+        fa-fw ' aria-hidden='true' title='Stats'></span> Stats</a>\n<a class=\"dropdown-item
+        \" href=\"/rules\"><span class='fas fa-list fa-fw ' aria-hidden='true' title='Rules'></span>
+        Rules</a>\n<a class=\"dropdown-item \" href=\"/about\"><span class='fas fa-info
+        fa-fw ' aria-hidden='true' title='About'></span> About</a>\n<a class=\"dropdown-item
+        \" href=\"/changelog\"><span class='fas fa-code fa-fw ' aria-hidden='true'
+        title='Change log'></span> Change log</a>\n<a class=\"dropdown-item \" href=\"/affiliates\"><span
+        class='far fa-handshake fa-fw ' aria-hidden='true' title='Affiliates'></span>
+        Affiliates</a>\n</div>\n</div>\n</nav>\n<form id=\"quick_search_form_m\" method=\"get\"
+        action=\"/quick_search\" role=\"search\" class=\"form-inline px-3 py-2 quick-search\">\n<div
+        class=\"input-group\">\n<div class=\"input-group-prepend\">\n<select class=\"form-control\"
+        id=\"quick_search_type\" name=\"type\">\n<option value=\"all\">All</option>\n<option
+        selected value=\"titles\">Manga</option>\n<option value=\"groups\">Groups</option>\n<option
+        value=\"users\">Users</option>\n</select>\n</div>\n<input type=\"text\" class=\"form-control\"
+        placeholder=\"Quick search\" name=\"term\" id=\"quick_search_input\" required>\n<span
+        class=\"input-group-append\">\n<button class=\"btn btn-secondary\" type=\"submit\"
+        id=\"quick_search_button\" name=\"submit\"><span class='fas fa-search fa-fw
+        ' aria-hidden='true'></span></button>\n</span>\n</div>\n</form>\n</div>\n</div>\n</div>\n\n<div
+        class=\"modal right fade\" id=\"right_modal\" tabindex=\"-1\" role=\"dialog\"
+        aria-labelledby=\"myModalLabel2\">\n<div class=\"modal-dialog\" role=\"document\">\n<div
+        class=\"modal-content border-0\">\n<nav class=\"navbar fixed-top text-nowrap
+        navbar-light bg-light\">\n<div class=\"container p-0\">\n<a class=\"p-0 navbar-brand\"
+        href=\"https://mangadex.org/\"><img class=\"mx-2\" height=\"38px\" src=\"/images/misc/navbar.svg?3\"
+        alt=\"MangaDex\" title=\"MangaDex\" /> <small class=\"d-lg-none d-xl-inline\">MikuDex</small></a>\n</div>\n</nav>\n<div
+        class=\"modal-body\">\n<img src=\"/images/misc/miku.jpg\" width=\"100%\" />\n</div>\n</div>\n</div>\n</div>\n\n\n<script
+        nomodule src=\"/dist/js/polyfills.prod.js?1560041198\"></script>\n<script
+        nomodule src=\"/dist/js/bundle.prod.js?1560041198\"></script>\n<script src=\"/scripts/jquery.min.js?1552433701\"></script>\n<script
+        src=\"/scripts/jquery.touchSwipe.min.js\"></script>\n<script src=\"/bootstrap/js/popper.min.js\"></script>\n<script
+        src=\"/bootstrap/js/bootstrap.min.js?1\"></script>\n<script src=\"/bootstrap/js/bootstrap-select.min.js?1\"></script>\n<script
+        src=\"/scripts/lightbox2/js/lightbox.js\"></script>\n<script src=\"/scripts/chart.min.js\"></script>\n<script>\r\n
+        \     if (!('URL' in window) || !('URLSearchParams' in window)) {\r\n        document.head.appendChild(Object.assign(document.createElement(\"script\"),
+        {\r\n          \"src\": \"/dist/js/polyfills.prod.js?1560041198\", \"async\":
+        true,\r\n        }))\r\n      }\r\n    </script>\n<script src=\"/scripts/js/reporting.js\"></script>\n<script
+        type=\"text/javascript\">\r\n\r\n    \tvar t='mang';\r\n\t\tt = t+'adex.org';\r\n\tvar
+        w='www.mangadex.org';\r\n\tif (window.location.hostname != t && window.location.hostname
+        != w ) {\r\n\t\twindow.location='https://'+t;\r\n\t}\r\n    \r\n\tvar $ =
+        jQuery;\r\n\r\n\t$(document).on('change', '.btn-file :file', function() {\r\n\t\tvar
+        input = $(this),\r\n\t\t\tnumFiles = input.get(0).files ? input.get(0).files.length
+        : 1,\r\n\t\t\tlabel = input.val().replace(/\\\\/g, '/').replace(/.*\\//, '');\r\n\t\tinput.trigger('fileselect',
+        [numFiles, label]);\r\n\t});\r\n\r\n\tfunction capitalizeFirstLetter(string)
+        {\r\n\t\treturn string.charAt(0).toUpperCase() + string.slice(1);\r\n\t}\r\n\r\n\tfunction
+        commaMultipleSelect(id) {\r\n\t\tvar list = document.getElementById(id);\r\n\t\tvar
+        selected = new Array();\r\n\r\n\t\tfor (i = 0; i < list.options.length; i++)
+        {\r\n\t\t\tif (list.options[i].selected) {\r\n\t\t\t\t selected.push(list.options[i].value);\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t\treturn
+        selected.join(',');\r\n\t}\r\n\r\n\tfunction commaMultipleCheckbox(name) {\r\n\t\tvar
+        list = document.getElementsByName(name);\r\n\t\tvar selected = new Array();\r\n\r\n\t\tfor
+        (i = 0; i < list.length; i++) {\r\n\t\t\tif (list[i].checked) {\r\n\t\t\t\t
+        selected.push(list[i].value);\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t\treturn selected.join(',');\r\n\t}\r\n\r\n\t$(document).ready(function(){\r\n\t\tvar
+        query = location.search;\r\n\r\n\t\t\t\t$(\"#left_swipe_area\").swipe({\r\n\t\t\tswipeRight:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#left_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t$(\"#right_swipe_area\").swipe({\r\n\t\t\tswipeLeft:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#right_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t$(\"#right_modal\").swipe({\r\n\t\t\tswipeRight:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#right_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t$(\"#left_modal\").swipe({\r\n\t\t\tswipeLeft:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#left_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t\r\n\t\t$(\"#read_announcement_button\").click(function(event){\r\n\t\t\t$.ajax({\r\n\t\t\t\turl:
+        \"/ajax/actions.ajax.php?function=read_announcement\",\r\n\t\t\t\ttype: 'GET',\r\n\t\t\t\tsuccess:
+        function (data) {\r\n\t\t\t\t\t$(\"#announcement\").hide();\r\n\t\t\t\t},\r\n\t\t\t\tcache:
+        false,\r\n\t\t\t\tcontentType: false,\r\n\t\t\t\tprocessData: false\r\n\t\t\t});\r\n\t\t\tevent.preventDefault();\r\n\t\t});\r\n\r\n\t\t$(\".logout\").click(function(event){\r\n\t\t\t$.ajax({\r\n\t\t\t\ttype:
+        \"POST\",\r\n\t\t\t\turl: \"/ajax/actions.ajax.php?function=logout\",\r\n\t\t\t\tsuccess:
+        function(data) {\r\n\t\t\t\t\t$(\"#message_container\").html(data).show().delay(1500).fadeOut();\r\n\t\t\t\t\tlocation.reload();\r\n\t\t\t\t}\r\n\t\t\t});\r\n\t\t\tevent.preventDefault();\r\n\t\t});\r\n\r\n
+        \       function highlightPost(node) {\r\n            if (node) {\r\n                Array.from(document.querySelectorAll('.highlighted')).forEach(function(n)
+        {n.classList.remove('highlighted')});\r\n                node.classList.add('highlighted')\r\n
+        \           }\r\n        }\r\n\r\n        if (location.hash)\r\n            highlightPost(document.querySelector(location.hash
+        + ' .postbody'));\r\n\r\n        $('a.permalink').click(function(event) {\r\n
+        \           highlightPost(event.target.closest('.post').querySelector('.postbody'))\r\n
+        \       });\r\n\r\n\t\t\n\t$('#homepage_settings_form').submit(function(event)
+        {\n\n\t\tArray.prototype.slice.call(this.querySelectorAll('input[type=file]'))\n\t\t.filter(function(n)
+        { return n && !n.files.length })\n\t\t.forEach(function(n) { n.parentNode.removeChild(n)
+        });\n\n        var button = $('#homepage_settings_button')\n\t\tvar buttonHtml
+        = button.html()\n\t\tvar formData = new FormData(this);\n\n\t\tvar success_msg
+        = \"<div class='alert alert-success text-center' role='alert'><strong>Success:</strong>
+        Your MangaDex settings have been saved.</div>\";\n\n\t\tbutton.html(\"<span
+        class='fas fa-spinner fa-fw fa-pulse' aria-hidden='true' ></span> Saving...\").attr('disabled',
+        true);\n\n\t\t$.ajax({\n\t\t\turl: '/ajax/actions.ajax.php?function=homepage_settings',\n\t\t\ttype:
+        'POST',\n\t\t\tdata: formData,\n\t\t\tcache: false,\n\t\t\theaders: {'cache-control':
+        'no-cache'},\n\t\t\tcontentType: false,\n\t\t\tprocessData: false,\n\t\t\tasync:
+        true,\n\t\t\tsuccess: function (data) {\n\t\t\t\tif (!data) {\n\t\t\t\t\t$('#message_container').html(success_msg).show().delay(3000).fadeOut();\n\t\t\t\t\tlocation.reload();\n\t\t\t\t}\n\t\t\t\telse
+        {\n\t\t\t\t\t$('#message_container').html(data).show().delay(3000).fadeOut();\n\t\t\t\t}\n\t\t\t\tbutton.html(buttonHtml).attr('disabled',
+        false);\n            },\n\t\t});\n\n\t\tevent.preventDefault();\n\t});\n\t\n//ratings_histogram\n$(\"#histogram_toggle\").click(function(){\n\t$(\"#histogram_div\").toggle();\n});\t\n\nvar
+        ctx = $(\"#ratings_histogram\");\nvar ratings =  JSON.parse(ctx.attr('data-json'));\n\nvar
+        keys = []\nvar values = []\nfor (var i = 10; i >= 1; --i) {\n    keys.push(i)\n
+        \   values.push(0)\n}\nfor (var i = 0; i < ratings.length; ++i) {\n    values[10
+        - ratings[i]]++\n}\n\n\nChart.defaults.global.defaultFontSize = 11;\nChart.defaults.global.legend.display
+        = false;\nvar myChart = new Chart(ctx, {\n    type: 'horizontalBar',\n    data:
+        {\n        labels: keys,\n        datasets: [{\n            data: values,\n\t\t\tbackgroundColor:
+        [\n                'rgba(255, 99, 132, 0.5)',\n                'rgba(54, 162,
+        235, 0.5)',\n                'rgba(255, 206, 86, 0.5)',\n                'rgba(75,
+        192, 192, 0.5)',\n                'rgba(153, 102, 255, 0.5)',\n\t\t\t\t'rgba(255,
+        99, 132, 0.5)',\n                'rgba(54, 162, 235, 0.5)',\n                'rgba(255,
+        206, 86, 0.5)',\n                'rgba(75, 192, 192, 0.5)',\n                'rgba(153,
+        102, 255, 0.5)'\n            ],\n            borderWidth: 0\n        }]\n
+        \   },\n    options: {\n\t\ttitle: {\n            display: true,\n            text:
+        'Distribution of Ratings'\n        },\n        scales: {\n\t\t\txAxes: [{\n
+        \               ticks: {\n                    beginAtZero: true\n                }\n
+        \           }]\n        }\n    }\n});\n\nlightbox.option({\n  'wrapAround':
+        true\n});\n\t\n$(\".btn-spoiler\").click(function(){\n\t$(this).next(\".spoiler\").toggle();\n});\t\n\n\n\n\n\n\n\r\n\r\n\t});\r\n\r\n\t</script>\n</body>\n</html>"
     headers:
-      CF-RAY: [38979ac323d931c2-SIN]
-      Cache-Control: [private]
-      Connection: [keep-alive]
-      Content-Encoding: [gzip]
-      Content-Type: [text/html; charset=utf-8]
-      Date: ['Sat, 05 Aug 2017 06:12:25 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: [idtz=1.54.18.192-877986974; domain=.kissmanga.com; path=/]
-      X-AspNet-Version: [4.0.30319]
-      X-AspNetMvc-Version: ['2.0']
-      X-Powered-By: [ASP.NET]
-    status: {code: 200, message: OK}
+      CF-RAY:
+      - 50b324cfdd27dd22-SIN
+      Connection:
+      - keep-alive
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Sat, 24 Aug 2019 06:07:03 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dc04656b1be3427b7a6c3d7ba334ca65f1566626823; expires=Sun, 23-Aug-20
+        06:07:03 GMT; path=/; domain=.mangadex.org; HttpOnly
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: OK
 - request:
     body: null
     headers:
-      Accept: ['*/*']
-      Accept-Encoding: ['gzip, deflate']
-      Connection: [keep-alive]
-      Cookie: [__cfduid=d7e9bcfc6a940b15a1e074042b2ccc7f91501913538; cf_clearance=fed9c6cc2ce1fabc94e298c2180c155a6c15a82b-1501913544-86400;
-          idtz=1.54.18.192-877986974; vns_readType1=1]
-      User-Agent: ['Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36']
+      Cookie:
+      - __cfduid=dc04656b1be3427b7a6c3d7ba334ca65f1566626823
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
     method: GET
-    uri: http://kissmanga.com/Manga/Naruto/_?id=290537
+    uri: https://mangadex.org/api/?id=333636&type=chapter
   response:
     body:
-      string: !!binary |
-        H4sIAAAAAAAAA7zdf3PbRpot4P9dtd8B4Uwi+SYS1d1vN0DZ1JQncSazm19lO7V7K0m5IBKSGJME
-        Q4K2fO/mu28BJI8ObVk6zu69qpo1CeJFA+gDoPEAM/vg8Sdf/fDli//949PsqplNsx9/+vu3//wy
-        6x31+/8evuz3v3rxVfYf37z47tvMHZ9kL5blfDVpJvW8nPb7T7/vZb2rplmc9vtv3rw5fhOO6+Vl
-        /8Wz/nW7LNcWbz8eNVR5PG7GvbMHj7sGr2fT+Wp4y2LcYDDYVHfzVuX47HEzaabV2YNnVTnOZuX8
-        snzwfblcN/X2nyyE8KCeTyfzKpvMs6vJ5VX2+7qcTpq3Dx73N8WPZ1VTZm1zR9Xv68nrYe/Let5U
-        8+boxdtF1ctGm2/DXlNdN/22+UfZ6KpcrqpmuG4ujope/5Zl/MfRT0+Ovqxni7KZnE95Mf98OqzG
-        lxWqFst6US2bt8PexflpOZ5N5iuaOxXhxNsg5B+Yf7F4ORnT/M65lJ8ULiY3CH7Q6589eLwaLSeL
-        JlstR9itryarVbe/jkf1rP+8m2HV/+33dbV86/Lj2WR+/NuqlzVvF9V2w38rX5ebBfXOHvc3n84e
-        ZA8eTyfzV9nVsrr4wMK3e7M/Wq36zWL6ctW8nVbHo9Xqb6+Hvpctq+mw101bXVVVs9fmaLXqNuBj
-        mlgvpnU5Plos68tltVq1Dd3fyK6NzXxX9bIZrZtsMqrnPaXdyay8rFb9i/J1W3I8GdW7Frpf+tdH
-        3aLaTfnk6OjnyUX2z6dZ+vXso/fdpHqZNlt07yZls2o8KYe91WhZVfNe1j97/MnP1Xw8ufj16Ghv
-        RfLdity7yI9b03yzph9uuPj/23B39MzLWTXsjatNgCdtB+PY6c4i2xPHl1floqmW2c15JPthcx45
-        2k2jny6WVZWV8/HeGeY4+2k++X1dZcuqHE/ml91WnWZPptNs0eYlO8p+W6+abF5V46yps9VoWU+n
-        7ae2IJtX100343EXHFr7V9XbN/VyvPrYVf8iG9dv5u3hccesX7y/eTfHYNdRXaZfrpajO/vlp+44
-        XPWfNqN+ceT9kT9xrh9dMYjej+rX1fL4t8Uln59uP9lsTls4RY3K9sREZ6CPqp7WH1V99i8P/uVB
-        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
-        j3R6Z/89mO9eNji5LmPps2H2c++X65D/ch38L9fp6fY/7pfrPPxynWz/cxi889vTX66D29SG0Pu1
-        fXntVUv328V3jP2qam3yy+XbRVP/6/Pj59888TEdtjPewTLU69PyvJpiQHI+7W1eydu99PK4381w
-        21PNdrbNe3b7ved2+3f/CeZJ7+yHedW9FvPBp5yul+1M6Awv29z6fPOW1d6+EfPeGm9n2nzbzvTu
-        Oofi1nXe5Pjo5OTkb5Px0A9OnAu9s90biicnJw8+uCkodSg1LnVCqUdp5FIvlAaUJi4NQqmhNOdS
-        E0ojSgsujUJpQumAS5NQmu9K/QmX5kJpgVLHpYVQOkCp59LB/aUOafKcJiekySFNniPhhDQ5pMlz
-        JJyQJoc0ee5XJ6TJIU2BO8cJaXJIU+A97IQ0OaQp8EHnhDQ5pClw/J2QJoc02d62CmlySJPt9auQ
-        Jo80GXeOF9LkkabIQfRCmjzSFDlNXkiTR5oSH3ReSJNHmtJeq0KaPNKU77UqpMkjTTl3jhfS5JGm
-        nE9rXkiTR5oKjr8X0uSRpoIz7IU0BaRpwK0GIU0BaRpwq0FIU9ilyZ9w5wQhTSGglA/1IKQpGEr3
-        VlhIU4go5YMuCGkKuzR5x2eJIKQp5Cjd6xwhTaFA6d5uEtIUBijlgy4IabITlPJuMiFNtkuT37s0
-        m5AmQ5r2rq8mpMmQpr3rqwlpMqTJc5pMSJMhTXvXVxPSZEjT3vXVhDQZ0hT2dpOQJkOawt5uEtJk
-        SNPe9dWENEWkKfBuikKaItK0d2mOQpoi0mS8m6KQpog07V3Vo5CmiDTtXdWjkKaINEU+cqKQpog0
-        7Q0IopCmiDTFvW0V0hSRpri3rUKaItKU+IwYhTQlpCnxGTEJaUpIU+JtTUKaEtKUOP5JSFNCmhKP
-        JZKQpoQ05Rz/JKQpIU1746YkpCkhTTl3ThLSlJCmnIOYhDQlpCnf61chTQlp2hvoJSFNOdKU80Uy
-        F9KUI005RyIX0pQjTTkfObmQphxp2huZ5kKacqSp4DTlQppypKngNOVCmnKkaW88nAtpypGmgtOU
-        C2nKkaaC05QLacqRpoLTlAtpKpCmgtNUCGkqkKa9sX8hpKlAmgpOUyGkqUCaCk5TIaSpQJoGnKZC
-        SFOBNA04TYWQpgJp2rvPKYQ0FUjTgNNUCGkqkKYBp6kQ0lQgTQNOUyGkaYA0DThNAyFNA6RpwJEY
-        CGkaIE0DjsRASNNgl6ZwwpEYCGkaGEo5EgMhTYOIUo7EQEjTIKGUIzEQ0jTIUcqRGAhpGhQo5UgM
-        hDQNBijdi8T9aXKw8MB3zU6wcAcLD3zX7AQLd7DwcDLgUi+UIk18w+0EC3ew8OAcl5pQijTxvboT
-        LNzBwgM/bXCChTtYeODbfCdYuIOFB37a4AQLd7DwwELgBAt3sPDATxucYOEOFh4YF5xg4Q4WHvhp
-        gxMs3MHCAz9tcIKFO1h4YNJwgoU7WHjgpw1OsHAHCw+sIU6wcAcLD57TJFi4g4UHhhQnWLiDhQd+
-        UOEEC3ew8MAG4wQLd7DwwAbjBAt3sPD2vwFHpUKaYOGB+cYJFu5g4SFwmgQLd7DwwE9WnGDhDhYe
-        GI2cYOEOFh74oYwTLNzBwgN7kxMs3MHCQ+A0CRbuYOGBqcoJFu5g4YGpygkW7mDhIXCaBAt3sPDA
-        yuUEC3ew8GCcJsHCHSw8GKdJsHAHCw9sa06wcAcLD8ZpEizcwcIDs5wTLNzBwoNxmgQLd7DwYJwm
-        wcIdLDwwBjrBwh0sPBinSbBwBwsPkdMkWLiDhQcmSCdYuIOFh8hpEizcwcID66UTLNzBwkPkNAkW
-        7mDhgeHTCRbuYOGBH6I6wcIdLDxETpNg4Q4WHphbnWDhDhYeIqdJsHAHCw+J0yRYuIOFB35g7AQL
-        d7DwwD7sBAt3sPCQOE2ChTtYeGBadoKFO1h4YFp2goU7WHjgh+NOsHAHCw+s0k6wcAcLD4nTJFi4
-        g4UHBm0nWLiDhQcGbSdYuIOFBwZtJ1i4g4UHBm0nWLiDhQcGbSdYuIOFBwZtJ1i4g4UHBm0nWLiD
-        hQcGbSdYuIOFBwZtJ1i4g4UHBm0nWLiDhQcGbSdYuIOFBwZtJ1i4g4UHBm0nWLiDhQcGbSdYuIOF
-        BwZtJ1i4g4UHBm0nWLiDhQcGbSdYuIOFBwZtJ1i4g4UHBm0nWLiDhQcGbSdYuIOFBwZtJ1i4g4UH
-        Bm0nWLiDhQcGbSdYuIOFBwZtJ1i4g4UHBm0nWLiDhQcGbSdYuIOFBwZtJ1i4g4UHBm0nWLiDhQd+
-        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
-        wP0g7oflGo6B+0HcD8s1HAP3g7gfWrZs4H4Q98Nyu8fA/SDuh0/ZsoH7QdwPn7JlA/eDuB+Wu0gG
-        7gdxP3zKlg3cD+J+WK44GbgfxP3wKVs2cD+I++FTtmzgfhD3w3Ihy8D9IO6HT9mygftB3A/fsmUD
-        94O4H5brYwbuB3E/fMuWDdwP4n5YbqUZuB/E/fAtWzZwP4j7YbnsZuB+EPfDUpRl4H4Q98O3bNnA
-        /SDuh+VqnoH7QdwP37JlA/eDuB9+ZcsG7gdxPywlZAbuB3E/LP0EBu4HcT/8ypYN3A/iflhqDwzc
-        D+J+WGoPDNwP4n5YCt4M3A/ifljaFAzcD+J++JUtG7gfxP2wlDQYuB/E/bCUNBi4H8T9sJQ0GLgf
-        xP2wlDQYuB/E/bCUNBi4H8T9sJQ0GLgfxP2wlDQYuB/E/bCUNBi4H8T9sJQ0GLgfxP2wlDQYuB/E
-        /bCUNBi4H8T9sJQ0GLgfxP2wlDQYuB/E/bCUNBi4H8T9sJQ0GLgfxP2wlDQYuB/E/bCUNBi4H8T9
-        sJQ0GLgfxP2wlDQYuB/E/bCUNBi4H8T9sJQ0GLgfxP2wlDQYuB/E/bCUNBi4H8T9sJQ0+NP9+AEA
-        AP//vN0xEQAwEAJBTcfjX1s6DJDBAd11y8+1aVkpaTBwP4j7caWkwcD9IO7HlZIGA/eDuB9XShoM
-        3A/iflz5CMbA/SDux5XuBwP3g7gfV7ofDNwP4n64dD8YuB/E/XDpfjBwP4j74dL9YOB+EPfDpfvB
-        wP0g7odL94OB+0HcD5fuBwP3g7gfLt0PBu6H4n64dD80cD8U98Ol+6GB+6G4Hy7dDw3cD8X9cOl+
-        aOB+KO6HS/dDA/dDcT9cuh8auB+K++HS/dDA/VDcD5fuhwbuh+J+uHQ/NHA/FPfDpfuhgfuhuB8u
-        3Q8N3A/F/XDpfjwAAAD//7zcMQ0AAAzDME5R+WPbFwLVaiBm8H7g+5Hy/WDwfuD7kfL9YPB+4PuR
-        8v1g8H7g+5Hy/WDwfuD7kfL9YPB+4PuR8v1g8H7g+5Hy/WDwfuD7kfL9YPB+4PuR8v1g8H7g+5Hy
-        /WDwfuD7kfL9YPB+4PuR8v1g8H7g+5Hy/WDwfuD7kfL9YPB+4PuR8v1g8H7g+5Hy/WDwfuD7kfL9
-        YPB+4PuR8v1g8H7g+5Hy/WDwfuD7kfL9YPB+4PuR8v1g8H7g+5Hy/WDwfuD7kfL94PX9OAAAAP//
-        vNyxDQAxAMLAnSyU/UdL808GsMQGVLi7f21bJt0PBu4HdT8i3Q8G7gd1PyLdDwbuB3U/It0PBu4H
-        dT8i3Q8G7gd1PyLdDwbuB3U/It0PBu4HdT8i3Q8G7gd1PyLdDwbuB3U/It0PBu4HdT8i3Q8G7gd1
-        PyLdDwbuB3U/It0PBu4HdT8i3Q8G7gd1PyLdDwbuB3U/It0PBu4HdT8i3Q8G7gd1PyLdDwbuB3U/
-        It0PBu4HdT8i3Q8G7gd1PyLdDwbuB3U/It0PBu4HdT8i3Q8G7gd1PyLdDwbuB3U/It0PBu4H5z2Y
-        bNlAe+C8B5MtG2gPnPdgsmUD7YFqD5HuBwPtgWoPke4HA+2Bag+R7gcD7YFqD5HuBwPtgWoPke4H
-        A+2Bag+R7gcD7YFqD5HuBwPtgWoPke4HA+2Bag+R7gcD7YFqD5HuBwPtgWoPke4HA+2Bag+R7gcD
-        7YFqD5HuBwPtgWoPke4HA+2Bag+R7gcD7YFqD5HuBwPtgWoPke4HA+2Bag+R7gcD7YFqD5HuBwPt
-        gU97uAAAAP//vNwxqlQBFATRPd16PS5IJzPT/SMmPcEHERpqB5VVdv7Wji8TtIer9vCM7scJ2sNV
-        e3hG9+ME7eGqPTyj+3GC9nDVHp7R/ThBe7hqD8/ofpygPVy1h2d0P07QHq7awzO6HydoD/fRHkb3
-        4wTt4T7aw+h+nKA93Ed7GN2PE7SHq/aQ0f04QXu4ag8Z3Y8TtIer9pDR/ThBe7hqDxndjxO0B6o9
-        ZHQ/ELQHqj1kdD8QtAeqPWR0PxC0B6o9ZHQ/ELQHqj1kdD8QtAeqPWR0PxC0B6o9ZHQ/ELQHqj1k
-        dD8QtAeqPWR0PxC0B6o9ZHQ/ELQHqj1kdD8QtAeqPWR0PxC0B6o9ZHQ/ELQHqj1kdD8QtAeqPWR0
-        PxC0B6o9ZHQ/ELQHqj1kdD8QtAeqPWR0PxC0B6o9ZHQ/ELQHqj1kdD8QtAeqPWR0PxC0B6o9ZHQ/
-        ELQHqj1kdD8QtAeqPWR0PxC0B6o9ZHQ/ELQHqj1kdD8QtAeqPWR0PxC0B6o9ZHQ/ELQHqj1kdD8Q
-        tAeqPWR0PxC0B6o9ZHQ/ELQHqj1kdD8QtAeqPWR0PxC0B6o95J/ux6/3z/f33+8f/1MtPK3qQ0b/
-        A0F9oOpDRv8DQX2g6kNG/wNBfaDqQ0b/A0F9oOpDRv8DQX2g6kNG/wNBfaDqQ0ZRA0F9oOpDRlED
-        QX2g6kNGUQNBfaDqQ0ZRA0F9oOpDRlEDQX2g6kNGUQNBfaDqQ0ZRA0F9oOpDRlEDQX2g6kNGUQNB
-        faDqQ0ZRA0F9oOpDRlEDQX2g6kNGUQNBfaDqQ0ZRA0F9oOpDRlEDQX2g6kNGUQNBfaDqQ0ZRA0F9
-        oOpDRlEDQX2g6kNGUQNBfaDqQ0ZRA0F9oOpDRlEDQX3g1ZeNogYv4WWvvmwUNXgJL3v1ZaOowUt4
-        Wf2PjKIGgv9B/Y+MRgWC/0H9j4xGBYL/Qf2PjEYFgv9B/Y+MRgWC/0H9j4xGBYL/Qf2PfFvvILys
-        /kdGowLB/6D+R0ajAsH/oP5HRqMCwf+g/kdGowLB/6D+R0ajAsH/oP5HRqMCwf+g/kdGowLB/6D+
-        R0b1AcH/oP5HRvUBwf+g/ke+qA9/AAAA//+83VFzG8eVBeD3rcp/mGVKK6cSiLTm3tM9sqQtWd5y
-        Uo5jb+x11tra2hoSQxIWiEGAESXl128BoI5FOnGcOs55oUgU0D23pwdXL+frf/RqDb2M/keKjkJr
-        8D9a+h8pOgqtwf9o6X+k6Ci0Bv+jpf+RokzQGvyPlv5HijJBa/A/WvofKcoErcH/aOl/pCgTtAb/
-        o6X/kaJM0Br8j5b+R4oyQWvwP1r6H9mp3cHQy+h/pCgTtAb/o6X/AVEmaA3+R0v/A6JM0Br8j5b+
-        B0SZoDX4Hy39D4gyQWvwP1r6H1BlAoP/0dL/gCoTGPyPlv4HVJnA4H+09D+gygQG/6Ol/wFVJjD4
-        H0H/A6JMEAb/I+h/QJQJwuB/BP0PiDJBGPyPoP8BUSYIg/8R9D8gygRh8D+C/gdEmSAM/kfQ/4Ao
-        E4TB/wj6HxBlgjD4H0H/A6JMEAb/I+h/QJQJwuB/BP0PiDJBGPyPoP8BUSYIg/8R9D8gygRh8D+C
-        /gdEmSAM/kfQ/4AoE4TB/wj6HxBlgjD4H0H/A6JMEAb/I+h/QJQJwuB/BP0PiDJBGPyPoP8BUSYI
-        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
-        iULE7SpacxXsi6IccbuKMFfBfimKErerSHMV7KPi+ci3q4C5CvZX0cu4XUUxV8G+Kzoat6uo5irY
-        j8Vzlm9X0XmroGnSRfx8VXxo7dmzj8f9S3vK8OuRBf1sLbw5THBgC78erbV92i/mw4o1/XxN/TDw
-        P72WrxbzYfbVNG7ezk7Iq3UiRLIbtNkP2pz8bNLa4+PtsBzOpjsfeHw8X1zffW2+uG6209vl8OTo
-        fDn206NmOZxPHzXrfj5frC5mu78eNQ9P1m+O/sr8f2XuvrncDOdPji6naf3o+PjlYru96lcX/YOz
-        8er4891vx4fab/6ZtUxmZoujv1Hk48XVRXO27LfbJ/dPp9WXm+F6Mb7a3m+2m7O/MdfzcTUNq+l4
-        cdVfDNvj9c1HHqxXFz9yy6bFtFuL3QTN2WW/nobNUXM6bubD5snRyVFz/PTxcf/031an2/VHh5//
-        rFUJrkr9iavyh+HN9A+syGp4M/201dgN/COr8fdW4O7G+8Hf/zqbNf+xmjfPD1Nsm341b9a7i2xm
-        s/ffuNuth3qPzpZDv3l4d2UOt+QHE/xw4//iX3hPfvlukP1yvlfdzXNxPWymxVm/nPXLxcXqUXO1
-        mM+Xw9Fhobmovzss6qv1cvflvTgbV/u1vdkq/3OY4eP+7OWeix3Xzf/ulu7mUnZ1LeZPjuaL64/H
-        8eVVv3nJ6c/H1TR7PSwuLqdHzem4nH//cE7j+vazefj5/u7c13T7Sm9u/6vtsJltr/rlcn+hP17t
-        e7v8qt9cLFaz03GaxqtHTX4/+5fLod8O32/249+PF4vVv2+G+WIznE1P7j0832/1ew/PD7v83sPz
-        /7vXni/m99r5fqeX9+/n/tP7RRo37w36x+Fisd1txKfvftu/ZxqbV7vJT5++W8HHx6dPm/Ohn15t
-        hnfL825n/MhmvLvHfuIWW995258W02Wzf/Z+06wPC7MZ+nkzrC6Wi+1lsz3rV824Wi5WQ3O+Ga+a
-        ze4O78rYfeU+OHz+8351+br/4LNxM/SrX92eYNw0z8erxdlPG3036G7w/SwP7jyfp5vm+G5jOH36
-        7fiq2Q1zdjneDL9YXTTT2/XQ3P9iNewf0PvH958tl4dn9X4zrnY7+0GzW/n3V3gtPsO3ft+ebRbr
-        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
-        hBLJDRILAwA=
+      string: '{"id":333636,"timestamp":1527491643,"hash":"fc5c4d2c2bd416058aef372872c08ca0","volume":"4","chapter":"16.5","title":"Intermission","lang_name":"English","lang_code":"gb","manga_id":9570,"group_id":242,"group_id_2":0,"group_id_3":0,"comments":null,"server":"https:\/\/s4.mangadex.org\/data\/","page_array":["D1.png","D2.png","D3.png","D4.png","D5.png","D6.png"],"long_strip":0,"status":"OK"}'
     headers:
-      CF-RAY: [38979ac9470631c2-SIN]
-      Cache-Control: [private]
-      Connection: [keep-alive]
-      Content-Encoding: [gzip]
-      Content-Type: [text/html; charset=utf-8]
-      Date: ['Sat, 05 Aug 2017 06:12:26 GMT']
-      Server: [cloudflare-nginx]
-      X-AspNet-Version: [4.0.30319]
-      X-AspNetMvc-Version: ['2.0']
-      X-Powered-By: [ASP.NET]
-    status: {code: 200, message: OK}
-- request:
-    body: null
-    headers:
-      Accept: ['*/*']
-      Accept-Encoding: ['gzip, deflate']
-      Connection: [keep-alive]
-      Content-Length: ['0']
-      Cookie: [__cfduid=d7e9bcfc6a940b15a1e074042b2ccc7f91501913538; cf_clearance=fed9c6cc2ce1fabc94e298c2180c155a6c15a82b-1501913544-86400;
-          idtz=1.54.18.192-877986974]
-      User-Agent: ['Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36']
-    method: POST
-    uri: http://kissmanga.com/Search/SearchSuggest?type=Manga&keyword=sayonara+football
-  response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA7JJVMgoSk2zVcooKSmw0tfPziwuzk3MS0/US87P1fcFsfSDEyvz8xKLEnXd8vNL
-        khJzcpTsbIoLEvPsYBIKMAkbfbA4AAAA//+y0U+0AwAAAP//AwDexcYZWQAAAA==
-    headers:
-      CF-RAY: [38979ad4048331c2-SIN]
-      Cache-Control: [private]
-      Connection: [keep-alive]
-      Content-Encoding: [gzip]
-      Content-Type: [text/html; charset=utf-8]
-      Date: ['Sat, 05 Aug 2017 06:12:27 GMT']
-      Server: [cloudflare-nginx]
-      X-AspNet-Version: [4.0.30319]
-      X-AspNetMvc-Version: ['2.0']
-      X-Powered-By: [ASP.NET]
-    status: {code: 200, message: OK}
-- request:
-    body: null
-    headers:
-      Accept: ['*/*']
-      Accept-Encoding: ['gzip, deflate']
-      Connection: [keep-alive]
-      Content-Length: ['0']
-      User-Agent: ['Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36']
-    method: POST
-    uri: http://www.mangapanda.com/search/?w=sayonara+football
-  response:
-    body:
-      string: !!binary |
-        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
-    headers:
-      Accept-Ranges: [bytes]
-      Cache-Control: ['no-cache, must-revalidate']
-      Connection: [keep-alive]
-      Content-Encoding: [gzip]
-      Content-Length: ['4832']
-      Content-Type: [text/html; charset=utf-8]
-      Date: ['Sat, 05 Aug 2017 06:12:28 GMT']
-      Expires: ['Tue, 01 Nov 1980 15:00:00 GMT']
-      Pragma: [no-cache]
-      Server: [lighttpd/1.4.35]
-      Vary: [Accept-Encoding]
-      X-Content-Type-Options: [nosniff]
-    status: {code: 200, message: OK}
+      CF-RAY:
+      - 50b324d4c8bcdd22-SIN
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 24 Aug 2019 06:07:05 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: OK
 version: 1

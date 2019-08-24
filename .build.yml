@@ -1,0 +1,16 @@
+image: archlinux
+
+packages:
+  - python-setuptools
+  - poetry
+
+sources:
+  - https://github.com/nhanb/fundoshi.git#reorg
+
+tasks:
+  - setup: |
+      cd fundoshi
+      poetry install
+  - build: |
+      cd fundoshi
+      make test
