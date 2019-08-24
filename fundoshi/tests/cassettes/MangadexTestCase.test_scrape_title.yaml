@@ -1,0 +1,2154 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Cookie:
+      - __cfduid=d36f9980cd4d4569e6a9f7667871104a41566630953
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+    method: GET
+    uri: https://mangadex.org/title/2597
+  response:
+    body:
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\"
+        />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" />\n\n<meta
+        name=\"robots\" content=\"index,follow\" />\n<meta name=\"author\" content=\"MangaDex\"
+        />\n<meta name=\"description\" content=\"Nozomi wants to enter the newcomer's
+        competition. But the coach is against it, because their club is a boy's football
+        club and she's... a she. Will she be able to enter the match she wants to
+        play in?\" />\n<meta name=\"keywords\" itemprop=\"keywords\" content=\"Sayonara
+        Football, Sayonara Football Manga, Read Sayonara Football online, Sayonara
+        Football online, Sayonara Football online For Free, Read Sayonara Football
+        chapters for free, Sayonara Football series, Sayonara Football chapters, Sayonara
+        Football scans, Sayonara Football mangadex\" />\n<meta name=\"theme-color\"
+        content=\"#eeeeee\">\n<meta property=\"og:site_name\" content=\"MangaDex\"
+        />\n<meta property=\"og:title\" content=\"Sayonara Football (Title) - MangaDex\"
+        />\n<meta property=\"og:image\" content=\"https://mangadex.org/images/manga/2597.thumb.jpg\"
+        />\n<meta property=\"og:url\" content=\"https://mangadex.org/title/2597\"
+        />\n<meta property=\"og:description\" content=\"Nozomi wants to enter the
+        newcomer's competition. But the coach is against it, because their club is
+        a boy's football club and she's... a she. Will she be able to enter the match
+        she wants to play in?\" />\n<meta property=\"og:type\" content=\"website\"
+        />\n<meta name=\"twitter:site\" content=\"@mangadex\" />\n<link rel=\"icon\"
+        type=\"image/png\" sizes=\"96x96\" href=\"/favicon-96x96.png?1\">\n<link rel=\"icon\"
+        type=\"image/png\" sizes=\"192x192\" href=\"/favicon-192x192.png?1\">\n<link
+        rel=\"manifest\" href=\"/manifest.json\" crossOrigin=\"use-credentials\">\n<link
+        rel='canonical' href='https://mangadex.org/title/2597/sayonara-football' />
+        <title>Sayonara Football (Title) - MangaDex</title>\n\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\n\tnew
+        Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\n\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n\t})(window,document,'script','dataLayer','GTM-TS59XX9');</script>\n\n\n<link
+        href=\"https://fonts.googleapis.com/css?family=Ubuntu:regular,regularitalic,bold\"
+        rel=\"stylesheet\">\n\n<link href=\"/bootstrap/css/bootstrap.css?1531971506\"
+        rel=\"stylesheet\" />\n\n<link href=\"/bootstrap/css/bootstrap-select.min.css\"
+        rel=\"stylesheet\" />\n\n<link href=\"/scripts/owl/assets/owl.carousel.min.css\"
+        rel=\"stylesheet\" />\n<link href=\"/scripts/owl/assets/owl.theme.default.min.css\"
+        rel=\"stylesheet\" />\n\n<link href=\"/fontawesome/css/all.css\" rel=\"stylesheet\"
+        />\n\n<link href=\"/scripts/lightbox2/css/lightbox.min.css\" rel=\"stylesheet\">\n\n<link
+        href=\"/scripts/css/theme.css?1562882456\" rel=\"stylesheet\" />\n<link href=\"/scripts/css/Light.css?1534107774\"
+        rel=\"stylesheet\" />\n<script type=\"module\" src=\"/dist/js/bundle.prod.js?1560041198\"></script>\n</head>\n<body>\n\n<noscript><iframe
+        src=\"https://www.googletagmanager.com/ns.html?id=GTM-TS59XX9\"\theight=\"0\"
+        width=\"0\" style=\"display:none; visibility:hidden\"></iframe></noscript>\n\n\n<nav
+        class=\"navbar fixed-top navbar-expand-lg text-nowrap navbar-light bg-light\">\n<div
+        class=\"container\">\n<button class=\"navbar-toggler mr-auto\" type=\"button\"
+        data-toggle=\"modal\" data-target=\"#left_modal\">\n<span class=\"navbar-toggler-icon\"></span>\n</button>\n<a
+        class=\"p-0 navbar-brand\" href=\"https://mangadex.org/\"><img class=\"mx-2\"
+        height=\"38px\" src=\"/images/misc/navbar.svg?3\" alt=\"MangaDex\" title=\"MangaDex\"
+        /> <small class=\"d-lg-none d-xl-inline\">MangaDex</small></a>\n<button class=\"navbar-toggler
+        ml-auto\" type=\"button\" data-toggle=\"modal\" data-target=\"#homepage_settings_modal\">\n<span
+        class=\"navbar-icon\"><span class='fas fa-cog fa-fw ' aria-hidden='true'></span></span>\n</button>\n<div
+        class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n<ul class=\"navbar-nav
+        mr-auto\">\n<li class=\"nav-item dropdown mx-1\">\n<a href=\"#\" class=\"nav-link
+        dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\"
+        aria-expanded=\"false\"><span class='fas fa-book fa-fw ' aria-hidden='true'></span>
+        Manga</a>\n<div class=\"dropdown-menu\">\n<a class=\"dropdown-item \" href=\"/titles\"><span
+        class='fas fa-book fa-fw ' aria-hidden='true'></span> Titles</a>\n<a class=\"dropdown-item
+        \" href=\"/updates\"><span class='fas fa-sync fa-fw ' aria-hidden='true'></span>
+        Updates</a>\n<a class=\"dropdown-item \" href=\"/search\"><span class='fas
+        fa-search fa-fw ' aria-hidden='true'></span> Search</a>\n<a class=\"dropdown-item
+        \" href=\"/featured\"><span class='fas fa-tv fa-fw ' aria-hidden='true'></span>
+        Featured</a>\n<a class=\"dropdown-item\" href=\"/manga\"><span class='fas
+        fa-question-circle fa-fw ' aria-hidden='true'></span> Random</a>\n<a class=\"dropdown-item
+        \" href=\"/manga_new\"><span class='fas fa-plus-circle fa-fw ' aria-hidden='true'></span>
+        Add</a>\n</div>\n</li>\n<li class=\"nav-item mx-1\" id=\"login\">\n<a class=\"nav-link\"
+        href=\"/login\" title=\"You need to log in.\"><span class='fas fa-bookmark
+        fa-fw ' aria-hidden='true'></span> Follows</a>\n</li>\n<li class=\"nav-item
+        mx-1 dropdown\">\n<a href=\"#\" class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\"
+        role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas
+        fa-users fa-fw ' aria-hidden='true'></span> Community</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item\" href=\"/forums\"><span class='fas fa-university fa-fw
+        ' aria-hidden='true' title='Forums'></span> Forums</a>\n<a class=\"dropdown-item\"
+        href=\"/groups\"><span class='fas fa-users fa-fw ' aria-hidden='true' title='Groups'></span>
+        Groups</a>\n<a class=\"dropdown-item\" href=\"/users\"><span class='fas fa-user
+        fa-fw ' aria-hidden='true' title='Users'></span> Users</a>\n<a class=\"dropdown-item\"
+        href=\"https://discord.gg/Y2YKXUP\" target=\"_blank\" rel=\"nofollow\"><span
+        class='fab fa-discord fa-fw ' aria-hidden='true' title='Rules'></span> Discord</a>\n<a
+        class=\"dropdown-item\" href=\"https://twitter.com/MangaDex\" target=\"_blank\"
+        rel=\"nofollow\"><span class='fab fa-twitter fa-fw ' aria-hidden='true' title='Twitter'></span>
+        Twitter</a>\n<a class=\"dropdown-item\" href=\"https://www.reddit.com/r/mangadex\"
+        target=\"_blank\" rel=\"nofollow\"><span class='fab fa-reddit fa-fw ' aria-hidden='true'
+        title='Reddit'></span> Reddit</a>\n<a class=\"dropdown-item\" href=\"https://mangadexofficial.tumblr.com/\"
+        target=\"_blank\" rel=\"nofollow\"><span class='fab fa-tumblr fa-fw ' aria-hidden='true'
+        title='Tumblr'></span> Tumblr</a>\n<a class=\"dropdown-item\" href=\"irc://irc.rizon.net/mangadex\"
+        rel=\"nofollow\"><span class='fas fa-hashtag fa-fw ' aria-hidden='true' title='IRC'></span>
+        IRC</a>\n</div>\n</li>\n<li class=\"nav-item mx-1 dropdown\">\n<a href=\"#\"
+        class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\"
+        aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas fa-info-circle
+        fa-fw ' aria-hidden='true'></span> Info</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item\" href=\"/stats\"><span class='fas fa-clipboard-list
+        fa-fw ' aria-hidden='true' title='Stats'></span> Stats</a>\n<a class=\"dropdown-item\"
+        href=\"/rules\"><span class='fas fa-list fa-fw ' aria-hidden='true' title='Rules'></span>
+        Rules</a>\n<a class=\"dropdown-item\" href=\"/about\"><span class='fas fa-info
+        fa-fw ' aria-hidden='true' title='About'></span> About</a>\n<a class=\"dropdown-item\"
+        href=\"/changelog\"><span class='fas fa-code fa-fw ' aria-hidden='true' title='Change
+        log'></span> Change log</a>\n<a class=\"dropdown-item\" href=\"/affiliates\"><span
+        class='far fa-handshake fa-fw ' aria-hidden='true' title='Affiliates'></span>
+        Affiliates</a>\n</div>\n</li>\n</ul>\n<form id=\"quick_search_form\" method=\"get\"
+        action=\"/quick_search\" role=\"search\" class=\"form-inline mx-1 quick-search\">\n<div
+        class=\"input-group\">\n<div class=\"input-group-prepend\">\n<select class=\"form-control\"
+        id=\"quick_search_type\" name=\"type\">\n<option value=\"all\">All</option>\n<option
+        selected value=\"titles\">Manga</option>\n<option value=\"groups\">Groups</option>\n<option
+        value=\"users\">Users</option>\n</select>\n</div>\n<input type=\"text\" class=\"form-control\"
+        placeholder=\"Quick search\" name=\"term\" id=\"quick_search_input\" required>\n<span
+        class=\"input-group-append\">\n<button class=\"btn btn-secondary\" type=\"submit\"
+        id=\"quick_search_button\" name=\"submit\"><span class='fas fa-search fa-fw
+        ' aria-hidden='true'></span></button>\n</span>\n</div>\n</form>\n<ul class=\"navbar-nav\">\n<li
+        class=\"d-none d-lg-block nav-item mx-1\" id=\"homepage_cog\">\n<a class=\"nav-link\"
+        href=\"#\" title=\"Settings\" data-toggle=\"modal\" data-target=\"#homepage_settings_modal\"><span
+        class='fas fa-cog fa-fw ' aria-hidden='true' title='Settings'></span></a>\n</li>\n<li
+        class=\"nav-item mx-1 dropdown\">\n<a href=\"#\" class=\"nav-link dropdown-toggle\"
+        data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n<span
+        class='fas fa-user-times fa-fw ' aria-hidden='true'></span> <span class=\"d-lg-none
+        d-xl-inline\" style=\"color: #000\">Guest</span>\n</a>\n<div class=\"dropdown-menu
+        dropdown-menu-right\">\n<a class=\"dropdown-item\" href=\"/login\"><span class='fas
+        fa-sign-in-alt fa-fw ' aria-hidden='true' title='Log in'></span> Log in</a>\n<a
+        class=\"dropdown-item\" href=\"/signup\"><span class='fas fa-pencil-alt fa-fw
+        ' aria-hidden='true' title='Sign up'></span> Sign up</a>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</nav>\n<div
+        class=\"container\" role=\"main\" id=\"content\">\n<div id=\"announcement\"
+        class=\"alert alert-success fade show text-center\" role=\"alert\">\n<strong>Announcement
+        (Aug-24):</strong> MangaDex Gaming Community <a title=\"Go to forum thread\"
+        href=\"/thread/166175\"><span class='fas fa-external-link-alt fa-fw ' aria-hidden='true'
+        title='Forum thread'></span></a></div>\n<div class=\"card mb-3\">\n<h6 class=\"card-header
+        d-flex align-items-center py-2\">\n<span class='fas fa-book fa-fw ' aria-hidden='true'></span>
+        <span class=\"mx-1\">Sayonara Football</span>\n<span class='rounded flag flag-jp'
+        title='Japanese'></span> <span class=\"ml-1\"></span>\n<a class='ml-auto'
+        href='/login'><span title='Due to the volume of bots spamming RSS links, this
+        now requires an account to use.' class='fas fa-rss fa-2x'></span></a> </h6>\n<div
+        class=\"card-body p-0\">\n<div class=\"row edit\">\n<div class=\"col-xl-3
+        col-lg-4 col-md-5\">\n<a href=\"/title/2597/sayonara-football/covers/\" title=\"See
+        covers\">\n<img class=\"rounded\" width=\"100%\" src=\"/images/manga/2597.jpg?1529345075\"
+        />\n</a>\n</div>\n<div class=\"col-xl-9 col-lg-8 col-md-7\">\n<div class=\"row
+        m-0 py-1 px-0\">\n<div class=\"col-lg-3 col-xl-2 strong\">Alt name(s):</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<ul class=\"list-inline m-0\">\n<li class='list-inline-item'><span
+        class='fas fa-book fa-fw ' aria-hidden='true'></span> Adi&oacute;s al f&uacute;tbol</li><li
+        class='list-inline-item'><span class='fas fa-book fa-fw ' aria-hidden='true'></span>
+        \u3055\u3088\u306A\u3089\u30D5\u30C3\u30C8\u30DC\u30FC\u30EB</li><li class='list-inline-item'><span
+        class='fas fa-book fa-fw ' aria-hidden='true'></span> \u518D\u89C1\u8DB3\u7403</li>
+        </ul>\n</div>\n</div>\n<div class=\"row m-0 py-1 px-0 border-top\">\n<div
+        class=\"col-lg-3 col-xl-2 strong\">Author:</div>\n<div class=\"col-lg-9 col-xl-10\">\n<a
+        href=\"/search?author=Arakawa Naoshi\" title=\"Other manga by this author\">Arakawa
+        Naoshi</a> </div>\n</div>\n<div class=\"row m-0 py-1 px-0 border-top\">\n<div
+        class=\"col-lg-3 col-xl-2 strong\">Artist:</div>\n<div class=\"col-lg-9 col-xl-10\">\n<a
+        href=\"/search?artist=Arakawa Naoshi\" title=\"Other manga by this artist\">Arakawa
+        Naoshi</a> </div>\n</div>\n<div class=\"row m-0 py-1 px-0 border-top\">\n<div
+        class=\"col-lg-3 col-xl-2 strong\">Demographic:</div>\n<div class=\"col-lg-9
+        col-xl-10\"><span class=\"badge badge-secondary\"><a class=\"genre\" href=\"/search?demo_id=1\"
+        title=\"Search for Shounen titles\">Shounen</a></span></div>\n</div>\n<div
+        class='row m-0 py-1 px-0 border-top'>\n<div class='col-lg-3 col-xl-2 strong'>Genre:</div>\n<div
+        class='col-lg-9 col-xl-10'><a class='badge badge-secondary' href='/genre/5'>Comedy</a>
+        <a class='badge badge-secondary' href='/genre/8'>Drama</a> <a class='badge
+        badge-secondary' href='/genre/23'>Romance</a> <a class='badge badge-secondary'
+        href='/genre/33'>Sports</a> </div></div><div class='row m-0 py-1 px-0 border-top'>\n<div
+        class='col-lg-3 col-xl-2 strong'>Theme:</div>\n<div class='col-lg-9 col-xl-10'><a
+        class='badge badge-secondary' href='/genre/24'>School Life</a> <a class='badge
+        badge-secondary' href='/genre/59'>Crossdressing</a> </div></div> <div class=\"row
+        m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Rating:</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<ul class=\"list-inline m-0\">\n<li class=\"list-inline-item\"><span
+        class=\"text-primary\"><span class='fas fa-star fa-fw ' aria-hidden='true'
+        title='Bayesian rating'></span> 7.90</span> </li>\n<li class=\"list-inline-item
+        small\"><span class='fas fa-star fa-fw ' aria-hidden='true' title='Mean rating'></span>
+        7.80</li>\n<li class=\"list-inline-item small\"><span class='fas fa-user fa-fw
+        ' aria-hidden='true' title='Users'></span> 10</li>\n<li class=\"list-inline-item\"><button
+        type=\"button\" class=\"btn btn-secondary btn-xs\" id=\"histogram_toggle\"><span
+        class='fas fa-chart-bar fa-fw ' aria-hidden='true'></span></button></li>\n</ul>\n<div
+        id=\"histogram_div\" class=\"display-none\"><canvas id=\"ratings_histogram\"
+        data-json=\"[9,7,7,8,8,7,7,10,7,8]\"></canvas></div>\n</div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Pub.
+        status:</div>\n<div class=\"col-lg-9 col-xl-10\">Completed</div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Stats:</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<ul class=\"list-inline m-0\">\n<li class=\"list-inline-item
+        text-info\"><span class='fas fa-eye fa-fw ' aria-hidden='true' title='Views'></span>
+        3,128</li>\n<li class=\"list-inline-item text-success\"><span class='fas fa-bookmark
+        fa-fw ' aria-hidden='true' title='Follows'></span> 180</li>\n<li class=\"list-inline-item\"><span
+        class='far fa-file fa-fw ' aria-hidden='true' title='Total chapters'></span>
+        8</li>\n</ul>\n</div>\n</div>\n<div class=\"row m-0 py-1 px-0 border-top\">\n<div
+        class=\"col-lg-3 col-xl-2 strong\">Description:</div>\n<div class=\"col-lg-9
+        col-xl-10\">Nozomi wants to enter the newcomer's competition. But the coach
+        is against it, because their club is a boy's football club and she's... a
+        she. Will she be able to enter the match she wants to play in?</div>\n</div>\n<div
+        class='row m-0 py-1 px-0 border-top'>\n<div class='col-lg-3 col-xl-2 strong'>Related:</div>\n<div
+        class='col-lg-9 col-xl-10'>\n<ul style='margin-bottom: 0;' class='list-unstyled'><li><span
+        class='fas fa-book fa-fw ' aria-hidden='true'></span> <a class='' title='Sayonara
+        Watashi no Cramer' href='/title/20442/sayonara-watashi-no-cramer'>Sayonara
+        Watashi no Cramer</a> <span class='small'>(Sequel)</span></li></ul>\n</div>\n</div>\n<div
+        class='row m-0 py-1 px-0 border-top'>\n<div class='col-lg-3 col-xl-2 strong'>Official:</div>\n<div
+        class='col-lg-9 col-xl-10'><ul class='list-inline mb-0'><li class='list-inline-item'><span
+        class='fas fa-external-link-alt fa-fw ' aria-hidden='true'></span> <a rel='noopener
+        noreferrer' target='_blank' href='https://kodanshacomics.com/series/sayonara-football/'>Official
+        English</a></li></ul></div>\n</div>\n<div class='row m-0 py-1 px-0 border-top'>\n<div
+        class='col-lg-3 col-xl-2 strong'>Retail:</div>\n<div class='col-lg-9 col-xl-10'><ul
+        class='list-inline mb-0'><li class='list-inline-item'><img src='/images/misc/amz.png'
+        /> <a rel='noopener noreferrer' target='_blank' href='https://www.amazon.co.jp/gp/product/B077LHXL85'>Amazon.co.jp</a></li><li
+        class='list-inline-item'><img src='/images/misc/bw.png' /> <a rel='noopener
+        noreferrer' target='_blank' href='https://bookwalker.jp/series/20831/'>Bookwalker</a></li><li
+        class='list-inline-item'><img src='/images/misc/ebj.png' /> <a rel='noopener
+        noreferrer' target='_blank' href='https://www.ebookjapan.jp/ebj/264286/'>eBookJapan</a></li></ul></div>\n</div>\n<div
+        class='row m-0 py-1 px-0 border-top'>\n<div class='col-lg-3 col-xl-2 strong'>Information:</div>\n<div
+        class='col-lg-9 col-xl-10'><ul class='list-inline mb-0'><li class='list-inline-item'><img
+        src='/images/misc/mu.png' /> <a rel='noopener noreferrer' target='_blank'
+        href='https://www.mangaupdates.com/series.html?id=43257'>MangaUpdates</a></li><li
+        class='list-inline-item'><img src='/images/misc/mal.png' /> <a rel='noopener
+        noreferrer' target='_blank' href='https://myanimelist.net/manga/26491'>MyAnimeList</a></li></ul></div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Reading
+        progress:</div>\n<div class=\"reading_progress col-lg-9 col-xl-10\">\n<ul
+        class=\"list-inline m-0\">\n<li class=\"list-inline-item\">\nVolume <span
+        id=\"current_volume\">0</span>/2 <button disabled title='You need to follow
+        this title to use this function.' type=\"button\" class=\"btn btn-success
+        btn-xs ml-1\" id=\"increment_volume\" data-title-id=\"2597\"><span class='fas
+        fa-plus-circle fa-fw ' aria-hidden='true'></span></button>\n</li>\n<li class=\"list-inline-item\">\nChapter
+        <span id=\"current_chapter\">0</span>/8 <button disabled title='You need to
+        follow this title to use this function.' type=\"button\" class=\"btn btn-success
+        btn-xs ml-1\" id=\"increment_chapter\" data-title-id=\"2597\"><span class='fas
+        fa-plus-circle fa-fw ' aria-hidden='true'></span></button>\n</li>\n<li class=\"list-inline-item\"><button
+        disabled title='You need to follow this title to use this function.' type=\"button\"
+        class=\"btn btn-info btn-xs ml-1\" id=\"edit_progress\"><span class='fas fa-pencil-alt
+        fa-fw ' aria-hidden='true'></span></button></li>\n</ul>\n</div>\n<div class=\"reading_progress
+        display-none col-lg-9 col-xl-10\">\n<form class=\"form-inline\" id=\"edit_progress_form\"
+        method=\"post\" data-title-id=\"2597\">\n<ul class=\"list-inline m-0\">\n<li
+        class=\"list-inline-item\"><input style=\"width: 60px;\" type=\"text\" class=\"form-control\"
+        id=\"volume\" name=\"volume\" value=\"\">/2</li>\n<li class=\"list-inline-item\"><input
+        style=\"width: 60px;\" type=\"text\" class=\"form-control\" id=\"chapter\"
+        name=\"chapter\" value=\"\">/8</li>\n<li class=\"list-inline-item\"><button
+        type=\"submit\" class=\"btn btn-success\" id=\"edit_progress_button\"><span
+        class='fas fa-save fa-fw ' aria-hidden='true'></span></button></li>\n<li class=\"list-inline-item\"><button
+        type=\"button\" class=\"btn btn-warning\" id=\"cancel_edit_progress\"><span
+        class='fas fa-undo fa-fw ' aria-hidden='true'></span></button></li>\n</ul>\n</form>\n</div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Actions:</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<button class='btn btn-secondary' id='upload_button'
+        disabled title='You need to log in to use this function.'><span class='fas
+        fa-upload fa-fw ' aria-hidden='true' title='Upload'></span> <span class='d-none
+        d-xl-inline'>Upload chapter</span></button> <button class='btn btn-secondary
+        ' disabled title='You need to log in to use this function.'><span class='fas
+        fa-bookmark fa-fw ' aria-hidden='true' title='Follow'></span> <span class='d-none
+        d-xl-inline'>Follow</span></button> <div class='btn-group '>\n<button disabled
+        title='You need to log in to use this function.' type='button' class='btn
+        btn-primary dropdown-toggle' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'><span
+        class='fas fa-star fa-fw ' aria-hidden='true'></span> <span class='caret'></span>\n</button>\n<div
+        class='dropdown-menu'><a class=' dropdown-item manga_rating_button' id='10'
+        data-manga-id='2597' href='#'>(10) Masterpiece</a><a class=' dropdown-item
+        manga_rating_button' id='9' data-manga-id='2597' href='#'>(9) Great</a><a
+        class=' dropdown-item manga_rating_button' id='8' data-manga-id='2597' href='#'>(8)
+        Very good</a><a class=' dropdown-item manga_rating_button' id='7' data-manga-id='2597'
+        href='#'>(7) Good</a><a class=' dropdown-item manga_rating_button' id='6'
+        data-manga-id='2597' href='#'>(6) Fine</a><a class=' dropdown-item manga_rating_button'
+        id='5' data-manga-id='2597' href='#'>(5) Average</a><a class=' dropdown-item
+        manga_rating_button' id='4' data-manga-id='2597' href='#'>(4) Bad</a><a class='
+        dropdown-item manga_rating_button' id='3' data-manga-id='2597' href='#'>(3)
+        Very bad</a><a class=' dropdown-item manga_rating_button' id='2' data-manga-id='2597'
+        href='#'>(2) Horrible</a><a class=' dropdown-item manga_rating_button' id='1'
+        data-manga-id='2597' href='#'>(1) Appalling</a></div>\n</div> <button type=\"button\"
+        title=\"You must be logged in to send a report\" class=\"btn btn-warning float-right
+        mr-1\" disabled><span class='fas fa-flag fa-fw ' aria-hidden='true'></span>
+        <span class=\"d-none d-xl-inline\">Report</span></button>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n<ul
+        class=\"edit nav nav-tabs\" role=\"tablist\">\n<li class=\"nav-item\">\n<a
+        class=\"nav-link active\" href=\"/title/2597/sayonara-football/chapters/\"><span
+        class='far fa-file fa-fw ' aria-hidden='true'></span> <span class=\"d-none
+        d-md-inline\">Chapters</span></a>\n</li>\n<li class=\"nav-item\">\n<a class=\"nav-link
+        \" href=\"/title/2597/sayonara-football/comments/\"><span class='fas fa-comments
+        fa-fw ' aria-hidden='true'></span> <span class=\"d-none d-md-inline\">Comments</span>
+        <span class='badge badge-secondary'>3</span></a>\n</li>\n<li class=\"nav-item\">\n<a
+        class=\"nav-link \" href=\"/title/2597/sayonara-football/covers/\"><span class='fas
+        fa-image fa-fw ' aria-hidden='true'></span> <span class=\"d-none d-md-inline\">Covers</span></a>\n</li>\n</ul>\n\n<div
+        class=\"edit tab-content\">\n<div class=\"chapter-container \">\n<div class=\"row
+        no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row d-flex row no-gutters
+        p-2 align-items-center border-bottom odd-row\">\n<div class=\"col-auto text-center
+        order-lg-1\" style=\"flex: 0 0 2.5em;\"><span class='fas fa-eye fa-fw ' aria-hidden='true'
+        title='Read'></span></div>\n<div class=\"col col-lg-5 row no-gutters pr-1
+        order-lg-2\"><span class='far fa-file fa-fw ' aria-hidden='true' title='Chapter'></span></div>\n<div
+        class=\"col text-right order-lg-3\" style=\"flex: 0 0 3em;\"><span class='fas
+        fa-comments fa-fw ' aria-hidden='true' title='Comments'></span></div>\n<div
+        class=\"col-2 col-lg-1 ml-1 text-right order-lg-8\"><span class='far fa-clock
+        fa-fw ' aria-hidden='true' title='Age'></span></div>\n<div class=\"w-100 d-lg-none\"></div>\n<div
+        class=\"col-auto text-center order-lg-4\" style=\"flex: 0 0 2.5em;\"><span
+        class='fas fa-globe fa-fw ' aria-hidden='true' title='Language'></span></div>\n<div
+        class=\"col order-lg-5\"><span class='fas fa-users fa-fw ' aria-hidden='true'
+        title='Group'></span></div>\n<div class=\"col-auto col-lg-1 text-right mx-1
+        order-lg-6\"><span class='fas fa-user fa-fw ' aria-hidden='true' title='Uploader'></span></div>\n<div
+        class=\"col-2 col-lg-1 text-right text-info order-lg-7\"><span class='fas
+        fa-eye fa-fw ' aria-hidden='true' title='Views'></span></div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84598\"
+        data-title=\"Epilogue\" data-chapter=\"8\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"1682\" data-uploader=\"norenolive\"
+        data-views=\"375\" data-timestamp=\"1518626424\" data-manga-id=\"2597\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/84598' class='text-truncate'>Vol. 2
+        Ch. 8 - Epilogue</a> <div> <span class=\"badge badge-primary mx-1\">END</span></div>\n</div>\n<div
+        class=\"col text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div
+        class=\"col-2 col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14
+        16:40:24 UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div
+        class=\"w-100 d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto
+        text-center order-lg-4\" style=\"flex: 0 0 2.5em;\">\n<span class='rounded
+        flag flag-gb' title='English'></span> </div>\n<div class=\"chapter-list-group
+        col text-truncate order-lg-5\">\n<a href='/group/1682/shoujo-crusade'>Shoujo
+        Crusade</a> </div>\n<div class=\"chapter-list-uploader col-auto col-lg-1 text-truncate
+        text-right mx-1 order-lg-6\">\n<a class='user_level_guest' style='color: #090;
+        ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n <span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">375</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"375\">375</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84596\"
+        data-title=\"Football Under the Blue Sky\" data-chapter=\"7\" data-volume=\"2\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"1682\"
+        data-uploader=\"norenolive\" data-views=\"288\" data-timestamp=\"1518626399\"
+        data-manga-id=\"2597\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/84596' class='text-truncate'>Vol.
+        2 Ch. 7 - Football Under the Blue Sky</a> <div></div>\n</div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:39:59
+        UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">288</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"288\">288</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84594\"
+        data-title=\"Everyone in a Crisis\" data-chapter=\"6\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"1682\" data-uploader=\"norenolive\"
+        data-views=\"264\" data-timestamp=\"1518626370\" data-manga-id=\"2597\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/84594' class='text-truncate'>Vol. 2
+        Ch. 6 - Everyone in a Crisis</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:39:30 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">264</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"264\">264</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84592\"
+        data-title=\"Clash and Decide\" data-chapter=\"5\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"1682\" data-uploader=\"norenolive\"
+        data-views=\"277\" data-timestamp=\"1518626305\" data-manga-id=\"2597\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/84592' class='text-truncate'>Vol. 2
+        Ch. 5 - Clash and Decide</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:38:25 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">277</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"277\">277</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84590\"
+        data-title=\"And There's the Whistle\" data-chapter=\"4\" data-volume=\"1\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"1682\"
+        data-uploader=\"norenolive\" data-views=\"327\" data-timestamp=\"1518626245\"
+        data-manga-id=\"2597\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/84590' class='text-truncate'>Vol.
+        1 Ch. 4 - And There's the Whistle</a> <div></div>\n</div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:37:25
+        UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">327</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"327\">327</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84589\"
+        data-title=\"A Plan to Become a Regular\" data-chapter=\"3\" data-volume=\"1\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"1682\"
+        data-uploader=\"norenolive\" data-views=\"337\" data-timestamp=\"1518626223\"
+        data-manga-id=\"2597\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/84589' class='text-truncate'>Vol.
+        1 Ch. 3 - A Plan to Become a Regular</a> <div></div>\n</div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:37:03
+        UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span>  </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">337</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"337\">337</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84587\"
+        data-title=\"Her Determination at That Time\" data-chapter=\"2\" data-volume=\"1\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"1682\"
+        data-uploader=\"norenolive\" data-views=\"338\" data-timestamp=\"1518626191\"
+        data-manga-id=\"2597\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/84587' class='text-truncate'>Vol.
+        1 Ch. 2 - Her Determination at That Time</a> <div></div>\n</div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14 16:36:31
+        UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/1682/shoujo-crusade'>Shoujo Crusade</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div
+        class=\"chapter-list-views col-2 col-lg-1 text-right text-info text-truncate
+        order-lg-7\">\n<span class=\"d-none d-md-inline d-lg-none d-xl-inline\">338</span>\n<span
+        class=\"d-inline d-md-none d-lg-inline d-xl-none\" title=\"338\">338</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"84585\"
+        data-title=\"The Entry of an Unmanageable Woman\" data-chapter=\"1\" data-volume=\"1\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"1682\"
+        data-uploader=\"norenolive\" data-views=\"600\" data-timestamp=\"1518626157\"
+        data-manga-id=\"2597\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/84585' class='text-truncate'>Vol.
+        1 Ch. 1 - The Entry of an Unmanageable Woman</a> <div></div>\n</div>\n<div
+        class=\"col text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div
+        class=\"col-2 col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-02-14
+        16:35:57 UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div
+        class=\"w-100 d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto
+        text-center order-lg-4\" style=\"flex: 0 0 2.5em;\">\n<span class='rounded
+        flag flag-gb' title='English'></span> </div>\n<div class=\"chapter-list-group
+        col text-truncate order-lg-5\">\n<a href='/group/1682/shoujo-crusade'>Shoujo
+        Crusade</a> </div>\n<div class=\"chapter-list-uploader col-auto col-lg-1 text-truncate
+        text-right mx-1 order-lg-6\">\n<a class='user_level_guest' style='color: #090;
+        ' href='/user/11809/norenolive'>norenolive</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">600</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"600\">600</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>
+        \n\n<div id=\"message_container\" class=\"display-none\"></div>\n\n\n<div
+        class=\"modal fade\" id=\"homepage_settings_modal\" tabindex=\"-1\" role=\"dialog\"
+        aria-labelledby=\"homepage_settings_label\" aria-hidden=\"true\">\n<div class=\"modal-dialog
+        modal-dialog-centered modal-lg\" role=\"document\">\n<div class=\"modal-content\">\n<div
+        class=\"modal-header\">\n<h5 class=\"modal-title\" id=\"homepage_settings_label\"><span
+        class='fas fa-cog fa-fw ' aria-hidden='true'></span> MangaDex settings</h5>\n<button
+        type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n<span
+        aria-hidden=\"true\">&times;</span>\n</button>\n</div>\n<div class=\"modal-body\">\n<form
+        method=\"post\" id=\"homepage_settings_form\">\n<div class=\"form-group row\">\n<label
+        for=\"language\" class=\"col-lg-3 col-form-label-modal\">Site theme:</label>\n<div
+        class=\"col-lg-9\">\n<select class=\"form-control selectpicker\" id=\"theme_id\"
+        name=\"theme_id\">\n<option selected value='1'>Light</option><option value='2'>Dark</option><option
+        value='3'>Light-Bronze</option><option value='4'>Dark-Bronze</option><option
+        value='5'>Light-Slate</option><option value='6'>Dark-Slate</option><option
+        value='7'>Abyss</option> </select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"default_lang_ids\" class=\"col-lg-3 col-form-label-modal\">Filter
+        chapter languages:</label>\n<div class=\"col-lg-9\">\n<select multiple class=\"form-control
+        selectpicker show-tick\" data-actions-box=\"true\" data-selected-text-format=\"count
+        > 5\" data-size=\"10\" id=\"default_lang_ids\" name=\"default_lang_ids[]\"
+        title=\"All langs\">\n<option value='19' data-content=\"<span class='rounded
+        flag flag-sa' title='Arabic'></span> Arabic\">Arabic</option><option value='22'
+        data-content=\"<span class='rounded flag flag-bd' title='Bengali'></span>
+        Bengali\">Bengali</option><option value='14' data-content=\"<span class='rounded
+        flag flag-bg' title='Bulgarian'></span> Bulgarian\">Bulgarian</option><option
+        value='37' data-content=\"<span class='rounded flag flag-mm' title='Burmese'></span>
+        Burmese\">Burmese</option><option value='33' data-content=\"<span class='rounded
+        flag flag-ct' title='Catalan'></span> Catalan\">Catalan</option><option value='21'
+        data-content=\"<span class='rounded flag flag-cn' title='Chinese (Simp)'></span>
+        Chinese (Simp)\">Chinese (Simp)</option><option value='35' data-content=\"<span
+        class='rounded flag flag-hk' title='Chinese (Trad)'></span> Chinese (Trad)\">Chinese
+        (Trad)</option><option value='24' data-content=\"<span class='rounded flag
+        flag-cz' title='Czech'></span> Czech\">Czech</option><option value='20' data-content=\"<span
+        class='rounded flag flag-dk' title='Danish'></span> Danish\">Danish</option><option
+        value='5' data-content=\"<span class='rounded flag flag-nl' title='Dutch'></span>
+        Dutch\">Dutch</option><option value='1' data-content=\"<span class='rounded
+        flag flag-gb' title='English'></span> English\">English</option><option value='34'
+        data-content=\"<span class='rounded flag flag-ph' title='Filipino'></span>
+        Filipino\">Filipino</option><option value='11' data-content=\"<span class='rounded
+        flag flag-fi' title='Finnish'></span> Finnish\">Finnish</option><option value='10'
+        data-content=\"<span class='rounded flag flag-fr' title='French'></span> French\">French</option><option
+        value='8' data-content=\"<span class='rounded flag flag-de' title='German'></span>
+        German\">German</option><option value='13' data-content=\"<span class='rounded
+        flag flag-gr' title='Greek'></span> Greek\">Greek</option><option value='39'
+        data-content=\"<span class='rounded flag flag-il' title='Hebrew'></span> Hebrew\">Hebrew</option><option
+        value='40' data-content=\"<span class='rounded flag flag-in' title='Hindi'></span>
+        Hindi\">Hindi</option><option value='9' data-content=\"<span class='rounded
+        flag flag-hu' title='Hungarian'></span> Hungarian\">Hungarian</option><option
+        value='27' data-content=\"<span class='rounded flag flag-id' title='Indonesian'></span>
+        Indonesian\">Indonesian</option><option value='6' data-content=\"<span class='rounded
+        flag flag-it' title='Italian'></span> Italian\">Italian</option><option value='2'
+        data-content=\"<span class='rounded flag flag-jp' title='Japanese'></span>
+        Japanese\">Japanese</option><option value='28' data-content=\"<span class='rounded
+        flag flag-kr' title='Korean'></span> Korean\">Korean</option><option value='38'
+        data-content=\"<span class='rounded flag flag-lt' title='Lithuanian'></span>
+        Lithuanian\">Lithuanian</option><option value='31' data-content=\"<span class='rounded
+        flag flag-my' title='Malay'></span> Malay\">Malay</option><option value='25'
+        data-content=\"<span class='rounded flag flag-mn' title='Mongolian'></span>
+        Mongolian\">Mongolian</option><option value='41' data-content=\"<span class='rounded
+        flag flag- ' title='Other'></span> Other\">Other</option><option value='30'
+        data-content=\"<span class='rounded flag flag-ir' title='Persian'></span>
+        Persian\">Persian</option><option value='3' data-content=\"<span class='rounded
+        flag flag-pl' title='Polish'></span> Polish\">Polish</option><option value='16'
+        data-content=\"<span class='rounded flag flag-br' title='Portuguese (Br)'></span>
+        Portuguese (Br)\">Portuguese (Br)</option><option value='17' data-content=\"<span
+        class='rounded flag flag-pt' title='Portuguese (Pt)'></span> Portuguese (Pt)\">Portuguese
+        (Pt)</option><option value='23' data-content=\"<span class='rounded flag flag-ro'
+        title='Romanian'></span> Romanian\">Romanian</option><option value='7' data-content=\"<span
+        class='rounded flag flag-ru' title='Russian'></span> Russian\">Russian</option><option
+        value='4' data-content=\"<span class='rounded flag flag-rs' title='Serbo-Croatian'></span>
+        Serbo-Croatian\">Serbo-Croatian</option><option value='15' data-content=\"<span
+        class='rounded flag flag-es' title='Spanish (Es)'></span> Spanish (Es)\">Spanish
+        (Es)</option><option value='29' data-content=\"<span class='rounded flag flag-mx'
+        title='Spanish (LATAM)'></span> Spanish (LATAM)\">Spanish (LATAM)</option><option
+        value='18' data-content=\"<span class='rounded flag flag-se' title='Swedish'></span>
+        Swedish\">Swedish</option><option value='32' data-content=\"<span class='rounded
+        flag flag-th' title='Thai'></span> Thai\">Thai</option><option value='26'
+        data-content=\"<span class='rounded flag flag-tr' title='Turkish'></span>
+        Turkish\">Turkish</option><option value='36' data-content=\"<span class='rounded
+        flag flag-ua' title='Ukrainian'></span> Ukrainian\">Ukrainian</option><option
+        value='12' data-content=\"<span class='rounded flag flag-vn' title='Vietnamese'></span>
+        Vietnamese\">Vietnamese</option> </select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"display_language\" class=\"col-lg-3 col-form-label-modal\">User
+        interface language:</label>\n<div class=\"col-lg-9\">\n<select class=\"form-control
+        selectpicker\" id=\"display_lang_id\" name=\"display_lang_id\" data-size=\"10\">\n<option
+        value='19' data-content=\"<span class='rounded flag flag-sa' title='Arabic'></span>
+        Arabic\">Arabic</option><option value='22' data-content=\"<span class='rounded
+        flag flag-bd' title='Bengali'></span> Bengali\">Bengali</option><option value='14'
+        data-content=\"<span class='rounded flag flag-bg' title='Bulgarian'></span>
+        Bulgarian\">Bulgarian</option><option value='37' data-content=\"<span class='rounded
+        flag flag-mm' title='Burmese'></span> Burmese\">Burmese</option><option value='33'
+        data-content=\"<span class='rounded flag flag-ct' title='Catalan'></span>
+        Catalan\">Catalan</option><option value='21' data-content=\"<span class='rounded
+        flag flag-cn' title='Chinese (Simp)'></span> Chinese (Simp)\">Chinese (Simp)</option><option
+        value='35' data-content=\"<span class='rounded flag flag-hk' title='Chinese
+        (Trad)'></span> Chinese (Trad)\">Chinese (Trad)</option><option value='24'
+        data-content=\"<span class='rounded flag flag-cz' title='Czech'></span> Czech\">Czech</option><option
+        value='20' data-content=\"<span class='rounded flag flag-dk' title='Danish'></span>
+        Danish\">Danish</option><option value='5' data-content=\"<span class='rounded
+        flag flag-nl' title='Dutch'></span> Dutch\">Dutch</option><option selected
+        value='1' data-content=\"<span class='rounded flag flag-gb' title='English'></span>
+        English\">English</option><option value='34' data-content=\"<span class='rounded
+        flag flag-ph' title='Filipino'></span> Filipino\">Filipino</option><option
+        value='11' data-content=\"<span class='rounded flag flag-fi' title='Finnish'></span>
+        Finnish\">Finnish</option><option value='10' data-content=\"<span class='rounded
+        flag flag-fr' title='French'></span> French\">French</option><option value='8'
+        data-content=\"<span class='rounded flag flag-de' title='German'></span> German\">German</option><option
+        value='13' data-content=\"<span class='rounded flag flag-gr' title='Greek'></span>
+        Greek\">Greek</option><option value='39' data-content=\"<span class='rounded
+        flag flag-il' title='Hebrew'></span> Hebrew\">Hebrew</option><option value='40'
+        data-content=\"<span class='rounded flag flag-in' title='Hindi'></span> Hindi\">Hindi</option><option
+        value='9' data-content=\"<span class='rounded flag flag-hu' title='Hungarian'></span>
+        Hungarian\">Hungarian</option><option value='27' data-content=\"<span class='rounded
+        flag flag-id' title='Indonesian'></span> Indonesian\">Indonesian</option><option
+        value='6' data-content=\"<span class='rounded flag flag-it' title='Italian'></span>
+        Italian\">Italian</option><option value='2' data-content=\"<span class='rounded
+        flag flag-jp' title='Japanese'></span> Japanese\">Japanese</option><option
+        value='28' data-content=\"<span class='rounded flag flag-kr' title='Korean'></span>
+        Korean\">Korean</option><option value='38' data-content=\"<span class='rounded
+        flag flag-lt' title='Lithuanian'></span> Lithuanian\">Lithuanian</option><option
+        value='31' data-content=\"<span class='rounded flag flag-my' title='Malay'></span>
+        Malay\">Malay</option><option value='25' data-content=\"<span class='rounded
+        flag flag-mn' title='Mongolian'></span> Mongolian\">Mongolian</option><option
+        value='41' data-content=\"<span class='rounded flag flag- ' title='Other'></span>
+        Other\">Other</option><option value='30' data-content=\"<span class='rounded
+        flag flag-ir' title='Persian'></span> Persian\">Persian</option><option value='3'
+        data-content=\"<span class='rounded flag flag-pl' title='Polish'></span> Polish\">Polish</option><option
+        value='16' data-content=\"<span class='rounded flag flag-br' title='Portuguese
+        (Br)'></span> Portuguese (Br)\">Portuguese (Br)</option><option value='17'
+        data-content=\"<span class='rounded flag flag-pt' title='Portuguese (Pt)'></span>
+        Portuguese (Pt)\">Portuguese (Pt)</option><option value='23' data-content=\"<span
+        class='rounded flag flag-ro' title='Romanian'></span> Romanian\">Romanian</option><option
+        value='7' data-content=\"<span class='rounded flag flag-ru' title='Russian'></span>
+        Russian\">Russian</option><option value='4' data-content=\"<span class='rounded
+        flag flag-rs' title='Serbo-Croatian'></span> Serbo-Croatian\">Serbo-Croatian</option><option
+        value='15' data-content=\"<span class='rounded flag flag-es' title='Spanish
+        (Es)'></span> Spanish (Es)\">Spanish (Es)</option><option value='29' data-content=\"<span
+        class='rounded flag flag-mx' title='Spanish (LATAM)'></span> Spanish (LATAM)\">Spanish
+        (LATAM)</option><option value='18' data-content=\"<span class='rounded flag
+        flag-se' title='Swedish'></span> Swedish\">Swedish</option><option value='32'
+        data-content=\"<span class='rounded flag flag-th' title='Thai'></span> Thai\">Thai</option><option
+        value='26' data-content=\"<span class='rounded flag flag-tr' title='Turkish'></span>
+        Turkish\">Turkish</option><option value='36' data-content=\"<span class='rounded
+        flag flag-ua' title='Ukrainian'></span> Ukrainian\">Ukrainian</option><option
+        value='12' data-content=\"<span class='rounded flag flag-vn' title='Vietnamese'></span>
+        Vietnamese\">Vietnamese</option> </select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<div class=\"col-lg-3 text-right\">\n<button type=\"submit\" class=\"btn
+        btn-secondary\" id=\"homepage_settings_button\"><span class='fas fa-save fa-fw
+        ' aria-hidden='true'></span> Save</button>\n</div>\n<div class=\"col-lg-9
+        text-left\">\n</div>\n</div>\n</form>\n</div>\n<div class=\"modal-footer\">\n<div
+        class='alert alert-info mx-auto text-center' role='alert'><strong>Info:</strong>
+        These settings are temporary. Please <span class='fas fa-pencil-alt fa-fw
+        ' aria-hidden='true'></span> <a href='/signup'>make an account</a> to remember
+        these permanently.</div> </div>\n</div>\n</div>\n</div>\n<div class=\"modal
+        fade\" id=\"report_modal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"report_modal_label\"
+        aria-hidden=\"true\">\n<div class=\"modal-dialog\" role=\"document\">\n<div
+        class=\"modal-content\">\n<form id=\"report_modal_form\" action=\"/ajax/actions.ajax.php?source=nojs&function=report_submit\"
+        method=\"post\">\n<div class=\"modal-header\">\n<h5 class=\"modal-title\"
+        id=\"report_modal_title\">Submit new Report</h5>\n<button type=\"button\"
+        class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n<span aria-hidden=\"true\">&times;</span>\n</button>\n</div>\n<div
+        class=\"modal-body container\">\n<div class=\"report-item report-item-manga
+        row\">\n<div class=\"col col-2\"><img src=\"\" alt=\"Thumb\"></div>\n<div
+        class=\"col col-10\">\n<span class=\"ellipsis\">\n<span class=\"fas fa-book
+        fa-fw \" aria-hidden=\"true\" title=\"Title\"></span>\n<span class=\"manga_title\">Manga
+        Title</span>\n</span>\n</div>\n</div>\n<div class=\"report-item report-item-comment
+        row\">\n<div class=\"col\">\n<div class=\"alert alert-warning\">\nPlease note,
+        that not every report is actionable. If you don't like a particular user's
+        posts, consider blocking (from their profile page) instead.\n</div>\n<label>Reported
+        Post:</label><br />\n<div class=\"alert alert-info\">\n<div class=\"ellipsis
+        report-item-comment-text\"></div>\n</div>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"info\" class=\"col\">Report Reason:</label>\n</div>\n<div
+        class=\"form-group row\">\n<div class=\"col\">\n<select class=\"form-control
+        selectpicker\" id=\"reason_id\" name=\"reason_id\" tabindex=\"-90\" required=\"required\">\n<option
+        value=\"\" selected>- Select A Reason -</option>\n<option data-type-id=\"2\"
+        value=\"1\">All images broken</option>\n<option data-type-id=\"2\" value=\"2\"
+        required=\"required\">Some images broken</option>\n<option data-type-id=\"2\"
+        value=\"3\" required=\"required\">Watermarked images</option>\n<option data-type-id=\"2\"
+        value=\"4\" required=\"required\">Naming rules broken</option>\n<option data-type-id=\"2\"
+        value=\"5\" required=\"required\">Incorrect group</option>\n<option data-type-id=\"2\"
+        value=\"6\" required=\"required\">Group policy evasion</option>\n<option data-type-id=\"2\"
+        value=\"7\" required=\"required\">Official release/Raw</option>\n<option data-type-id=\"2\"
+        value=\"8\" required=\"required\">Other</option>\n<option data-type-id=\"3\"
+        value=\"9\">Spoilers</option>\n<option data-type-id=\"3\" value=\"10\">Aggregator
+        links</option>\n<option data-type-id=\"3\" value=\"11\">Unwanted solicitation</option>\n<option
+        data-type-id=\"3\" value=\"12\">Racism</option>\n<option data-type-id=\"3\"
+        value=\"13\" required=\"required\">Sexism</option>\n<option data-type-id=\"3\"
+        value=\"14\">Religious Discrimination</option>\n<option data-type-id=\"3\"
+        value=\"15\">Direct Personal Attack</option>\n<option data-type-id=\"3\" value=\"16\"
+        required=\"required\">Other</option>\n</select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"info\" class=\"col\">Additional Info:</label>\n</div>\n<div
+        class=\"form-group row\">\n<div class=\"col\">\n<textarea class=\"form-control\"
+        rows=\"5\" name=\"info\" id=\"info\" placeholder=\"Please be as descriptive
+        as possible in your report. If possible, include any recommended fixes.\"></textarea>\n
+        </div>\n</div>\n</div>\n<div class=\"modal-footer\">\n<input type=\"hidden\"
+        name=\"return_url\" value=\"https://mangadex.org/title/2597\" />\n<input type=\"hidden\"
+        name=\"item_id\" value=\"-1\" />\n<input type=\"hidden\" name=\"type_id\"
+        value=\"-1\" />\n<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n<button
+        type=\"submit\" class=\"btn btn-primary\">Submit</button>\n</div>\n</form>\n</div>\n</div>\n</div>\n<footer
+        class=\"footer\">\n<p class=\"m-0 text-center text-muted\">&copy; 2018 - 2019
+        <a href=\"/\" title=\"Array\n(\n    [0] => 3\n    [1] => 1566630894\n)\n\">MangaDex</a>
+        | Powered by <a href=\"https://path.net/\" title=\"Provider of CDN and DDoS
+        mitigation services\" target=\"_blank\">Path Network</a></p>\n</footer>\n<div
+        id=\"right_swipe_area\" style=\"position: fixed; top: 0; right: 0px; z-index:
+        1000; height: 100vh; width: 15px;\">&nbsp;</div>\n<div id=\"left_swipe_area\"
+        style=\"position: fixed; top: 0; left: 0px; z-index: 1000; height: 100vh;
+        width: 15px;\">&nbsp;</div>\n\n<div class=\"modal left fade\" id=\"left_modal\"
+        tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\">\n<div class=\"modal-dialog\"
+        role=\"document\">\n<div class=\"modal-content border-0\">\n<nav class=\"navbar
+        fixed-top text-nowrap navbar-light bg-light\">\n<div class=\"container p-0\">\n<div
+        class=\"dropdown\">\n<a href=\"#\" class=\"dropdown-toggle no-underline\"
+        data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n<span
+        class='fas fa-user-times fa-fw ' aria-hidden='true'></span> <span class=\"d-lg-none
+        d-xl-inline\" style=\"color: #000\">Guest</span>\n</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item\" href=\"/login\"><span class='fas fa-sign-in-alt fa-fw
+        ' aria-hidden='true'></span> Log in</a>\n<a class=\"dropdown-item\" href=\"/signup\"><span
+        class='fas fa-pencil-alt fa-fw ' aria-hidden='true'></span> Sign up</a>\n</div>\n</div>\n<button
+        class=\"navbar-toggler ml-auto\" type=\"button\">\n<a class=\"\" href=\"/login\"><span
+        class=\"navbar-icon\"><span class='fas fa-sign-in-alt fa-fw ' aria-hidden='true'></span></span></a>\n</button>\n</div>\n</nav>\n<nav
+        style=\"margin-top: 70px;\" class=\"nav flex-column\">\n<div class=\"dropdown
+        nav-link\">\n<a href=\"#\" class=\"dropdown-toggle no-underline\" data-toggle=\"dropdown\"
+        role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas
+        fa-book fa-fw ' aria-hidden='true'></span> Manga</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item \" href=\"/titles\"><span class='fas fa-book fa-fw '
+        aria-hidden='true'></span> Titles</a>\n<a class=\"dropdown-item \" href=\"/updates\"><span
+        class='fas fa-sync fa-fw ' aria-hidden='true'></span> Updates</a>\n<a class=\"dropdown-item
+        \" href=\"/search\"><span class='fas fa-search fa-fw ' aria-hidden='true'></span>
+        Search</a>\n<a class=\"dropdown-item \" href=\"/featured\"><span class='fas
+        fa-tv fa-fw ' aria-hidden='true'></span> Featured</a>\n<a class=\"dropdown-item\"
+        href=\"/manga\"><span class='fas fa-question-circle fa-fw ' aria-hidden='true'></span>
+        Random</a>\n<a class=\"dropdown-item \" href=\"/manga_new\"><span class='fas
+        fa-plus-circle fa-fw ' aria-hidden='true'></span> Add</a>\n</div>\n</div>\n<a
+        class=\"nav-link no-underline\" href=\"/login\" title=\"You need to log in.\"><span
+        class='fas fa-bookmark fa-fw ' aria-hidden='true'></span> Follows</a>\n<div
+        class=\"dropdown nav-link\">\n<a href=\"#\" class=\"dropdown-toggle no-underline\"
+        data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><span
+        class='fas fa-users fa-fw ' aria-hidden='true'></span> Community</a>\n<div
+        class=\"dropdown-menu\">\n<a class=\"dropdown-item \" href=\"/forums\"><span
+        class='fas fa-university fa-fw ' aria-hidden='true'></span> Forums</a>\n<a
+        class=\"dropdown-item \" href=\"/groups\"><span class='fas fa-users fa-fw
+        ' aria-hidden='true'></span> Groups</a>\n<a class=\"dropdown-item \" href=\"/users\"><span
+        class='fas fa-user fa-fw ' aria-hidden='true'></span> Users</a>\n<a class=\"dropdown-item\"
+        href=\"https://discord.gg/Y2YKXUP\" target=\"_blank\" rel=\"nofollow\"><span
+        class='fab fa-discord fa-fw ' aria-hidden='true' title='Rules'></span> Discord</a>\n<a
+        class=\"dropdown-item\" href=\"https://twitter.com/MangaDex\" target=\"_blank\"
+        rel=\"nofollow\"><span class='fab fa-twitter fa-fw ' aria-hidden='true' title='Twitter'></span>
+        Twitter</a>\n<a class=\"dropdown-item\" href=\"https://www.reddit.com/r/mangadex\"
+        target=\"_blank\" rel=\"nofollow\"><span class='fab fa-reddit fa-fw ' aria-hidden='true'
+        title='Reddit'></span> Reddit</a>\n<a class=\"dropdown-item\" href=\"irc://irc.rizon.net/mangadex\"
+        rel=\"nofollow\"><span class='fas fa-hashtag fa-fw ' aria-hidden='true' title='IRC'></span>
+        IRC</a>\n</div>\n</div>\n<div class=\"dropdown nav-link\">\n<a href=\"#\"
+        class=\"dropdown-toggle no-underline\" data-toggle=\"dropdown\" role=\"button\"
+        aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas fa-info-circle
+        fa-fw ' aria-hidden='true'></span> Info</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item \" href=\"/stats\"><span class='fas fa-clipboard-list
+        fa-fw ' aria-hidden='true' title='Stats'></span> Stats</a>\n<a class=\"dropdown-item
+        \" href=\"/rules\"><span class='fas fa-list fa-fw ' aria-hidden='true' title='Rules'></span>
+        Rules</a>\n<a class=\"dropdown-item \" href=\"/about\"><span class='fas fa-info
+        fa-fw ' aria-hidden='true' title='About'></span> About</a>\n<a class=\"dropdown-item
+        \" href=\"/changelog\"><span class='fas fa-code fa-fw ' aria-hidden='true'
+        title='Change log'></span> Change log</a>\n<a class=\"dropdown-item \" href=\"/affiliates\"><span
+        class='far fa-handshake fa-fw ' aria-hidden='true' title='Affiliates'></span>
+        Affiliates</a>\n</div>\n</div>\n</nav>\n<form id=\"quick_search_form_m\" method=\"get\"
+        action=\"/quick_search\" role=\"search\" class=\"form-inline px-3 py-2 quick-search\">\n<div
+        class=\"input-group\">\n<div class=\"input-group-prepend\">\n<select class=\"form-control\"
+        id=\"quick_search_type\" name=\"type\">\n<option value=\"all\">All</option>\n<option
+        selected value=\"titles\">Manga</option>\n<option value=\"groups\">Groups</option>\n<option
+        value=\"users\">Users</option>\n</select>\n</div>\n<input type=\"text\" class=\"form-control\"
+        placeholder=\"Quick search\" name=\"term\" id=\"quick_search_input\" required>\n<span
+        class=\"input-group-append\">\n<button class=\"btn btn-secondary\" type=\"submit\"
+        id=\"quick_search_button\" name=\"submit\"><span class='fas fa-search fa-fw
+        ' aria-hidden='true'></span></button>\n</span>\n</div>\n</form>\n</div>\n</div>\n</div>\n\n<div
+        class=\"modal right fade\" id=\"right_modal\" tabindex=\"-1\" role=\"dialog\"
+        aria-labelledby=\"myModalLabel2\">\n<div class=\"modal-dialog\" role=\"document\">\n<div
+        class=\"modal-content border-0\">\n<nav class=\"navbar fixed-top text-nowrap
+        navbar-light bg-light\">\n<div class=\"container p-0\">\n<a class=\"p-0 navbar-brand\"
+        href=\"https://mangadex.org/\"><img class=\"mx-2\" height=\"38px\" src=\"/images/misc/navbar.svg?3\"
+        alt=\"MangaDex\" title=\"MangaDex\" /> <small class=\"d-lg-none d-xl-inline\">MikuDex</small></a>\n</div>\n</nav>\n<div
+        class=\"modal-body\">\n<img src=\"/images/misc/miku.jpg\" width=\"100%\" />\n</div>\n</div>\n</div>\n</div>\n\n\n<script
+        nomodule src=\"/dist/js/polyfills.prod.js?1560041198\"></script>\n<script
+        nomodule src=\"/dist/js/bundle.prod.js?1560041198\"></script>\n<script src=\"/scripts/jquery.min.js?1552433701\"></script>\n<script
+        src=\"/scripts/jquery.touchSwipe.min.js\"></script>\n<script src=\"/bootstrap/js/popper.min.js\"></script>\n<script
+        src=\"/bootstrap/js/bootstrap.min.js?1\"></script>\n<script src=\"/bootstrap/js/bootstrap-select.min.js?1\"></script>\n<script
+        src=\"/scripts/lightbox2/js/lightbox.js\"></script>\n<script src=\"/scripts/chart.min.js\"></script>\n<script>\r\n
+        \     if (!('URL' in window) || !('URLSearchParams' in window)) {\r\n        document.head.appendChild(Object.assign(document.createElement(\"script\"),
+        {\r\n          \"src\": \"/dist/js/polyfills.prod.js?1560041198\", \"async\":
+        true,\r\n        }))\r\n      }\r\n    </script>\n<script src=\"/scripts/js/reporting.js\"></script>\n<script
+        type=\"text/javascript\">\r\n\r\n    \tvar t='mang';\r\n\t\tt = t+'adex.org';\r\n\tvar
+        w='www.mangadex.org';\r\n\tif (window.location.hostname != t && window.location.hostname
+        != w ) {\r\n\t\twindow.location='https://'+t;\r\n\t}\r\n    \r\n\tvar $ =
+        jQuery;\r\n\r\n\t$(document).on('change', '.btn-file :file', function() {\r\n\t\tvar
+        input = $(this),\r\n\t\t\tnumFiles = input.get(0).files ? input.get(0).files.length
+        : 1,\r\n\t\t\tlabel = input.val().replace(/\\\\/g, '/').replace(/.*\\//, '');\r\n\t\tinput.trigger('fileselect',
+        [numFiles, label]);\r\n\t});\r\n\r\n\tfunction capitalizeFirstLetter(string)
+        {\r\n\t\treturn string.charAt(0).toUpperCase() + string.slice(1);\r\n\t}\r\n\r\n\tfunction
+        commaMultipleSelect(id) {\r\n\t\tvar list = document.getElementById(id);\r\n\t\tvar
+        selected = new Array();\r\n\r\n\t\tfor (i = 0; i < list.options.length; i++)
+        {\r\n\t\t\tif (list.options[i].selected) {\r\n\t\t\t\t selected.push(list.options[i].value);\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t\treturn
+        selected.join(',');\r\n\t}\r\n\r\n\tfunction commaMultipleCheckbox(name) {\r\n\t\tvar
+        list = document.getElementsByName(name);\r\n\t\tvar selected = new Array();\r\n\r\n\t\tfor
+        (i = 0; i < list.length; i++) {\r\n\t\t\tif (list[i].checked) {\r\n\t\t\t\t
+        selected.push(list[i].value);\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t\treturn selected.join(',');\r\n\t}\r\n\r\n\t$(document).ready(function(){\r\n\t\tvar
+        query = location.search;\r\n\r\n\t\t\t\t$(\"#left_swipe_area\").swipe({\r\n\t\t\tswipeRight:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#left_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t$(\"#right_swipe_area\").swipe({\r\n\t\t\tswipeLeft:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#right_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t$(\"#right_modal\").swipe({\r\n\t\t\tswipeRight:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#right_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t$(\"#left_modal\").swipe({\r\n\t\t\tswipeLeft:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#left_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t\r\n\t\t$(\"#read_announcement_button\").click(function(event){\r\n\t\t\t$.ajax({\r\n\t\t\t\turl:
+        \"/ajax/actions.ajax.php?function=read_announcement\",\r\n\t\t\t\ttype: 'GET',\r\n\t\t\t\tsuccess:
+        function (data) {\r\n\t\t\t\t\t$(\"#announcement\").hide();\r\n\t\t\t\t},\r\n\t\t\t\tcache:
+        false,\r\n\t\t\t\tcontentType: false,\r\n\t\t\t\tprocessData: false\r\n\t\t\t});\r\n\t\t\tevent.preventDefault();\r\n\t\t});\r\n\r\n\t\t$(\".logout\").click(function(event){\r\n\t\t\t$.ajax({\r\n\t\t\t\ttype:
+        \"POST\",\r\n\t\t\t\turl: \"/ajax/actions.ajax.php?function=logout\",\r\n\t\t\t\tsuccess:
+        function(data) {\r\n\t\t\t\t\t$(\"#message_container\").html(data).show().delay(1500).fadeOut();\r\n\t\t\t\t\tlocation.reload();\r\n\t\t\t\t}\r\n\t\t\t});\r\n\t\t\tevent.preventDefault();\r\n\t\t});\r\n\r\n
+        \       function highlightPost(node) {\r\n            if (node) {\r\n                Array.from(document.querySelectorAll('.highlighted')).forEach(function(n)
+        {n.classList.remove('highlighted')});\r\n                node.classList.add('highlighted')\r\n
+        \           }\r\n        }\r\n\r\n        if (location.hash)\r\n            highlightPost(document.querySelector(location.hash
+        + ' .postbody'));\r\n\r\n        $('a.permalink').click(function(event) {\r\n
+        \           highlightPost(event.target.closest('.post').querySelector('.postbody'))\r\n
+        \       });\r\n\r\n\t\t\n\t$('#homepage_settings_form').submit(function(event)
+        {\n\n\t\tArray.prototype.slice.call(this.querySelectorAll('input[type=file]'))\n\t\t.filter(function(n)
+        { return n && !n.files.length })\n\t\t.forEach(function(n) { n.parentNode.removeChild(n)
+        });\n\n        var button = $('#homepage_settings_button')\n\t\tvar buttonHtml
+        = button.html()\n\t\tvar formData = new FormData(this);\n\n\t\tvar success_msg
+        = \"<div class='alert alert-success text-center' role='alert'><strong>Success:</strong>
+        Your MangaDex settings have been saved.</div>\";\n\n\t\tbutton.html(\"<span
+        class='fas fa-spinner fa-fw fa-pulse' aria-hidden='true' ></span> Saving...\").attr('disabled',
+        true);\n\n\t\t$.ajax({\n\t\t\turl: '/ajax/actions.ajax.php?function=homepage_settings',\n\t\t\ttype:
+        'POST',\n\t\t\tdata: formData,\n\t\t\tcache: false,\n\t\t\theaders: {'cache-control':
+        'no-cache'},\n\t\t\tcontentType: false,\n\t\t\tprocessData: false,\n\t\t\tasync:
+        true,\n\t\t\tsuccess: function (data) {\n\t\t\t\tif (!data) {\n\t\t\t\t\t$('#message_container').html(success_msg).show().delay(3000).fadeOut();\n\t\t\t\t\tlocation.reload();\n\t\t\t\t}\n\t\t\t\telse
+        {\n\t\t\t\t\t$('#message_container').html(data).show().delay(3000).fadeOut();\n\t\t\t\t}\n\t\t\t\tbutton.html(buttonHtml).attr('disabled',
+        false);\n            },\n\t\t});\n\n\t\tevent.preventDefault();\n\t});\n\t\n//ratings_histogram\n$(\"#histogram_toggle\").click(function(){\n\t$(\"#histogram_div\").toggle();\n});\t\n\nvar
+        ctx = $(\"#ratings_histogram\");\nvar ratings =  JSON.parse(ctx.attr('data-json'));\n\nvar
+        keys = []\nvar values = []\nfor (var i = 10; i >= 1; --i) {\n    keys.push(i)\n
+        \   values.push(0)\n}\nfor (var i = 0; i < ratings.length; ++i) {\n    values[10
+        - ratings[i]]++\n}\n\n\nChart.defaults.global.defaultFontSize = 11;\nChart.defaults.global.legend.display
+        = false;\nvar myChart = new Chart(ctx, {\n    type: 'horizontalBar',\n    data:
+        {\n        labels: keys,\n        datasets: [{\n            data: values,\n\t\t\tbackgroundColor:
+        [\n                'rgba(255, 99, 132, 0.5)',\n                'rgba(54, 162,
+        235, 0.5)',\n                'rgba(255, 206, 86, 0.5)',\n                'rgba(75,
+        192, 192, 0.5)',\n                'rgba(153, 102, 255, 0.5)',\n\t\t\t\t'rgba(255,
+        99, 132, 0.5)',\n                'rgba(54, 162, 235, 0.5)',\n                'rgba(255,
+        206, 86, 0.5)',\n                'rgba(75, 192, 192, 0.5)',\n                'rgba(153,
+        102, 255, 0.5)'\n            ],\n            borderWidth: 0\n        }]\n
+        \   },\n    options: {\n\t\ttitle: {\n            display: true,\n            text:
+        'Distribution of Ratings'\n        },\n        scales: {\n\t\t\txAxes: [{\n
+        \               ticks: {\n                    beginAtZero: true\n                }\n
+        \           }]\n        }\n    }\n});\n\nlightbox.option({\n  'wrapAround':
+        true\n});\n\t\n$(\".btn-spoiler\").click(function(){\n\t$(this).next(\".spoiler\").toggle();\n});\t\n\n\n\n\n\n\n\r\n\r\n\t});\r\n\r\n\t</script>\n</body>\n</html>"
+    headers:
+      CF-RAY:
+      - 50b389bac853e25f-SIN
+      Connection:
+      - keep-alive
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Sat, 24 Aug 2019 07:15:57 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Cookie:
+      - __cfduid=d36f9980cd4d4569e6a9f7667871104a41566630953
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+    method: GET
+    uri: https://mangadex.org/title/2436
+  response:
+    body:
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\"
+        />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" />\n\n<meta
+        name=\"robots\" content=\"index,follow\" />\n<meta name=\"author\" content=\"MangaDex\"
+        />\n<meta name=\"description\" content=\"What do two Japanese detectives,
+        a naked man on a city street, and a roundworm from Botswana all have in common?
+        In the first volume of Manhole, Ken Mizoguchi and Nao Inoue investigate a
+        string of bloody and mysterious murders, but their work uncovers a deadly
+        biological agent which poses a threat of epidemic proportions. An unlikely
+        lead starts them in the pursuit of a mysterious self-titled photographer,
+        but meanwhile the infections keep spreading. The series may be best described
+        as the thrilling combination of a detective story with biological horror.\"
+        />\n<meta name=\"keywords\" itemprop=\"keywords\" content=\"Manhole, Manhole
+        Manga, Read Manhole online, Manhole online, Manhole online For Free, Read
+        Manhole chapters for free, Manhole series, Manhole chapters, Manhole scans,
+        Manhole mangadex\" />\n<meta name=\"theme-color\" content=\"#eeeeee\">\n<meta
+        property=\"og:site_name\" content=\"MangaDex\" />\n<meta property=\"og:title\"
+        content=\"Manhole (Title) - MangaDex\" />\n<meta property=\"og:image\" content=\"https://mangadex.org/images/manga/2436.thumb.jpg\"
+        />\n<meta property=\"og:url\" content=\"https://mangadex.org/title/2436\"
+        />\n<meta property=\"og:description\" content=\"What do two Japanese detectives,
+        a naked man on a city street, and a roundworm from Botswana all have in common?
+        In the first volume of Manhole, Ken Mizoguchi and Nao Inoue investigate a
+        string of bloody and mysterious murders, but their work uncovers a deadly
+        biological agent which poses a threat of epidemic proportions. An unlikely
+        lead starts them in the pursuit of a mysterious self-titled photographer,
+        but meanwhile the infections keep spreading. The series may be best described
+        as the thrilling combination of a detective story with biological horror.\"
+        />\n<meta property=\"og:type\" content=\"website\" />\n<meta name=\"twitter:site\"
+        content=\"@mangadex\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\"
+        href=\"/favicon-96x96.png?1\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\"
+        href=\"/favicon-192x192.png?1\">\n<link rel=\"manifest\" href=\"/manifest.json\"
+        crossOrigin=\"use-credentials\">\n<link rel='canonical' href='https://mangadex.org/title/2436/manhole'
+        /> <title>Manhole (Title) - MangaDex</title>\n\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\n\tnew
+        Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\n\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n\t})(window,document,'script','dataLayer','GTM-TS59XX9');</script>\n\n\n<link
+        href=\"https://fonts.googleapis.com/css?family=Ubuntu:regular,regularitalic,bold\"
+        rel=\"stylesheet\">\n\n<link href=\"/bootstrap/css/bootstrap.css?1531971506\"
+        rel=\"stylesheet\" />\n\n<link href=\"/bootstrap/css/bootstrap-select.min.css\"
+        rel=\"stylesheet\" />\n\n<link href=\"/scripts/owl/assets/owl.carousel.min.css\"
+        rel=\"stylesheet\" />\n<link href=\"/scripts/owl/assets/owl.theme.default.min.css\"
+        rel=\"stylesheet\" />\n\n<link href=\"/fontawesome/css/all.css\" rel=\"stylesheet\"
+        />\n\n<link href=\"/scripts/lightbox2/css/lightbox.min.css\" rel=\"stylesheet\">\n\n<link
+        href=\"/scripts/css/theme.css?1562882456\" rel=\"stylesheet\" />\n<link href=\"/scripts/css/Light.css?1534107774\"
+        rel=\"stylesheet\" />\n<script type=\"module\" src=\"/dist/js/bundle.prod.js?1560041198\"></script>\n</head>\n<body>\n\n<noscript><iframe
+        src=\"https://www.googletagmanager.com/ns.html?id=GTM-TS59XX9\"\theight=\"0\"
+        width=\"0\" style=\"display:none; visibility:hidden\"></iframe></noscript>\n\n\n<nav
+        class=\"navbar fixed-top navbar-expand-lg text-nowrap navbar-light bg-light\">\n<div
+        class=\"container\">\n<button class=\"navbar-toggler mr-auto\" type=\"button\"
+        data-toggle=\"modal\" data-target=\"#left_modal\">\n<span class=\"navbar-toggler-icon\"></span>\n</button>\n<a
+        class=\"p-0 navbar-brand\" href=\"https://mangadex.org/\"><img class=\"mx-2\"
+        height=\"38px\" src=\"/images/misc/navbar.svg?3\" alt=\"MangaDex\" title=\"MangaDex\"
+        /> <small class=\"d-lg-none d-xl-inline\">MangaDex</small></a>\n<button class=\"navbar-toggler
+        ml-auto\" type=\"button\" data-toggle=\"modal\" data-target=\"#homepage_settings_modal\">\n<span
+        class=\"navbar-icon\"><span class='fas fa-cog fa-fw ' aria-hidden='true'></span></span>\n</button>\n<div
+        class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n<ul class=\"navbar-nav
+        mr-auto\">\n<li class=\"nav-item dropdown mx-1\">\n<a href=\"#\" class=\"nav-link
+        dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\"
+        aria-expanded=\"false\"><span class='fas fa-book fa-fw ' aria-hidden='true'></span>
+        Manga</a>\n<div class=\"dropdown-menu\">\n<a class=\"dropdown-item \" href=\"/titles\"><span
+        class='fas fa-book fa-fw ' aria-hidden='true'></span> Titles</a>\n<a class=\"dropdown-item
+        \" href=\"/updates\"><span class='fas fa-sync fa-fw ' aria-hidden='true'></span>
+        Updates</a>\n<a class=\"dropdown-item \" href=\"/search\"><span class='fas
+        fa-search fa-fw ' aria-hidden='true'></span> Search</a>\n<a class=\"dropdown-item
+        \" href=\"/featured\"><span class='fas fa-tv fa-fw ' aria-hidden='true'></span>
+        Featured</a>\n<a class=\"dropdown-item\" href=\"/manga\"><span class='fas
+        fa-question-circle fa-fw ' aria-hidden='true'></span> Random</a>\n<a class=\"dropdown-item
+        \" href=\"/manga_new\"><span class='fas fa-plus-circle fa-fw ' aria-hidden='true'></span>
+        Add</a>\n</div>\n</li>\n<li class=\"nav-item mx-1\" id=\"login\">\n<a class=\"nav-link\"
+        href=\"/login\" title=\"You need to log in.\"><span class='fas fa-bookmark
+        fa-fw ' aria-hidden='true'></span> Follows</a>\n</li>\n<li class=\"nav-item
+        mx-1 dropdown\">\n<a href=\"#\" class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\"
+        role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas
+        fa-users fa-fw ' aria-hidden='true'></span> Community</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item\" href=\"/forums\"><span class='fas fa-university fa-fw
+        ' aria-hidden='true' title='Forums'></span> Forums</a>\n<a class=\"dropdown-item\"
+        href=\"/groups\"><span class='fas fa-users fa-fw ' aria-hidden='true' title='Groups'></span>
+        Groups</a>\n<a class=\"dropdown-item\" href=\"/users\"><span class='fas fa-user
+        fa-fw ' aria-hidden='true' title='Users'></span> Users</a>\n<a class=\"dropdown-item\"
+        href=\"https://discord.gg/Y2YKXUP\" target=\"_blank\" rel=\"nofollow\"><span
+        class='fab fa-discord fa-fw ' aria-hidden='true' title='Rules'></span> Discord</a>\n<a
+        class=\"dropdown-item\" href=\"https://twitter.com/MangaDex\" target=\"_blank\"
+        rel=\"nofollow\"><span class='fab fa-twitter fa-fw ' aria-hidden='true' title='Twitter'></span>
+        Twitter</a>\n<a class=\"dropdown-item\" href=\"https://www.reddit.com/r/mangadex\"
+        target=\"_blank\" rel=\"nofollow\"><span class='fab fa-reddit fa-fw ' aria-hidden='true'
+        title='Reddit'></span> Reddit</a>\n<a class=\"dropdown-item\" href=\"https://mangadexofficial.tumblr.com/\"
+        target=\"_blank\" rel=\"nofollow\"><span class='fab fa-tumblr fa-fw ' aria-hidden='true'
+        title='Tumblr'></span> Tumblr</a>\n<a class=\"dropdown-item\" href=\"irc://irc.rizon.net/mangadex\"
+        rel=\"nofollow\"><span class='fas fa-hashtag fa-fw ' aria-hidden='true' title='IRC'></span>
+        IRC</a>\n</div>\n</li>\n<li class=\"nav-item mx-1 dropdown\">\n<a href=\"#\"
+        class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\"
+        aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas fa-info-circle
+        fa-fw ' aria-hidden='true'></span> Info</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item\" href=\"/stats\"><span class='fas fa-clipboard-list
+        fa-fw ' aria-hidden='true' title='Stats'></span> Stats</a>\n<a class=\"dropdown-item\"
+        href=\"/rules\"><span class='fas fa-list fa-fw ' aria-hidden='true' title='Rules'></span>
+        Rules</a>\n<a class=\"dropdown-item\" href=\"/about\"><span class='fas fa-info
+        fa-fw ' aria-hidden='true' title='About'></span> About</a>\n<a class=\"dropdown-item\"
+        href=\"/changelog\"><span class='fas fa-code fa-fw ' aria-hidden='true' title='Change
+        log'></span> Change log</a>\n<a class=\"dropdown-item\" href=\"/affiliates\"><span
+        class='far fa-handshake fa-fw ' aria-hidden='true' title='Affiliates'></span>
+        Affiliates</a>\n</div>\n</li>\n</ul>\n<form id=\"quick_search_form\" method=\"get\"
+        action=\"/quick_search\" role=\"search\" class=\"form-inline mx-1 quick-search\">\n<div
+        class=\"input-group\">\n<div class=\"input-group-prepend\">\n<select class=\"form-control\"
+        id=\"quick_search_type\" name=\"type\">\n<option value=\"all\">All</option>\n<option
+        selected value=\"titles\">Manga</option>\n<option value=\"groups\">Groups</option>\n<option
+        value=\"users\">Users</option>\n</select>\n</div>\n<input type=\"text\" class=\"form-control\"
+        placeholder=\"Quick search\" name=\"term\" id=\"quick_search_input\" required>\n<span
+        class=\"input-group-append\">\n<button class=\"btn btn-secondary\" type=\"submit\"
+        id=\"quick_search_button\" name=\"submit\"><span class='fas fa-search fa-fw
+        ' aria-hidden='true'></span></button>\n</span>\n</div>\n</form>\n<ul class=\"navbar-nav\">\n<li
+        class=\"d-none d-lg-block nav-item mx-1\" id=\"homepage_cog\">\n<a class=\"nav-link\"
+        href=\"#\" title=\"Settings\" data-toggle=\"modal\" data-target=\"#homepage_settings_modal\"><span
+        class='fas fa-cog fa-fw ' aria-hidden='true' title='Settings'></span></a>\n</li>\n<li
+        class=\"nav-item mx-1 dropdown\">\n<a href=\"#\" class=\"nav-link dropdown-toggle\"
+        data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n<span
+        class='fas fa-user-times fa-fw ' aria-hidden='true'></span> <span class=\"d-lg-none
+        d-xl-inline\" style=\"color: #000\">Guest</span>\n</a>\n<div class=\"dropdown-menu
+        dropdown-menu-right\">\n<a class=\"dropdown-item\" href=\"/login\"><span class='fas
+        fa-sign-in-alt fa-fw ' aria-hidden='true' title='Log in'></span> Log in</a>\n<a
+        class=\"dropdown-item\" href=\"/signup\"><span class='fas fa-pencil-alt fa-fw
+        ' aria-hidden='true' title='Sign up'></span> Sign up</a>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</nav>\n<div
+        class=\"container\" role=\"main\" id=\"content\">\n<div id=\"announcement\"
+        class=\"alert alert-success fade show text-center\" role=\"alert\">\n<strong>Announcement
+        (Aug-24):</strong> MangaDex Gaming Community <a title=\"Go to forum thread\"
+        href=\"/thread/166175\"><span class='fas fa-external-link-alt fa-fw ' aria-hidden='true'
+        title='Forum thread'></span></a></div>\n<div class=\"card mb-3\">\n<h6 class=\"card-header
+        d-flex align-items-center py-2\">\n<span class='fas fa-book fa-fw ' aria-hidden='true'></span>
+        <span class=\"mx-1\">Manhole</span>\n<span class='rounded flag flag-jp' title='Japanese'></span>
+        <span class=\"ml-1\"></span>\n<a class='ml-auto' href='/login'><span title='Due
+        to the volume of bots spamming RSS links, this now requires an account to
+        use.' class='fas fa-rss fa-2x'></span></a> </h6>\n<div class=\"card-body p-0\">\n<div
+        class=\"row edit\">\n<div class=\"col-xl-3 col-lg-4 col-md-5\">\n<a href=\"/title/2436/manhole/covers/\"
+        title=\"See covers\">\n<img class=\"rounded\" width=\"100%\" src=\"/images/manga/2436.jpg?1519173182\"
+        />\n</a>\n</div>\n <div class=\"col-xl-9 col-lg-8 col-md-7\">\n<div class=\"row
+        m-0 py-1 px-0\">\n<div class=\"col-lg-3 col-xl-2 strong\">Alt name(s):</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<ul class=\"list-inline m-0\">\n<li class='list-inline-item'><span
+        class='fas fa-book fa-fw ' aria-hidden='true'></span> Manhole ~Nou wo Kurau
+        Kiseichuu~</li><li class='list-inline-item'><span class='fas fa-book fa-fw
+        ' aria-hidden='true'></span> \u30DE\u30F3\u30DB\u30FC\u30EB</li><li class='list-inline-item'><span
+        class='fas fa-book fa-fw ' aria-hidden='true'></span> \u30DE\u30F3\u30DB\u30FC\u30EB
+        \u301C\u8133\u3092\u55B0\u3089\u3046\u5BC4\u751F\u866B\u301C</li> </ul>\n</div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Author:</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<a href=\"/search?author=Tsutsui Tetsuya\"
+        title=\"Other manga by this author\">Tsutsui Tetsuya</a> </div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Artist:</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<a href=\"/search?artist=Tsutsui Tetsuya\"
+        title=\"Other manga by this artist\">Tsutsui Tetsuya</a> </div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Demographic:</div>\n<div
+        class=\"col-lg-9 col-xl-10\"><span class=\"badge badge-secondary\"><a class=\"genre\"
+        href=\"/search?demo_id=3\" title=\"Search for Seinen titles\">Seinen</a></span></div>\n</div>\n<div
+        class='row m-0 py-1 px-0 border-top'>\n<div class='col-lg-3 col-xl-2 strong'>Genre:</div>\n<div
+        class='col-lg-9 col-xl-10'><a class='badge badge-secondary' href='/genre/14'>Horror</a>
+        <a class='badge badge-secondary' href='/genre/20'>Mystery</a> <a class='badge
+        badge-secondary' href='/genre/22'>Psychological</a> </div></div> <div class=\"row
+        m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Rating:</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<ul class=\"list-inline m-0\">\n<li class=\"list-inline-item\"><span
+        class=\"text-primary\"><span class='fas fa-star fa-fw ' aria-hidden='true'
+        title='Bayesian rating'></span> 7.85</span> </li>\n<li class=\"list-inline-item
+        small\"><span class='fas fa-star fa-fw ' aria-hidden='true' title='Mean rating'></span>
+        7.68</li>\n<li class=\"list-inline-item small\"><span class='fas fa-user fa-fw
+        ' aria-hidden='true' title='Users'></span> 22</li>\n<li class=\"list-inline-item\"><button
+        type=\"button\" class=\"btn btn-secondary btn-xs\" id=\"histogram_toggle\"><span
+        class='fas fa-chart-bar fa-fw ' aria-hidden='true'></span></button></li>\n</ul>\n<div
+        id=\"histogram_div\" class=\"display-none\"><canvas id=\"ratings_histogram\"
+        data-json=\"[7,8,8,9,8,9,8,8,8,9,8,7,6,10,8,6,6,8,6,7,8,7]\"></canvas></div>\n</div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Pub.
+        status:</div>\n<div class=\"col-lg-9 col-xl-10\">Completed</div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Stats:</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n<ul class=\"list-inline m-0\">\n<li class=\"list-inline-item
+        text-info\"><span class='fas fa-eye fa-fw ' aria-hidden='true' title='Views'></span>
+        3,333</li>\n<li class=\"list-inline-item text-success\"><span class='fas fa-bookmark
+        fa-fw ' aria-hidden='true' title='Follows'></span> 222</li>\n<li class=\"list-inline-item\"><span
+        class='far fa-file fa-fw ' aria-hidden='true' title='Total chapters'></span>
+        29</li>\n</ul>\n</div>\n</div>\n<div class=\"row m-0 py-1 px-0 border-top\">\n<div
+        class=\"col-lg-3 col-xl-2 strong\">Description:</div>\n<div class=\"col-lg-9
+        col-xl-10\">What do two Japanese detectives, a naked man on a city street,
+        and a roundworm from Botswana all have in common? In the first volume of Manhole,
+        Ken Mizoguchi and Nao Inoue investigate a string of bloody and mysterious
+        murders, but their work uncovers a deadly biological agent which poses a threat
+        of epidemic proportions. An unlikely lead starts them in the pursuit of a
+        mysterious self-titled photographer, but meanwhile the infections keep spreading.
+        The series may be best described as the thrilling combination of a detective
+        story with biological horror.</div>\n</div>\n<div class='row m-0 py-1 px-0
+        border-top'>\n<div class='col-lg-3 col-xl-2 strong'>Information:</div>\n<div
+        class='col-lg-9 col-xl-10'><ul class='list-inline mb-0'><li class='list-inline-item'><img
+        src='/images/misc/mu.png' /> <a rel='noopener noreferrer' target='_blank'
+        href='https://www.mangaupdates.com/series.html?id=5864'>MangaUpdates</a></li><li
+        class='list-inline-item'><img src='/images/misc/mal.png' /> <a rel='noopener
+        noreferrer' target='_blank' href='https://myanimelist.net/manga/1415'>MyAnimeList</a></li></ul></div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Reading
+        progress:</div>\n<div class=\"reading_progress col-lg-9 col-xl-10\">\n<ul
+        class=\"list-inline m-0\">\n<li class=\"list-inline-item\">\nVolume <span
+        id=\"current_volume\">0</span>/3 <button disabled title='You need to follow
+        this title to use this function.' type=\"button\" class=\"btn btn-success
+        btn-xs ml-1\" id=\"increment_volume\" data-title-id=\"2436\"><span class='fas
+        fa-plus-circle fa-fw ' aria-hidden='true'></span></button>\n</li>\n<li class=\"list-inline-item\">\nChapter
+        <span id=\"current_chapter\">0</span>/28.5 <button disabled title='You need
+        to follow this title to use this function.' type=\"button\" class=\"btn btn-success
+        btn-xs ml-1\" id=\"increment_chapter\" data-title-id=\"2436\"><span class='fas
+        fa-plus-circle fa-fw ' aria-hidden='true'></span></button>\n</li>\n<li class=\"list-inline-item\"><button
+        disabled title='You need to follow this title to use this function.' type=\"button\"
+        class=\"btn btn-info btn-xs ml-1\" id=\"edit_progress\"><span class='fas fa-pencil-alt
+        fa-fw ' aria-hidden='true'></span></button></li>\n</ul>\n</div>\n<div class=\"reading_progress
+        display-none col-lg-9 col-xl-10\">\n<form class=\"form-inline\" id=\"edit_progress_form\"
+        method=\"post\" data-title-id=\"2436\">\n<ul class=\"list-inline m-0\">\n<li
+        class=\"list-inline-item\"><input style=\"width: 60px;\" type=\"text\" class=\"form-control\"
+        id=\"volume\" name=\"volume\" value=\"\">/3</li>\n<li class=\"list-inline-item\"><input
+        style=\"width: 60px;\" type=\"text\" class=\"form-control\" id=\"chapter\"
+        name=\"chapter\" value=\"\">/28.5</li>\n<li class=\"list-inline-item\"><button
+        type=\"submit\" class=\"btn btn-success\" id=\"edit_progress_button\"><span
+        class='fas fa-save fa-fw ' aria-hidden='true'></span></button></li>\n<li class=\"list-inline-item\"><button
+        type=\"button\" class=\"btn btn-warning\" id=\"cancel_edit_progress\"><span
+        class='fas fa-undo fa-fw ' aria-hidden='true'></span></button></li>\n</ul>\n</form>\n</div>\n</div>\n<div
+        class=\"row m-0 py-1 px-0 border-top\">\n<div class=\"col-lg-3 col-xl-2 strong\">Actions:</div>\n<div
+        class=\"col-lg-9 col-xl-10\">\n <button class='btn btn-secondary' id='upload_button'
+        disabled title='You need to log in to use this function.'><span class='fas
+        fa-upload fa-fw ' aria-hidden='true' title='Upload'></span> <span class='d-none
+        d-xl-inline'>Upload chapter</span></button> <button class='btn btn-secondary
+        ' disabled title='You need to log in to use this function.'><span class='fas
+        fa-bookmark fa-fw ' aria-hidden='true' title='Follow'></span> <span class='d-none
+        d-xl-inline'>Follow</span></button> <div class='btn-group '>\n<button disabled
+        title='You need to log in to use this function.' type='button' class='btn
+        btn-primary dropdown-toggle' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'><span
+        class='fas fa-star fa-fw ' aria-hidden='true'></span> <span class='caret'></span>\n</button>\n<div
+        class='dropdown-menu'><a class=' dropdown-item manga_rating_button' id='10'
+        data-manga-id='2436' href='#'>(10) Masterpiece</a><a class=' dropdown-item
+        manga_rating_button' id='9' data-manga-id='2436' href='#'>(9) Great</a><a
+        class=' dropdown-item manga_rating_button' id='8' data-manga-id='2436' href='#'>(8)
+        Very good</a><a class=' dropdown-item manga_rating_button' id='7' data-manga-id='2436'
+        href='#'>(7) Good</a><a class=' dropdown-item manga_rating_button' id='6'
+        data-manga-id='2436' href='#'>(6) Fine</a><a class=' dropdown-item manga_rating_button'
+        id='5' data-manga-id='2436' href='#'>(5) Average</a><a class=' dropdown-item
+        manga_rating_button' id='4' data-manga-id='2436' href='#'>(4) Bad</a><a class='
+        dropdown-item manga_rating_button' id='3' data-manga-id='2436' href='#'>(3)
+        Very bad</a><a class=' dropdown-item manga_rating_button' id='2' data-manga-id='2436'
+        href='#'>(2) Horrible</a><a class=' dropdown-item manga_rating_button' id='1'
+        data-manga-id='2436' href='#'>(1) Appalling</a></div>\n</div> <button type=\"button\"
+        title=\"You must be logged in to send a report\" class=\"btn btn-warning float-right
+        mr-1\" disabled><span class='fas fa-flag fa-fw ' aria-hidden='true'></span>
+        <span class=\"d-none d-xl-inline\">Report</span></button>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n<ul
+        class=\"edit nav nav-tabs\" role=\"tablist\">\n<li class=\"nav-item\">\n<a
+        class=\"nav-link active\" href=\"/title/2436/manhole/chapters/\"><span class='far
+        fa-file fa-fw ' aria-hidden='true'></span> <span class=\"d-none d-md-inline\">Chapters</span></a>\n</li>\n<li
+        class=\"nav-item\">\n<a class=\"nav-link \" href=\"/title/2436/manhole/comments/\"><span
+        class='fas fa-comments fa-fw ' aria-hidden='true'></span> <span class=\"d-none
+        d-md-inline\">Comments</span> <span class='badge badge-secondary'>1</span></a>\n</li>\n<li
+        class=\"nav-item\">\n<a class=\"nav-link \" href=\"/title/2436/manhole/covers/\"><span
+        class='fas fa-image fa-fw ' aria-hidden='true'></span> <span class=\"d-none
+        d-md-inline\">Covers</span></a>\n</li>\n</ul>\n\n<div class=\"edit tab-content\">\n<div
+        class=\"chapter-container \">\n<div class=\"row no-gutters\">\n<div class=\"col
+        \">\n<div class=\"chapter-row d-flex row no-gutters p-2 align-items-center
+        border-bottom odd-row\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\"><span class='fas fa-eye fa-fw ' aria-hidden='true' title='Read'></span></div>\n<div
+        class=\"col col-lg-5 row no-gutters pr-1 order-lg-2\"><span class='far fa-file
+        fa-fw ' aria-hidden='true' title='Chapter'></span></div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\"><span class='fas fa-comments
+        fa-fw ' aria-hidden='true' title='Comments'></span></div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right order-lg-8\"><span class='far fa-clock fa-fw ' aria-hidden='true'
+        title='Age'></span></div>\n<div class=\"w-100 d-lg-none\"></div>\n<div class=\"col-auto
+        text-center order-lg-4\" style=\"flex: 0 0 2.5em;\"><span class='fas fa-globe
+        fa-fw ' aria-hidden='true' title='Language'></span></div>\n<div class=\"col
+        order-lg-5\"><span class='fas fa-users fa-fw ' aria-hidden='true' title='Group'></span></div>\n<div
+        class=\"col-auto col-lg-1 text-right mx-1 order-lg-6\"><span class='fas fa-user
+        fa-fw ' aria-hidden='true' title='Uploader'></span></div>\n<div class=\"col-2
+        col-lg-1 text-right text-info order-lg-7\"><span class='fas fa-eye fa-fw '
+        aria-hidden='true' title='Views'></span></div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199912\"
+        data-title=\"Epilogue\" data-chapter=\"28.5\" data-volume=\"3\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"337\" data-timestamp=\"1521801689\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199912' class='text-truncate'>Vol. 3
+        Ch. 28.5 - Epilogue</a> <div> <span class=\"badge badge-primary mx-1\">END</span></div>\n</div>\n<div
+        class=\"col text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div
+        class=\"col-2 col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23
+        10:41:29 UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div
+        class=\"w-100 d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto
+        text-center order-lg-4\" style=\"flex: 0 0 2.5em;\">\n<span class='rounded
+        flag flag-gb' title='English'></span> </div>\n<div class=\"chapter-list-group
+        col text-truncate order-lg-5\">\n<a href='/group/80/illuminati-manga'>Illuminati-Manga</a>
+        </div>\n<div class=\"chapter-list-uploader col-auto col-lg-1 text-truncate
+        text-right mx-1 order-lg-6\">\n<a class='user_level_guest' style='color: #090;
+        ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">337</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"337\">337</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199911\"
+        data-title=\"Hiroshi Kurokawa\" data-chapter=\"28\" data-volume=\"3\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"278\" data-timestamp=\"1521801671\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199911' class='text-truncate'>Vol. 3
+        Ch. 28 - Hiroshi Kurokawa</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:41:11 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">278</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"278\">278</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199910\"
+        data-title=\"Epidemic\" data-chapter=\"27\" data-volume=\"3\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"254\" data-timestamp=\"1521801634\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199910' class='text-truncate'>Vol. 3
+        Ch. 27 - Epidemic</a> <div></div>\n</div>\n<div class=\"col text-right order-lg-3\"
+        style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1 ml-1 text-right
+        text-truncate order-lg-8 \" title=\"2018-03-23 10:40:34 UTC\">\n1 year <span
+        class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100 d-lg-none\"></div>\n<div
+        class=\"chapter-list-flag col-auto text-center order-lg-4\" style=\"flex:
+        0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">254</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"254\">254</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199909\"
+        data-title=\"Strange Incidents\" data-chapter=\"26\" data-volume=\"3\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"226\" data-timestamp=\"1521801594\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199909' class='text-truncate'>Vol. 3
+        Ch. 26 - Strange Incidents</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:39:54 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">226</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"226\">226</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199908\"
+        data-title=\"Determination\" data-chapter=\"25\" data-volume=\"3\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"236\" data-timestamp=\"1521801576\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199908' class='text-truncate'>Vol. 3
+        Ch. 25 - Determination</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:39:36 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">236</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"236\">236</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199907\"
+        data-title=\"Ken Mizoguchi\" data-chapter=\"24\" data-volume=\"3\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"231\" data-timestamp=\"1521801556\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199907' class='text-truncate'>Vol. 3
+        Ch. 24 - Ken Mizoguchi</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:39:16 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">231</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"231\">231</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199906\"
+        data-title=\"You were wrong\" data-chapter=\"23\" data-volume=\"3\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"231\" data-timestamp=\"1521801502\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199906' class='text-truncate'>Vol. 3
+        Ch. 23 - You were wrong</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:38:22 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">231</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"231\">231</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199905\"
+        data-title=\"The Collaborator\" data-chapter=\"22\" data-volume=\"3\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"237\" data-timestamp=\"1521801469\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199905' class='text-truncate'>Vol. 3
+        Ch. 22 - The Collaborator</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:37:49 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n <div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">237</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"237\">237</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199904\"
+        data-title=\"Menace\" data-chapter=\"21\" data-volume=\"3\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"259\" data-timestamp=\"1521801452\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199904' class='text-truncate'>Vol. 3
+        Ch. 21 - Menace</a> <div></div>\n</div>\n<div class=\"col text-right order-lg-3\"
+        style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1 ml-1 text-right
+        text-truncate order-lg-8 \" title=\"2018-03-23 10:37:32 UTC\">\n1 year <span
+        class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100 d-lg-none\"></div>\n<div
+        class=\"chapter-list-flag col-auto text-center order-lg-4\" style=\"flex:
+        0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">259</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"259\">259</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199903\"
+        data-title=\"Pursuit\" data-chapter=\"20\" data-volume=\"3\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"323\" data-timestamp=\"1521801441\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199903' class='text-truncate'>Vol. 3
+        Ch. 20 - Pursuit</a> <div></div>\n</div>\n<div class=\"col text-right order-lg-3\"
+        style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1 ml-1 text-right
+        text-truncate order-lg-8 \" title=\"2018-03-23 10:37:21 UTC\">\n1 year <span
+        class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100 d-lg-none\"></div>\n<div
+        class=\"chapter-list-flag col-auto text-center order-lg-4\" style=\"flex:
+        0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">323</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"323\">323</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199902\"
+        data-title=\"Oppression\" data-chapter=\"19\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"234\" data-timestamp=\"1521801420\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199902' class='text-truncate'>Vol. 2
+        Ch. 19 - Oppression</a> <div></div>\n</div>\n<div class=\"col text-right order-lg-3\"
+        style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1 ml-1 text-right
+        text-truncate order-lg-8 \" title=\"2018-03-23 10:37:00 UTC\">\n1 year <span
+        class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100 d-lg-none\"></div>\n<div
+        class=\"chapter-list-flag col-auto text-center order-lg-4\" style=\"flex:
+        0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">234</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"234\">234</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199901\"
+        data-title=\"Coincidence\" data-chapter=\"18\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"262\" data-timestamp=\"1521801411\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199901' class='text-truncate'>Vol. 2
+        Ch. 18 - Coincidence</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:36:51 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">262</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"262\">262</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199900\"
+        data-title=\"Mika Sekiguchi\" data-chapter=\"17\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"243\" data-timestamp=\"1521801401\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199900' class='text-truncate'>Vol. 2
+        Ch. 17 - Mika Sekiguchi</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:36:41 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">243</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"243\">243</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199899\"
+        data-title=\"Nightmare in Taketoyo DIstrict\" data-chapter=\"16\" data-volume=\"2\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"80\"
+        data-uploader=\"nutjob\" data-views=\"248\" data-timestamp=\"1521801384\"
+        data-manga-id=\"2436\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/199899' class='text-truncate'>Vol.
+        2 Ch. 16 - Nightmare in Taketoyo DIstrict</a> <div></div>\n</div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:36:24
+        UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">248</span>\n <span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"248\">248</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199898\"
+        data-title=\"Elimination\" data-chapter=\"15\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"242\" data-timestamp=\"1521801357\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199898' class='text-truncate'>Vol. 2
+        Ch. 15 - Elimination</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:35:57 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">242</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"242\">242</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199897\"
+        data-title=\"Worst-case Scenario\" data-chapter=\"14\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"249\" data-timestamp=\"1521801335\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199897' class='text-truncate'>Vol. 2
+        Ch. 14 - Worst-case Scenario</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n <div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:35:35 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">249</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"249\">249</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199896\"
+        data-title=\"Black Fog\" data-chapter=\"13\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"247\" data-timestamp=\"1521801317\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199896' class='text-truncate'>Vol. 2
+        Ch. 13 - Black Fog</a> <div></div>\n</div>\n<div class=\"col text-right order-lg-3\"
+        style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1 ml-1 text-right
+        text-truncate order-lg-8 \" title=\"2018-03-23 10:35:17 UTC\">\n1 year <span
+        class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100 d-lg-none\"></div>\n<div
+        class=\"chapter-list-flag col-auto text-center order-lg-4\" style=\"flex:
+        0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">247</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"247\">247</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199895\"
+        data-title=\"Testimony\" data-chapter=\"12\" data-volume=\"2\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"260\" data-timestamp=\"1521801300\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199895' class='text-truncate'>Vol. 2
+        Ch. 12 - Testimony</a> <div></div>\n</div>\n<div class=\"col text-right order-lg-3\"
+        style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1 ml-1 text-right
+        text-truncate order-lg-8 \" title=\"2018-03-23 10:35:00 UTC\">\n1 year <span
+        class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100 d-lg-none\"></div>\n<div
+        class=\"chapter-list-flag col-auto text-center order-lg-4\" style=\"flex:
+        0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">260</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"260\">260</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199894\"
+        data-title=\"The Second Man (Part 2)\" data-chapter=\"11\" data-volume=\"2\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"80\"
+        data-uploader=\"nutjob\" data-views=\"250\" data-timestamp=\"1521801289\"
+        data-manga-id=\"2436\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/199894' class='text-truncate'>Vol.
+        2 Ch. 11 - The Second Man (Part 2)</a> <div></div>\n</div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:34:49
+        UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">250</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"250\">250</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199893\"
+        data-title=\"The Second Man (Part 1)\" data-chapter=\"10\" data-volume=\"2\"
+        data-comments=\"2\" data-read=\"false\" data-lang=\"1\" data-group=\"80\"
+        data-uploader=\"nutjob\" data-views=\"263\" data-timestamp=\"1521801273\"
+        data-manga-id=\"2436\">\n<div class=\"col-auto text-center order-lg-1\" style=\"flex:
+        0 0 2.5em;\">\n<span class='grey' title='You need to follow this title to
+        mark it read.'><span class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span>
+        </div>\n<div class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap
+        text-truncate pr-1 order-lg-2\">\n<a href='/chapter/199893' class='text-truncate'>Vol.
+        2 Ch. 10 - The Second Man (Part 1)</a> <div></div>\n</div>\n<div class=\"col
+        text-right order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2
+        col-lg-1 ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:34:33
+        UTC\">\n1 year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">263</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"263\">263</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199892\"
+        data-title=\"Crimes of Conscience\" data-chapter=\"9\" data-volume=\"1\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"285\" data-timestamp=\"1521801238\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199892' class='text-truncate'>Vol. 1
+        Ch. 9 - Crimes of Conscience</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:33:58 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">285</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"285\">285</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199891\"
+        data-title=\"One-Eyed Family\" data-chapter=\"8\" data-volume=\"1\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"310\" data-timestamp=\"1521801222\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199891' class='text-truncate'>Vol. 1
+        Ch. 8 - One-Eyed Family</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:33:42 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">310</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"310\">310</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199890\"
+        data-title=\"The Photographer\" data-chapter=\"7\" data-volume=\"1\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"284\" data-timestamp=\"1521801206\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199890' class='text-truncate'>Vol. 1
+        Ch. 7 - The Photographer</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:33:26 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">284</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"284\">284</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199889\"
+        data-title=\"Institution\" data-chapter=\"6\" data-volume=\"1\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"288\" data-timestamp=\"1521801189\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n <a href='/chapter/199889' class='text-truncate'>Vol.
+        1 Ch. 6 - Institution</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:33:09 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">288</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"288\">288</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199888\"
+        data-title=\"Hole\" data-chapter=\"5\" data-volume=\"1\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"342\" data-timestamp=\"1521801174\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199888' class='text-truncate'>Vol. 1
+        Ch. 5 - Hole</a> <div></div>\n</div>\n<div class=\"col text-right order-lg-3\"
+        style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1 ml-1 text-right
+        text-truncate order-lg-8 \" title=\"2018-03-23 10:32:54 UTC\">\n1 year <span
+        class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100 d-lg-none\"></div>\n<div
+        class=\"chapter-list-flag col-auto text-center order-lg-4\" style=\"flex:
+        0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">342</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"342\">342</span>\n</div>\n </div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199887\"
+        data-title=\"Infection\" data-chapter=\"4\" data-volume=\"1\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"310\" data-timestamp=\"1521801166\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199887' class='text-truncate'>Vol. 1
+        Ch. 4 - Infection</a> <div></div>\n</div>\n<div class=\"col text-right order-lg-3\"
+        style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1 ml-1 text-right
+        text-truncate order-lg-8 \" title=\"2018-03-23 10:32:46 UTC\">\n1 year <span
+        class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100 d-lg-none\"></div>\n<div
+        class=\"chapter-list-flag col-auto text-center order-lg-4\" style=\"flex:
+        0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">310</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"310\">310</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199886\"
+        data-title=\"Amamiya Youichi\" data-chapter=\"3\" data-volume=\"1\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"306\" data-timestamp=\"1521801154\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199886' class='text-truncate'>Vol. 1
+        Ch. 3 - Amamiya Youichi</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:32:34 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">306</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"306\">306</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199885\"
+        data-title=\"Horikawa Yoshito\" data-chapter=\"2\" data-volume=\"1\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"358\" data-timestamp=\"1521801135\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199885' class='text-truncate'>Vol. 1
+        Ch. 2 - Horikawa Yoshito</a> <div></div>\n</div>\n<div class=\"col text-right
+        order-lg-3\" style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1
+        ml-1 text-right text-truncate order-lg-8 \" title=\"2018-03-23 10:32:15 UTC\">\n1
+        year <span class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100
+        d-lg-none\"></div>\n<div class=\"chapter-list-flag col-auto text-center order-lg-4\"
+        style=\"flex: 0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">358</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"358\">358</span>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"row no-gutters\">\n<div class=\"col \">\n<div class=\"chapter-row
+        d-flex row no-gutters p-2 align-items-center border-bottom odd-row\" data-id=\"199884\"
+        data-title=\"Incident\" data-chapter=\"1\" data-volume=\"1\" data-comments=\"2\"
+        data-read=\"false\" data-lang=\"1\" data-group=\"80\" data-uploader=\"nutjob\"
+        data-views=\"535\" data-timestamp=\"1521801113\" data-manga-id=\"2436\">\n<div
+        class=\"col-auto text-center order-lg-1\" style=\"flex: 0 0 2.5em;\">\n<span
+        class='grey' title='You need to follow this title to mark it read.'><span
+        class='fas fa-eye-slash fa-fw ' aria-hidden='true'></span></span> </div>\n<div
+        class=\"col col-lg-5 row no-gutters align-items-center flex-nowrap text-truncate
+        pr-1 order-lg-2\">\n<a href='/chapter/199884' class='text-truncate'>Vol. 1
+        Ch. 1 - Incident</a> <div></div>\n</div>\n<div class=\"col text-right order-lg-3\"
+        style=\"flex: 0 0 3em;\">\n</div>\n<div class=\"col-2 col-lg-1 ml-1 text-right
+        text-truncate order-lg-8 \" title=\"2018-03-23 10:31:53 UTC\">\n1 year <span
+        class='d-none d-xl-inline'>ago</span> </div>\n<div class=\"w-100 d-lg-none\"></div>\n<div
+        class=\"chapter-list-flag col-auto text-center order-lg-4\" style=\"flex:
+        0 0 2.5em;\">\n<span class='rounded flag flag-gb' title='English'></span>
+        </div>\n<div class=\"chapter-list-group col text-truncate order-lg-5\">\n<a
+        href='/group/80/illuminati-manga'>Illuminati-Manga</a> </div>\n<div class=\"chapter-list-uploader
+        col-auto col-lg-1 text-truncate text-right mx-1 order-lg-6\">\n<a class='user_level_guest'
+        style='color: #090; ' href='/user/3861/nutjob'>nutjob</a> </div>\n<div class=\"chapter-list-views
+        col-2 col-lg-1 text-right text-info text-truncate order-lg-7\">\n<span class=\"d-none
+        d-md-inline d-lg-none d-xl-inline\">535</span>\n<span class=\"d-inline d-md-none
+        d-lg-inline d-xl-none\" title=\"535\">535</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>
+        \n\n<div id=\"message_container\" class=\"display-none\"></div>\n\n\n<div
+        class=\"modal fade\" id=\"homepage_settings_modal\" tabindex=\"-1\" role=\"dialog\"
+        aria-labelledby=\"homepage_settings_label\" aria-hidden=\"true\">\n<div class=\"modal-dialog
+        modal-dialog-centered modal-lg\" role=\"document\">\n<div class=\"modal-content\">\n<div
+        class=\"modal-header\">\n<h5 class=\"modal-title\" id=\"homepage_settings_label\"><span
+        class='fas fa-cog fa-fw ' aria-hidden='true'></span> MangaDex settings</h5>\n<button
+        type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n<span
+        aria-hidden=\"true\">&times;</span>\n</button>\n</div>\n<div class=\"modal-body\">\n<form
+        method=\"post\" id=\"homepage_settings_form\">\n<div class=\"form-group row\">\n<label
+        for=\"language\" class=\"col-lg-3 col-form-label-modal\">Site theme:</label>\n<div
+        class=\"col-lg-9\">\n<select class=\"form-control selectpicker\" id=\"theme_id\"
+        name=\"theme_id\">\n<option selected value='1'>Light</option><option value='2'>Dark</option><option
+        value='3'>Light-Bronze</option><option value='4'>Dark-Bronze</option><option
+        value='5'>Light-Slate</option><option value='6'>Dark-Slate</option><option
+        value='7'>Abyss</option> </select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"default_lang_ids\" class=\"col-lg-3 col-form-label-modal\">Filter
+        chapter languages:</label>\n<div class=\"col-lg-9\">\n<select multiple class=\"form-control
+        selectpicker show-tick\" data-actions-box=\"true\" data-selected-text-format=\"count
+        > 5\" data-size=\"10\" id=\"default_lang_ids\" name=\"default_lang_ids[]\"
+        title=\"All langs\">\n<option value='19' data-content=\"<span class='rounded
+        flag flag-sa' title='Arabic'></span> Arabic\">Arabic</option><option value='22'
+        data-content=\"<span class='rounded flag flag-bd' title='Bengali'></span>
+        Bengali\">Bengali</option><option value='14' data-content=\"<span class='rounded
+        flag flag-bg' title='Bulgarian'></span> Bulgarian\">Bulgarian</option><option
+        value='37' data-content=\"<span class='rounded flag flag-mm' title='Burmese'></span>
+        Burmese\">Burmese</option><option value='33' data-content=\"<span class='rounded
+        flag flag-ct' title='Catalan'></span> Catalan\">Catalan</option><option value='21'
+        data-content=\"<span class='rounded flag flag-cn' title='Chinese (Simp)'></span>
+        Chinese (Simp)\">Chinese (Simp)</option><option value='35' data-content=\"<span
+        class='rounded flag flag-hk' title='Chinese (Trad)'></span> Chinese (Trad)\">Chinese
+        (Trad)</option><option value='24' data-content=\"<span class='rounded flag
+        flag-cz' title='Czech'></span> Czech\">Czech</option><option value='20' data-content=\"<span
+        class='rounded flag flag-dk' title='Danish'></span> Danish\">Danish</option><option
+        value='5' data-content=\"<span class='rounded flag flag-nl' title='Dutch'></span>
+        Dutch\">Dutch</option><option value='1' data-content=\"<span class='rounded
+        flag flag-gb' title='English'></span> English\">English</option><option value='34'
+        data-content=\"<span class='rounded flag flag-ph' title='Filipino'></span>
+        Filipino\">Filipino</option><option value='11' data-content=\"<span class='rounded
+        flag flag-fi' title='Finnish'></span> Finnish\">Finnish</option><option value='10'
+        data-content=\"<span class='rounded flag flag-fr' title='French'></span> French\">French</option><option
+        value='8' data-content=\"<span class='rounded flag flag-de' title='German'></span>
+        German\">German</option><option value='13' data-content=\"<span class='rounded
+        flag flag-gr' title='Greek'></span> Greek\">Greek</option><option value='39'
+        data-content=\"<span class='rounded flag flag-il' title='Hebrew'></span> Hebrew\">Hebrew</option><option
+        value='40' data-content=\"<span class='rounded flag flag-in' title='Hindi'></span>
+        Hindi\">Hindi</option><option value='9' data-content=\"<span class='rounded
+        flag flag-hu' title='Hungarian'></span> Hungarian\">Hungarian</option><option
+        value='27' data-content=\"<span class='rounded flag flag-id' title='Indonesian'></span>
+        Indonesian\">Indonesian</option><option value='6' data-content=\"<span class='rounded
+        flag flag-it' title='Italian'></span> Italian\">Italian</option><option value='2'
+        data-content=\"<span class='rounded flag flag-jp' title='Japanese'></span>
+        Japanese\">Japanese</option><option value='28' data-content=\"<span class='rounded
+        flag flag-kr' title='Korean'></span> Korean\">Korean</option><option value='38'
+        data-content=\"<span class='rounded flag flag-lt' title='Lithuanian'></span>
+        Lithuanian\">Lithuanian</option><option value='31' data-content=\"<span class='rounded
+        flag flag-my' title='Malay'></span> Malay\">Malay</option><option value='25'
+        data-content=\"<span class='rounded flag flag-mn' title='Mongolian'></span>
+        Mongolian\">Mongolian</option><option value='41' data-content=\"<span class='rounded
+        flag flag- ' title='Other'></span> Other\">Other</option><option value='30'
+        data-content=\"<span class='rounded flag flag-ir' title='Persian'></span>
+        Persian\">Persian</option><option value='3' data-content=\"<span class='rounded
+        flag flag-pl' title='Polish'></span> Polish\">Polish</option><option value='16'
+        data-content=\"<span class='rounded flag flag-br' title='Portuguese (Br)'></span>
+        Portuguese (Br)\">Portuguese (Br)</option><option value='17' data-content=\"<span
+        class='rounded flag flag-pt' title='Portuguese (Pt)'></span> Portuguese (Pt)\">Portuguese
+        (Pt)</option><option value='23' data-content=\"<span class='rounded flag flag-ro'
+        title='Romanian'></span> Romanian\">Romanian</option><option value='7' data-content=\"<span
+        class='rounded flag flag-ru' title='Russian'></span> Russian\">Russian</option><option
+        value='4' data-content=\"<span class='rounded flag flag-rs' title='Serbo-Croatian'></span>
+        Serbo-Croatian\">Serbo-Croatian</option><option value='15' data-content=\"<span
+        class='rounded flag flag-es' title='Spanish (Es)'></span> Spanish (Es)\">Spanish
+        (Es)</option><option value='29' data-content=\"<span class='rounded flag flag-mx'
+        title='Spanish (LATAM)'></span> Spanish (LATAM)\">Spanish (LATAM)</option><option
+        value='18' data-content=\"<span class='rounded flag flag-se' title='Swedish'></span>
+        Swedish\">Swedish</option><option value='32' data-content=\"<span class='rounded
+        flag flag-th' title='Thai'></span> Thai\">Thai</option><option value='26'
+        data-content=\"<span class='rounded flag flag-tr' title='Turkish'></span>
+        Turkish\">Turkish</option><option value='36' data-content=\"<span class='rounded
+        flag flag-ua' title='Ukrainian'></span> Ukrainian\">Ukrainian</option><option
+        value='12' data-content=\"<span class='rounded flag flag-vn' title='Vietnamese'></span>
+        Vietnamese\">Vietnamese</option> </select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"display_language\" class=\"col-lg-3 col-form-label-modal\">User
+        interface language:</label>\n<div class=\"col-lg-9\">\n<select class=\"form-control
+        selectpicker\" id=\"display_lang_id\" name=\"display_lang_id\" data-size=\"10\">\n<option
+        value='19' data-content=\"<span class='rounded flag flag-sa' title='Arabic'></span>
+        Arabic\">Arabic</option><option value='22' data-content=\"<span class='rounded
+        flag flag-bd' title='Bengali'></span> Bengali\">Bengali</option><option value='14'
+        data-content=\"<span class='rounded flag flag-bg' title='Bulgarian'></span>
+        Bulgarian\">Bulgarian</option><option value='37' data-content=\"<span class='rounded
+        flag flag-mm' title='Burmese'></span> Burmese\">Burmese</option><option value='33'
+        data-content=\"<span class='rounded flag flag-ct' title='Catalan'></span>
+        Catalan\">Catalan</option><option value='21' data-content=\"<span class='rounded
+        flag flag-cn' title='Chinese (Simp)'></span> Chinese (Simp)\">Chinese (Simp)</option><option
+        value='35' data-content=\"<span class='rounded flag flag-hk' title='Chinese
+        (Trad)'></span> Chinese (Trad)\">Chinese (Trad)</option><option value='24'
+        data-content=\"<span class='rounded flag flag-cz' title='Czech'></span> Czech\">Czech</option><option
+        value='20' data-content=\"<span class='rounded flag flag-dk' title='Danish'></span>
+        Danish\">Danish</option><option value='5' data-content=\"<span class='rounded
+        flag flag-nl' title='Dutch'></span> Dutch\">Dutch</option><option selected
+        value='1' data-content=\"<span class='rounded flag flag-gb' title='English'></span>
+        English\">English</option><option value='34' data-content=\"<span class='rounded
+        flag flag-ph' title='Filipino'></span> Filipino\">Filipino</option><option
+        value='11' data-content=\"<span class='rounded flag flag-fi' title='Finnish'></span>
+        Finnish\">Finnish</option><option value='10' data-content=\"<span class='rounded
+        flag flag-fr' title='French'></span> French\">French</option><option value='8'
+        data-content=\"<span class='rounded flag flag-de' title='German'></span> German\">German</option><option
+        value='13' data-content=\"<span class='rounded flag flag-gr' title='Greek'></span>
+        Greek\">Greek</option><option value='39' data-content=\"<span class='rounded
+        flag flag-il' title='Hebrew'></span> Hebrew\">Hebrew</option><option value='40'
+        data-content=\"<span class='rounded flag flag-in' title='Hindi'></span> Hindi\">Hindi</option><option
+        value='9' data-content=\"<span class='rounded flag flag-hu' title='Hungarian'></span>
+        Hungarian\">Hungarian</option><option value='27' data-content=\"<span class='rounded
+        flag flag-id' title='Indonesian'></span> Indonesian\">Indonesian</option><option
+        value='6' data-content=\"<span class='rounded flag flag-it' title='Italian'></span>
+        Italian\">Italian</option><option value='2' data-content=\"<span class='rounded
+        flag flag-jp' title='Japanese'></span> Japanese\">Japanese</option><option
+        value='28' data-content=\"<span class='rounded flag flag-kr' title='Korean'></span>
+        Korean\">Korean</option><option value='38' data-content=\"<span class='rounded
+        flag flag-lt' title='Lithuanian'></span> Lithuanian\">Lithuanian</option><option
+        value='31' data-content=\"<span class='rounded flag flag-my' title='Malay'></span>
+        Malay\">Malay</option><option value='25' data-content=\"<span class='rounded
+        flag flag-mn' title='Mongolian'></span> Mongolian\">Mongolian</option><option
+        value='41' data-content=\"<span class='rounded flag flag- ' title='Other'></span>
+        Other\">Other</option><option value='30' data-content=\"<span class='rounded
+        flag flag-ir' title='Persian'></span> Persian\">Persian</option><option value='3'
+        data-content=\"<span class='rounded flag flag-pl' title='Polish'></span> Polish\">Polish</option><option
+        value='16' data-content=\"<span class='rounded flag flag-br' title='Portuguese
+        (Br)'></span> Portuguese (Br)\">Portuguese (Br)</option><option value='17'
+        data-content=\"<span class='rounded flag flag-pt' title='Portuguese (Pt)'></span>
+        Portuguese (Pt)\">Portuguese (Pt)</option><option value='23' data-content=\"<span
+        class='rounded flag flag-ro' title='Romanian'></span> Romanian\">Romanian</option><option
+        value='7' data-content=\"<span class='rounded flag flag-ru' title='Russian'></span>
+        Russian\">Russian</option><option value='4' data-content=\"<span class='rounded
+        flag flag-rs' title='Serbo-Croatian'></span> Serbo-Croatian\">Serbo-Croatian</option><option
+        value='15' data-content=\"<span class='rounded flag flag-es' title='Spanish
+        (Es)'></span> Spanish (Es)\">Spanish (Es)</option><option value='29' data-content=\"<span
+        class='rounded flag flag-mx' title='Spanish (LATAM)'></span> Spanish (LATAM)\">Spanish
+        (LATAM)</option><option value='18' data-content=\"<span class='rounded flag
+        flag-se' title='Swedish'></span> Swedish\">Swedish</option><option value='32'
+        data-content=\"<span class='rounded flag flag-th' title='Thai'></span> Thai\">Thai</option><option
+        value='26' data-content=\"<span class='rounded flag flag-tr' title='Turkish'></span>
+        Turkish\">Turkish</option><option value='36' data-content=\"<span class='rounded
+        flag flag-ua' title='Ukrainian'></span> Ukrainian\">Ukrainian</option><option
+        value='12' data-content=\"<span class='rounded flag flag-vn' title='Vietnamese'></span>
+        Vietnamese\">Vietnamese</option> </select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<div class=\"col-lg-3 text-right\">\n<button type=\"submit\" class=\"btn
+        btn-secondary\" id=\"homepage_settings_button\"><span class='fas fa-save fa-fw
+        ' aria-hidden='true'></span> Save</button>\n</div>\n<div class=\"col-lg-9
+        text-left\">\n</div>\n</div>\n</form>\n</div>\n<div class=\"modal-footer\">\n<div
+        class='alert alert-info mx-auto text-center' role='alert'><strong>Info:</strong>
+        These settings are temporary. Please <span class='fas fa-pencil-alt fa-fw
+        ' aria-hidden='true'></span> <a href='/signup'>make an account</a> to remember
+        these permanently.</div> </div>\n</div>\n</div>\n</div>\n<div class=\"modal
+        fade\" id=\"report_modal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"report_modal_label\"
+        aria-hidden=\"true\">\n<div class=\"modal-dialog\" role=\"document\">\n<div
+        class=\"modal-content\">\n<form id=\"report_modal_form\" action=\"/ajax/actions.ajax.php?source=nojs&function=report_submit\"
+        method=\"post\">\n<div class=\"modal-header\">\n<h5 class=\"modal-title\"
+        id=\"report_modal_title\">Submit new Report</h5>\n<button type=\"button\"
+        class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n<span aria-hidden=\"true\">&times;</span>\n</button>\n</div>\n<div
+        class=\"modal-body container\">\n<div class=\"report-item report-item-manga
+        row\">\n<div class=\"col col-2\"><img src=\"\" alt=\"Thumb\"></div>\n<div
+        class=\"col col-10\">\n<span class=\"ellipsis\">\n<span class=\"fas fa-book
+        fa-fw \" aria-hidden=\"true\" title=\"Title\"></span>\n<span class=\"manga_title\">Manga
+        Title</span>\n</span>\n</div>\n</div>\n<div class=\"report-item report-item-comment
+        row\">\n<div class=\"col\">\n<div class=\"alert alert-warning\">\nPlease note,
+        that not every report is actionable. If you don't like a particular user's
+        posts, consider blocking (from their profile page) instead.\n</div>\n<label>Reported
+        Post:</label><br />\n<div class=\"alert alert-info\">\n<div class=\"ellipsis
+        report-item-comment-text\"></div>\n</div>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"info\" class=\"col\">Report Reason:</label>\n</div>\n<div
+        class=\"form-group row\">\n<div class=\"col\">\n<select class=\"form-control
+        selectpicker\" id=\"reason_id\" name=\"reason_id\" tabindex=\"-90\" required=\"required\">\n<option
+        value=\"\" selected>- Select A Reason -</option>\n<option data-type-id=\"2\"
+        value=\"1\">All images broken</option>\n<option data-type-id=\"2\" value=\"2\"
+        required=\"required\">Some images broken</option>\n<option data-type-id=\"2\"
+        value=\"3\" required=\"required\">Watermarked images</option>\n<option data-type-id=\"2\"
+        value=\"4\" required=\"required\">Naming rules broken</option>\n<option data-type-id=\"2\"
+        value=\"5\" required=\"required\">Incorrect group</option>\n<option data-type-id=\"2\"
+        value=\"6\" required=\"required\">Group policy evasion</option>\n<option data-type-id=\"2\"
+        value=\"7\" required=\"required\">Official release/Raw</option>\n<option data-type-id=\"2\"
+        value=\"8\" required=\"required\">Other</option>\n<option data-type-id=\"3\"
+        value=\"9\">Spoilers</option>\n<option data-type-id=\"3\" value=\"10\">Aggregator
+        links</option>\n<option data-type-id=\"3\" value=\"11\">Unwanted solicitation</option>\n<option
+        data-type-id=\"3\" value=\"12\">Racism</option>\n<option data-type-id=\"3\"
+        value=\"13\" required=\"required\">Sexism</option>\n<option data-type-id=\"3\"
+        value=\"14\">Religious Discrimination</option>\n<option data-type-id=\"3\"
+        value=\"15\">Direct Personal Attack</option>\n<option data-type-id=\"3\" value=\"16\"
+        required=\"required\">Other</option>\n</select>\n</div>\n</div>\n<div class=\"form-group
+        row\">\n<label for=\"info\" class=\"col\">Additional Info:</label>\n</div>\n<div
+        class=\"form-group row\">\n<div class=\"col\">\n<textarea class=\"form-control\"
+        rows=\"5\" name=\"info\" id=\"info\" placeholder=\"Please be as descriptive
+        as possible in your report. If possible, include any recommended fixes.\"></textarea>\n</div>\n</div>\n</div>\n<div
+        class=\"modal-footer\">\n<input type=\"hidden\" name=\"return_url\" value=\"https://mangadex.org/title/2436\"
+        />\n<input type=\"hidden\" name=\"item_id\" value=\"-1\" />\n<input type=\"hidden\"
+        name=\"type_id\" value=\"-1\" />\n<button type=\"button\" class=\"btn btn-secondary\"
+        data-dismiss=\"modal\">Close</button>\n<button type=\"submit\" class=\"btn
+        btn-primary\">Submit</button>\n</div>\n</form>\n</div>\n</div>\n</div>\n<footer
+        class=\"footer\">\n<p class=\"m-0 text-center text-muted\">&copy; 2018 - 2019
+        <a href=\"/\" title=\"Array\n(\n    [0] => 4\n    [1] => 1566630894\n)\n\">MangaDex</a>
+        | Powered by <a href=\"https://path.net/\" title=\"Provider of CDN and DDoS
+        mitigation services\" target=\"_blank\">Path Network</a></p>\n</footer>\n<div
+        id=\"right_swipe_area\" style=\"position: fixed; top: 0; right: 0px; z-index:
+        1000; height: 100vh; width: 15px;\">&nbsp;</div>\n<div id=\"left_swipe_area\"
+        style=\"position: fixed; top: 0; left: 0px; z-index: 1000; height: 100vh;
+        width: 15px;\">&nbsp;</div>\n\n<div class=\"modal left fade\" id=\"left_modal\"
+        tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\">\n<div class=\"modal-dialog\"
+        role=\"document\">\n<div class=\"modal-content border-0\">\n<nav class=\"navbar
+        fixed-top text-nowrap navbar-light bg-light\">\n<div class=\"container p-0\">\n<div
+        class=\"dropdown\">\n<a href=\"#\" class=\"dropdown-toggle no-underline\"
+        data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n<span
+        class='fas fa-user-times fa-fw ' aria-hidden='true'></span> <span class=\"d-lg-none
+        d-xl-inline\" style=\"color: #000\">Guest</span>\n</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item\" href=\"/login\"><span class='fas fa-sign-in-alt fa-fw
+        ' aria-hidden='true'></span> Log in</a>\n<a class=\"dropdown-item\" href=\"/signup\"><span
+        class='fas fa-pencil-alt fa-fw ' aria-hidden='true'></span> Sign up</a>\n</div>\n</div>\n<button
+        class=\"navbar-toggler ml-auto\" type=\"button\">\n<a class=\"\" href=\"/login\"><span
+        class=\"navbar-icon\"><span class='fas fa-sign-in-alt fa-fw ' aria-hidden='true'></span></span></a>\n</button>\n</div>\n</nav>\n<nav
+        style=\"margin-top: 70px;\" class=\"nav flex-column\">\n<div class=\"dropdown
+        nav-link\">\n<a href=\"#\" class=\"dropdown-toggle no-underline\" data-toggle=\"dropdown\"
+        role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas
+        fa-book fa-fw ' aria-hidden='true'></span> Manga</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item \" href=\"/titles\"><span class='fas fa-book fa-fw '
+        aria-hidden='true'></span> Titles</a>\n<a class=\"dropdown-item \" href=\"/updates\"><span
+        class='fas fa-sync fa-fw ' aria-hidden='true'></span> Updates</a>\n<a class=\"dropdown-item
+        \" href=\"/search\"><span class='fas fa-search fa-fw ' aria-hidden='true'></span>
+        Search</a>\n<a class=\"dropdown-item \" href=\"/featured\"><span class='fas
+        fa-tv fa-fw ' aria-hidden='true'></span> Featured</a>\n<a class=\"dropdown-item\"
+        href=\"/manga\"><span class='fas fa-question-circle fa-fw ' aria-hidden='true'></span>
+        Random</a>\n<a class=\"dropdown-item \" href=\"/manga_new\"><span class='fas
+        fa-plus-circle fa-fw ' aria-hidden='true'></span> Add</a>\n</div>\n</div>\n<a
+        class=\"nav-link no-underline\" href=\"/login\" title=\"You need to log in.\"><span
+        class='fas fa-bookmark fa-fw ' aria-hidden='true'></span> Follows</a>\n<div
+        class=\"dropdown nav-link\">\n<a href=\"#\" class=\"dropdown-toggle no-underline\"
+        data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><span
+        class='fas fa-users fa-fw ' aria-hidden='true'></span> Community</a>\n<div
+        class=\"dropdown-menu\">\n<a class=\"dropdown-item \" href=\"/forums\"><span
+        class='fas fa-university fa-fw ' aria-hidden='true'></span> Forums</a>\n<a
+        class=\"dropdown-item \" href=\"/groups\"><span class='fas fa-users fa-fw
+        ' aria-hidden='true'></span> Groups</a>\n<a class=\"dropdown-item \" href=\"/users\"><span
+        class='fas fa-user fa-fw ' aria-hidden='true'></span> Users</a>\n<a class=\"dropdown-item\"
+        href=\"https://discord.gg/Y2YKXUP\" target=\"_blank\" rel=\"nofollow\"><span
+        class='fab fa-discord fa-fw ' aria-hidden='true' title='Rules'></span> Discord</a>\n<a
+        class=\"dropdown-item\" href=\"https://twitter.com/MangaDex\" target=\"_blank\"
+        rel=\"nofollow\"><span class='fab fa-twitter fa-fw ' aria-hidden='true' title='Twitter'></span>
+        Twitter</a>\n<a class=\"dropdown-item\" href=\"https://www.reddit.com/r/mangadex\"
+        target=\"_blank\" rel=\"nofollow\"><span class='fab fa-reddit fa-fw ' aria-hidden='true'
+        title='Reddit'></span> Reddit</a>\n<a class=\"dropdown-item\" href=\"irc://irc.rizon.net/mangadex\"
+        rel=\"nofollow\"><span class='fas fa-hashtag fa-fw ' aria-hidden='true' title='IRC'></span>
+        IRC</a>\n</div>\n</div>\n<div class=\"dropdown nav-link\">\n<a href=\"#\"
+        class=\"dropdown-toggle no-underline\" data-toggle=\"dropdown\" role=\"button\"
+        aria-haspopup=\"true\" aria-expanded=\"false\"><span class='fas fa-info-circle
+        fa-fw ' aria-hidden='true'></span> Info</a>\n<div class=\"dropdown-menu\">\n<a
+        class=\"dropdown-item \" href=\"/stats\"><span class='fas fa-clipboard-list
+        fa-fw ' aria-hidden='true' title='Stats'></span> Stats</a>\n<a class=\"dropdown-item
+        \" href=\"/rules\"><span class='fas fa-list fa-fw ' aria-hidden='true' title='Rules'></span>
+        Rules</a>\n<a class=\"dropdown-item \" href=\"/about\"><span class='fas fa-info
+        fa-fw ' aria-hidden='true' title='About'></span> About</a>\n<a class=\"dropdown-item
+        \" href=\"/changelog\"><span class='fas fa-code fa-fw ' aria-hidden='true'
+        title='Change log'></span> Change log</a>\n<a class=\"dropdown-item \" href=\"/affiliates\"><span
+        class='far fa-handshake fa-fw ' aria-hidden='true' title='Affiliates'></span>
+        Affiliates</a>\n</div>\n</div>\n</nav>\n<form id=\"quick_search_form_m\" method=\"get\"
+        action=\"/quick_search\" role=\"search\" class=\"form-inline px-3 py-2 quick-search\">\n<div
+        class=\"input-group\">\n<div class=\"input-group-prepend\">\n<select class=\"form-control\"
+        id=\"quick_search_type\" name=\"type\">\n<option value=\"all\">All</option>\n<option
+        selected value=\"titles\">Manga</option>\n<option value=\"groups\">Groups</option>\n<option
+        value=\"users\">Users</option>\n</select>\n</div>\n<input type=\"text\" class=\"form-control\"
+        placeholder=\"Quick search\" name=\"term\" id=\"quick_search_input\" required>\n<span
+        class=\"input-group-append\">\n<button class=\"btn btn-secondary\" type=\"submit\"
+        id=\"quick_search_button\" name=\"submit\"><span class='fas fa-search fa-fw
+        ' aria-hidden='true'></span></button>\n</span>\n</div>\n</form>\n</div>\n</div>\n</div>\n\n<div
+        class=\"modal right fade\" id=\"right_modal\" tabindex=\"-1\" role=\"dialog\"
+        aria-labelledby=\"myModalLabel2\">\n<div class=\"modal-dialog\" role=\"document\">\n<div
+        class=\"modal-content border-0\">\n<nav class=\"navbar fixed-top text-nowrap
+        navbar-light bg-light\">\n<div class=\"container p-0\">\n<a class=\"p-0 navbar-brand\"
+        href=\"https://mangadex.org/\"><img class=\"mx-2\" height=\"38px\" src=\"/images/misc/navbar.svg?3\"
+        alt=\"MangaDex\" title=\"MangaDex\" /> <small class=\"d-lg-none d-xl-inline\">MikuDex</small></a>\n</div>\n</nav>\n<div
+        class=\"modal-body\">\n<img src=\"/images/misc/miku.jpg\" width=\"100%\" />\n</div>\n</div>\n</div>\n</div>\n\n\n<script
+        nomodule src=\"/dist/js/polyfills.prod.js?1560041198\"></script>\n<script
+        nomodule src=\"/dist/js/bundle.prod.js?1560041198\"></script>\n<script src=\"/scripts/jquery.min.js?1552433701\"></script>\n<script
+        src=\"/scripts/jquery.touchSwipe.min.js\"></script>\n<script src=\"/bootstrap/js/popper.min.js\"></script>\n<script
+        src=\"/bootstrap/js/bootstrap.min.js?1\"></script>\n<script src=\"/bootstrap/js/bootstrap-select.min.js?1\"></script>\n<script
+        src=\"/scripts/lightbox2/js/lightbox.js\"></script>\n<script src=\"/scripts/chart.min.js\"></script>\n<script>\r\n
+        \     if (!('URL' in window) || !('URLSearchParams' in window)) {\r\n        document.head.appendChild(Object.assign(document.createElement(\"script\"),
+        {\r\n          \"src\": \"/dist/js/polyfills.prod.js?1560041198\", \"async\":
+        true,\r\n        }))\r\n      }\r\n    </script>\n<script src=\"/scripts/js/reporting.js\"></script>\n<script
+        type=\"text/javascript\">\r\n\r\n    \tvar t='mang';\r\n\t\tt = t+'adex.org';\r\n\tvar
+        w='www.mangadex.org';\r\n\tif (window.location.hostname != t && window.location.hostname
+        != w ) {\r\n\t\twindow.location='https://'+t;\r\n\t}\r\n    \r\n\tvar $ =
+        jQuery;\r\n\r\n\t$(document).on('change', '.btn-file :file', function() {\r\n\t\tvar
+        input = $(this),\r\n\t\t\tnumFiles = input.get(0).files ? input.get(0).files.length
+        : 1,\r\n\t\t\tlabel = input.val().replace(/\\\\/g, '/').replace(/.*\\//, '');\r\n\t\tinput.trigger('fileselect',
+        [numFiles, label]);\r\n\t});\r\n\r\n\tfunction capitalizeFirstLetter(string)
+        {\r\n\t\treturn string.charAt(0).toUpperCase() + string.slice(1);\r\n\t}\r\n\r\n\tfunction
+        commaMultipleSelect(id) {\r\n\t\tvar list = document.getElementById(id);\r\n\t\tvar
+        selected = new Array();\r\n\r\n\t\tfor (i = 0; i < list.options.length; i++)
+        {\r\n\t\t\tif (list.options[i].selected) {\r\n\t\t\t\t selected.push(list.options[i].value);\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t\treturn
+        selected.join(',');\r\n\t}\r\n\r\n\tfunction commaMultipleCheckbox(name) {\r\n\t\tvar
+        list = document.getElementsByName(name);\r\n\t\tvar selected = new Array();\r\n\r\n\t\tfor
+        (i = 0; i < list.length; i++) {\r\n\t\t\tif (list[i].checked) {\r\n\t\t\t\t
+        selected.push(list[i].value);\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t\treturn selected.join(',');\r\n\t}\r\n\r\n\t$(document).ready(function(){\r\n\t\tvar
+        query = location.search;\r\n\r\n\t\t\t\t$(\"#left_swipe_area\").swipe({\r\n\t\t\tswipeRight:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#left_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t$(\"#right_swipe_area\").swipe({\r\n\t\t\tswipeLeft:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#right_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t$(\"#right_modal\").swipe({\r\n\t\t\tswipeRight:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#right_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t$(\"#left_modal\").swipe({\r\n\t\t\tswipeLeft:function(event,
+        direction, distance, duration, fingerCount) {\r\n\t\t\t\t$('#left_modal').modal('toggle');\r\n\t\t\t},\r\n\t\t\tthreshold:
+        50\r\n\t\t});\r\n\t\t\r\n\t\t$(\"#read_announcement_button\").click(function(event){\r\n\t\t\t$.ajax({\r\n\t\t\t\turl:
+        \"/ajax/actions.ajax.php?function=read_announcement\",\r\n\t\t\t\ttype: 'GET',\r\n\t\t\t\tsuccess:
+        function (data) {\r\n\t\t\t\t\t$(\"#announcement\").hide();\r\n\t\t\t\t},\r\n\t\t\t\tcache:
+        false,\r\n\t\t\t\tcontentType: false,\r\n\t\t\t\tprocessData: false\r\n\t\t\t});\r\n\t\t\tevent.preventDefault();\r\n\t\t});\r\n\r\n\t\t$(\".logout\").click(function(event){\r\n\t\t\t$.ajax({\r\n\t\t\t\ttype:
+        \"POST\",\r\n\t\t\t\turl: \"/ajax/actions.ajax.php?function=logout\",\r\n\t\t\t\tsuccess:
+        function(data) {\r\n\t\t\t\t\t$(\"#message_container\").html(data).show().delay(1500).fadeOut();\r\n\t\t\t\t\tlocation.reload();\r\n\t\t\t\t}\r\n\t\t\t});\r\n\t\t\tevent.preventDefault();\r\n\t\t});\r\n\r\n
+        \       function highlightPost(node) {\r\n            if (node) {\r\n                Array.from(document.querySelectorAll('.highlighted')).forEach(function(n)
+        {n.classList.remove('highlighted')});\r\n                node.classList.add('highlighted')\r\n
+        \           }\r\n        }\r\n\r\n        if (location.hash)\r\n            highlightPost(document.querySelector(location.hash
+        + ' .postbody'));\r\n\r\n        $('a.permalink').click(function(event) {\r\n
+        \           highlightPost(event.target.closest('.post').querySelector('.postbody'))\r\n
+        \       });\r\n\r\n\t\t\n\t$('#homepage_settings_form').submit(function(event)
+        {\n\n\t\tArray.prototype.slice.call(this.querySelectorAll('input[type=file]'))\n\t\t.filter(function(n)
+        { return n && !n.files.length })\n\t\t.forEach(function(n) { n.parentNode.removeChild(n)
+        });\n\n        var button = $('#homepage_settings_button')\n\t\tvar buttonHtml
+        = button.html()\n\t\tvar formData = new FormData(this);\n\n\t\tvar success_msg
+        = \"<div class='alert alert-success text-center' role='alert'><strong>Success:</strong>
+        Your MangaDex settings have been saved.</div>\";\n\n\t\tbutton.html(\"<span
+        class='fas fa-spinner fa-fw fa-pulse' aria-hidden='true' ></span> Saving...\").attr('disabled',
+        true);\n\n\t\t$.ajax({\n\t\t\turl: '/ajax/actions.ajax.php?function=homepage_settings',\n\t\t\ttype:
+        'POST',\n\t\t\tdata: formData,\n\t\t\tcache: false,\n\t\t\theaders: {'cache-control':
+        'no-cache'},\n\t\t\tcontentType: false,\n\t\t\tprocessData: false,\n\t\t\tasync:
+        true,\n\t\t\tsuccess: function (data) {\n\t\t\t\tif (!data) {\n\t\t\t\t\t$('#message_container').html(success_msg).show().delay(3000).fadeOut();\n\t\t\t\t\tlocation.reload();\n\t\t\t\t}\n\t\t\t\telse
+        {\n\t\t\t\t\t$('#message_container').html(data).show().delay(3000).fadeOut();\n\t\t\t\t}\n\t\t\t\tbutton.html(buttonHtml).attr('disabled',
+        false);\n            },\n\t\t});\n\n\t\tevent.preventDefault();\n\t});\n\t\n//ratings_histogram\n$(\"#histogram_toggle\").click(function(){\n\t$(\"#histogram_div\").toggle();\n});\t\n\nvar
+        ctx = $(\"#ratings_histogram\");\nvar ratings =  JSON.parse(ctx.attr('data-json'));\n\nvar
+        keys = []\nvar values = []\nfor (var i = 10; i >= 1; --i) {\n    keys.push(i)\n
+        \   values.push(0)\n}\nfor (var i = 0; i < ratings.length; ++i) {\n    values[10
+        - ratings[i]]++\n}\n\n\nChart.defaults.global.defaultFontSize = 11;\nChart.defaults.global.legend.display
+        = false;\nvar myChart = new Chart(ctx, {\n    type: 'horizontalBar',\n    data:
+        {\n        labels: keys,\n        datasets: [{\n            data: values,\n\t\t\tbackgroundColor:
+        [\n                'rgba(255, 99, 132, 0.5)',\n                'rgba(54, 162,
+        235, 0.5)',\n                'rgba(255, 206, 86, 0.5)',\n                'rgba(75,
+        192, 192, 0.5)',\n                'rgba(153, 102, 255, 0.5)',\n\t\t\t\t'rgba(255,
+        99, 132, 0.5)',\n                'rgba(54, 162, 235, 0.5)',\n                'rgba(255,
+        206, 86, 0.5)',\n                'rgba(75, 192, 192, 0.5)',\n                'rgba(153,
+        102, 255, 0.5)'\n            ],\n            borderWidth: 0\n        }]\n
+        \   },\n    options: {\n\t\ttitle: {\n            display: true,\n            text:
+        'Distribution of Ratings'\n        },\n        scales: {\n\t\t\txAxes: [{\n
+        \               ticks: {\n                    beginAtZero: true\n                }\n
+        \           }]\n        }\n    }\n});\n\nlightbox.option({\n  'wrapAround':
+        true\n});\n\t\n$(\".btn-spoiler\").click(function(){\n\t$(this).next(\".spoiler\").toggle();\n});\t\n\n\n\n\n\n\n\r\n\r\n\t});\r\n\r\n\t</script>\n</body>\n</html>"
+    headers:
+      CF-RAY:
+      - 50b389bf2b59e25f-SIN
+      Connection:
+      - keep-alive
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Sat, 24 Aug 2019 07:15:58 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: OK
+version: 1

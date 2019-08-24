@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "fundoshi"
+version = "0.1.0-alpha.0"
+description = "Extract data from manga sites"
+authors = ["nhanb"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+beautifulsoup4 = "^4.8"
+requests = "^2.22"
+lxml = "^4.4"
+attrs = "^19.1"
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^2.2"
+nose = "^1.3"
+flake8 = "^3.7"
+sphinx-autobuild = "^0.7.1"
+sphinx_rtd_theme = "^0.4.3"
+vcrpy-unittest = "^0.1.7"
+isort = "^4.3"
+black = {version = "^18.3-alpha.0", allows-prereleases = true}
+python-language-server = "^0.28.1"
+ipdb = "^0.12.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

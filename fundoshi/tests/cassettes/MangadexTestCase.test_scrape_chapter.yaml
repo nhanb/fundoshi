@@ -1,0 +1,62 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Cookie:
+      - __cfduid=d36f9980cd4d4569e6a9f7667871104a41566630953
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+    method: GET
+    uri: https://mangadex.org/api/?id=333636&type=chapter
+  response:
+    body:
+      string: '{"id":333636,"timestamp":1527491643,"hash":"fc5c4d2c2bd416058aef372872c08ca0","volume":"4","chapter":"16.5","title":"Intermission","lang_name":"English","lang_code":"gb","manga_id":9570,"group_id":242,"group_id_2":0,"group_id_3":0,"comments":null,"server":"https:\/\/s4.mangadex.org\/data\/","page_array":["D1.png","D2.png","D3.png","D4.png","D5.png","D6.png"],"long_strip":0,"status":"OK"}'
+    headers:
+      CF-RAY:
+      - 50b389ae6e60cc2c-SIN
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 24 Aug 2019 07:15:55 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Cookie:
+      - __cfduid=d36f9980cd4d4569e6a9f7667871104a41566630953
+      User-Agent:
+      - Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+    method: GET
+    uri: https://mangadex.org/api/?id=679966&type=chapter
+  response:
+    body:
+      string: '{"id":679966,"status":"deleted"}'
+    headers:
+      CF-RAY:
+      - 50b389b07ad7cc2c-SIN
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 24 Aug 2019 07:15:55 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 410
+      message: Gone
+version: 1

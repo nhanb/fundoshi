@@ -1,8 +1,0 @@
--e .
-
-Sphinx
-nose
-flake8
-sphinx-autobuild
-sphinx_rtd_theme
-vcrpy-unittest

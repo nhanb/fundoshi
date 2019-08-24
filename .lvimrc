@@ -1,0 +1,3 @@
+augroup LOCAL_SETUP
+    let g:ale_fix_on_save = 1
+augroup end

@@ -1,0 +1,5 @@
+[flake8]
+# no need to check for cosmetic issues because `black --check` already covers that
+ignore =
+    E501  # long line
+    W503  # line break before binary operator

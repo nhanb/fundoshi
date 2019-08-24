@@ -1,0 +1,39 @@
+image: archlinux
+
+packages:
+  - python-setuptools
+  - poetry
+
+sources:
+  - https://github.com/nhanb/fundoshi.git#reorg
+
+tasks:
+
+  - setup: |
+      cd fundoshi
+      poetry install
+
+  - test: |
+      cd fundoshi
+      make test
+
+  # Builds.sr.ht doesn't support tag or even branch detection yet:
+  # > https://todo.sr.ht/~sircmpwn/builds.sr.ht/170
+  # Also the yaml gets mangled badly whenever I try to use a pipe
+  # operator, so I'm moving the whole tag detection thing into a
+  # bash script.
+  - check-publish: |
+      if [[ "$GITHUB_EVENT" == "push" ]] && [[ "$GITHUB_REF" =~ ^refs/tags/ ]]
+      then
+          echo "This is a tag push. Proceeding to publish..."
+      else
+          echo "Not deploying."
+          complete-build  # stop build with a "success" status
+      fi
+
+  - publish: |
+      cd fundoshi
+      make publish
+
+secrets:
+  - b460cca6-77a9-4041-b928-b781b3b3f6ab
