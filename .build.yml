@@ -17,14 +17,17 @@ tasks:
       cd fundoshi
       make test
 
-  # Workaround for lack of built-in branch check:
-  # https://todo.sr.ht/~sircmpwn/builds.sr.ht/170
-  - check-branch: |
-      cd fundoshi
-      if [ "$(git rev-parse reorg)" != "$(git rev-parse HEAD)" ]; then \
-        complete-build; \
-      fi
+  ## Workaround for lack of built-in branch check:
+  ## https://todo.sr.ht/~sircmpwn/builds.sr.ht/170
+  #- check-branch: |
+      #cd fundoshi
+      #if [ "$(git rev-parse reorg)" != "$(git rev-parse HEAD)" ]; then \
+        #complete-build; \
+      #fi
 
   - deploy: |
       cd fundoshi
-      poetry publish --build
+      echo "$GITHUB_REF" \| grep '^refs/tags/' && echo "I'm DEPLOYING"
+
+secrets:
+  - b460cca6-77a9-4041-b928-b781b3b3f6ab
