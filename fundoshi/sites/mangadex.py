@@ -55,7 +55,7 @@ def scrape_title(original_id):
     pub_status = _get_next_column_of(soup, "Pub. status")
 
     raw_descs = _get_next_column_of(soup, "Description")
-    descriptions = [desc.strip() for desc in raw_descs.split("\n\n") if desc.strip()]
+    descriptions = filter(bool, [desc.strip() for desc in raw_descs.split("\n\n")])
 
     chapters = _get_chapters(soup)
 
